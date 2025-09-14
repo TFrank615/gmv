@@ -112,9 +112,8 @@
         
         <!-- Header -->
         <header class="bg-gray-800 text-white px-4 z-10 shadow-md flex items-center justify-between flex-shrink-0">
-            <button id="back-button" class="hidden text-white active:opacity-75">&larr; Back</button>
-            <!--VVV  EDIT THIS LINE TO CHANGE THE MAIN APP TITLE VVV-->
-            <h1 id="app-title" class="text-xl font-bold text-center flex-grow">GMV Protocols</h1>
+            <button id="back-button" class="invisible text-white active:opacity-75 w-16 text-left">&larr; Back</button>
+            <h1 id="app-title" class="text-xl font-bold text-center flex-grow px-2 truncate">GMV Protocols</h1>
             <div class="w-16"></div> <!-- Spacer -->
         </header>
 
@@ -158,6 +157,9 @@
             
             // Define the path to your CSV file. It must be in the same folder as this HTML file.
             const dataFilePath = 'protocols.csv'; 
+
+            // VVV EDIT THIS CONSTANT TO CHANGE THE MAIN APP TITLE VVV
+            const MAIN_APP_TITLE = 'GMV Protocols';
 
             let historyStack = [];
             let currentView = 'protocols'; // 'protocols' or 'meds'
@@ -246,7 +248,7 @@
                 contentArea.scrollTop = 0;
                 let html = '';
                 if (currentView === 'protocols') {
-                    appTitle.textContent = 'EMS Protocols';
+                    appTitle.textContent = MAIN_APP_TITLE;
                     searchContainer.style.display = 'block';
                     html += '<div class="grid grid-cols-1 md:grid-cols-2 gap-4">';
                     db.categories.forEach(cat => {
@@ -381,10 +383,10 @@
 
             const updateUIState = (state) => {
                 if (state === 'home') {
-                    backButton.classList.add('hidden');
+                    backButton.classList.add('invisible');
                     if (currentView === 'protocols') searchContainer.style.display = 'block';
                 } else {
-                    backButton.classList.remove('hidden');
+                    backButton.classList.remove('invisible');
                     searchContainer.style.display = 'none';
                 }
             };
@@ -500,6 +502,5 @@
 
 </body>
 </html>
-
 
 
