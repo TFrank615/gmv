@@ -118,7 +118,7 @@
             <div class="flex-grow flex items-center justify-center">
                 <!-- VVV REPLACE 'src' WITH YOUR LEFT LOGO FILE VVV -->
                 <img src="./images/favicon-32x32.png" alt="Left Logo" class="h-8 w-auto mr-3">
-                <h1 id="app-title" class="text-xl font-bold text-center px-2 truncate">GMV Protocols</h1>
+                <h1 id="app-title" class="text-xl font-bold text-center px-2 truncate">GMVEMSC</h1>
                 <!-- VVV REPLACE 'src' WITH YOUR RIGHT LOGO FILE VVV -->
                 <img src="./images/sol.png" alt="Right Logo" class="h-8 w-auto ml-3">
             </div>
@@ -128,7 +128,7 @@
 
         <!-- Search Bar (hidden initially) -->
         <div id="search-container" class="p-4 bg-gray-50 border-b border-gray-200 hidden z-10 flex-shrink-0">
-             <input type="text" id="search-input" placeholder="Search protocols and meds..." class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none transition max-w-4xl mx-auto">
+             <input type="text" id="search-input" placeholder="Search by title, ID, or content..." class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none transition max-w-4xl mx-auto">
         </div>
 
         <!-- Main Content Area -->
@@ -324,7 +324,7 @@
 
              const renderMedList = (filter = '') => {
                 const filteredMeds = db.medications
-                    .filter(med => med.name.toLowerCase().includes(filter.toLowerCase()))
+                    .filter(med => med.name.toLowerCase().includes(filter.toLowerCase()) || med.content.toLowerCase().includes(filter.toLowerCase()))
                     .sort((a, b) => a.name.localeCompare(b.name));
 
                 let html = '<div class="space-y-3">';
@@ -365,7 +365,7 @@
                 let resultsHtml = '';
                 
                 if (currentView === 'protocols') {
-                    const protocols = db.protocols.filter(p => p.title.toLowerCase().includes(query) || p.id.toLowerCase().includes(query));
+                    const protocols = db.protocols.filter(p => p.title.toLowerCase().includes(query) || p.id.toLowerCase().includes(query) || p.content.toLowerCase().includes(query));
                     if (protocols.length > 0) {
                         resultsHtml = '<h2 class="text-xl font-bold mb-4 text-gray-700">Protocol Results</h2><div class="space-y-3">';
                         protocols.forEach(protocol => {
