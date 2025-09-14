@@ -1,0 +1,128 @@
+type,id,title,category,content
+category,1000,GENERAL PATIENT MANAGEMENT,BLUE,
+category,2000,CARDIAC PROTOCOL,RED,
+category,3000,TRAUMA PROTOCOL,BROWN,
+protocol,1001,Introduction to Treatment Protocols,1000,"<div>
+    <h3>1001.1 Introduction to Treatment Protocols</h3>
+    <ul>
+        <li>Each protocol has been approved by the Greater Miami Valley EMS Council and the Regional Physician Advisory Board for Region 3 (as defined by the State Board of Emergency Medical, Fire and Transportation Services [EMFTS]).</li>
+        <li>Each tab bears an effective date and a last modified date marking it as the latest version.</li>
+        <li>A new addition to protocol would reflect a duplicate ""Effective"" and ""Last Modified"" date.</li>
+        <li>When changes or revisions are made to a tab, only the ""Last Modified"" date will be changed.</li>
+        <li>Each time changes or additions are made; they can be referred to by their specific line in the protocol. i.e. A change was made to ""1001.1.e"".</li>
+        <li>Each year, changes or additions will be listed in an addendum in the appendix.</li>
+    </ul>
+
+    <h3>1001.2 Printing, Retention, and Display</h3>
+    <ul>
+        <li>All GMVEMSC Treatment Protocols are intended for color printing, and hard copy retention.</li>
+        <li>These protocols are also intended for electronic display in Adobe Portable Document Format (PDF).
+            <ul class=""list-roman pl-6 mt-2"">
+                <li>The PDF version includes links to the different tabs throughout the document.</li>
+                <li>The GMVEMSC logo on most pages is a hyperlink back to the table of contents.</li>
+            </ul>
+        </li>
+        <li>Distribution is provided by means of the GMVEMSC official website.</li>
+    </ul>
+
+    <h3>1001.3 Application</h3>
+    <ul>
+        <li>This protocol is for use by those individuals operating in and under the authority of the Greater Miami Valley EMS Council (GMVEMSC) Drug Bag Exchange Program and certified by the State of Ohio as an EMS provider.</li>
+        <li>The provider must pass both the skills check-off and Computer Based Testing (CBT) for the current year.</li>
+        <li>The GMVEMSC Treatment Protocols apply to the following certification levels:
+            <ul class=""list-roman pl-6 mt-2"">
+                <li>Emergency Medical Responder (EMR)</li>
+                <li>Emergency Medical Technician (EMT)</li>
+                <li>Advanced Emergency Medical Technician (AEMT)</li>
+                <li>Paramedic (PM)</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>1001.4 Stipulations</h3>
+    <ul>
+        <li>The protocol is to be used in the field only.</li>
+        <li>Communicate with the receiving facility as soon as practical:
+             <ul class=""list-roman pl-6 mt-2"">
+                <li>When transporting unstable patients</li>
+                <li>Transporting to hospitals that request contact for all patients delivered to their facility.</li>
+            </ul>
+        </li>
+        <li>No procedures, techniques, or drugs will be used without the proper equipment or beyond the training or capabilities of the prehospital personnel.</li>
+        <li>Nothing in this protocol may be used without specific pre-approval of the Medical Director for the local department or agency.</li>
+        <li>The protocol is to be utilized as clinically indicated. Not every standing order in a treatment protocol must be carried out on every patient treated under that treatment protocol.</li>
+        <li>Discretionary judgment is required and stepwise adherence to specific protocols may not be in the patient's best interest.</li>
+        <li>At no time should treatment options exceed those authorized without direct consultation with the Medical Control Physician (MCP).</li>
+    </ul>
+
+    <h3>1001.5 Protocol Design</h3>
+    <ul>
+        <li>The GMVEMSC protocols are organized around the General Patient Management Protocol which must be followed for all patients. This universally applicable protocol/flowchart allows the providers to integrate additional treatment protocols beyond general patient management as clinically necessary for specific patient care, emergency stabilization, and treatment.
+             <ul class=""list-roman pl-6 mt-2"">
+                <li>As an example, while caring for a specific patient with chest pain, shortness of breath, and nausea the provider would:
+                    <ol class=""list-decimal pl-6 mt-2"">
+                        <li>Follow the General Patient Management Protocol</li>
+                        <li>Integrate and follow the Chest Pain Protocol</li>
+                        <li>Integrate and follow the Respiratory Distress Protocol if indicated</li>
+                        <li>Integrate and follow the Cardiac Alert Protocol if indicated</li>
+                        <li>Integrate and follow the Abdominal Pain Protocol if indicated</li>
+                        <li>Refer to protocol for specific medication concentrations, dosages, and volumes.</li>
+                        <li>Complete the General Patient Management Protocol</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+        <li>In most cases, a specific guideline will only be mentioned once within the protocol. All other circumstances where that guideline would be applicable will simply refer to the original guideline.</li>
+        <li>Where applicable, a guideline mentioned in another section will have a hyperlink provided.</li>
+        <li><strong>Formatting:</strong>
+            <ul class=""list-roman pl-6 mt-2"">
+                <li>All attempts will be made to keep the protocol focused and specific.</li>
+                <li>Extracurricular and enhancing information will be provided in an official study guide.</li>
+                <li>All levels of providers will be addressed within a single protocol.</li>
+                <li>Procedures and treatments marked with a diamond (<span class=""font-bold text-blue-600"">&diams;</span>) always require a physician's order.</li>
+                <li>Items enclosed in brackets (<span class=""font-mono"">{ }</span>) are at the option of the agency and their Medical Director.</li>
+                <li>Sections that apply only to adults are bulleted with an ""A"".</li>
+                <li>All pediatric treatments will be in <span class=""text-pink-600"">pink</span> and bulleted with a ""P"".</li>
+                <li>There are also sections which apply to only Geriatric patients and are bulleted with a ""G.""</li>
+            </ul>
+        </li>
+    </ul>
+    
+    <h3>1001.6 Clinical Management Tables</h3>
+    <p>The following is an annotated example of a Clinical Management Table:</p>
+    <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
+        <div class=""grid grid-cols-1 md:grid-cols-3 gap-4"">
+            <div class=""md:col-span-2 space-y-4"">
+                <div>
+                    <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
+                    <p class=""text-sm italic"">This is where pediatric specific info might go. Dosing and treatment will still be listed in the algorithm.</p>
+                </div>
+                 <div class=""grid grid-cols-1 sm:grid-cols-3 gap-2"">
+                    <div><h4 class=""text-base font-bold"">Assessment</h4></div>
+                    <div><h4 class=""text-base font-bold"">Signs & Symptoms</h4><p class=""text-sm"">This is where S&S will go.</p></div>
+                    <div><h4 class=""text-base font-bold"">Differential Diagnosis</h4><p class=""text-sm"">This is where differentials will go.</p></div>
+                </div>
+                <div>
+                    <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
+                    <p class=""text-sm"">This will be where guidelines for all certification levels will go.</p>
+                </div>
+            </div>
+            <div class=""space-y-2"">
+                <div class=""p-2 rounded text-sm text-center bg-gray-200 text-gray-800 font-semibold"">EMR</div>
+                <div class=""p-2 rounded text-sm text-center bg-blue-200 text-blue-800 font-semibold"">EMT</div>
+                <div class=""p-2 rounded text-sm text-center bg-green-200 text-green-800 font-semibold"">AEMT</div>
+                <div class=""p-2 rounded text-sm text-center bg-yellow-200 text-yellow-800 font-semibold"">Paramedic</div>
+            </div>
+        </div>
+        <div class=""mt-4 pt-4 border-t space-y-4"">
+             <div>
+                <h4 class=""text-base font-bold"">Consult</h4>
+                <p class=""text-sm"">If requirements exist for any level to call for orders, that will be listed here. This section also lists guidelines for alerts, MCP advice, or requests to call the receiving facility.</p>
+            </div>
+             <div>
+                <h4 class=""text-base font-bold"">Clinical Pearls</h4>
+                <p class=""text-sm"">Any important guidelines or clinical information will be added here. This will not be a study guide nor a skill sheet.</p>
+            </div>
+        </div>
+    </div>
+</div>"

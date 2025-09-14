@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMS Protocol Quick Reference</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Papa Parse for CSV reading -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Simple scrollbar styling */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 3px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+        .protocol-content h3 {
+            font-size: 1.25rem; /* text-xl */
+            font-weight: 600; /* semibold */
+            margin-top: 1.5rem; /* mt-6 */
+            margin-bottom: 0.5rem; /* mb-2 */
+            padding-bottom: 0.25rem; /* pb-1 */
+            border-bottom: 1px solid #e5e7eb; /* border-b border-gray-200 */
+        }
+        .protocol-content h4 {
+            font-size: 1.125rem; /* text-lg */
+            font-weight: 600; /* semibold */
+            margin-top: 1rem; /* mt-4 */
+            margin-bottom: 0.5rem; /* mb-2 */
+        }
+        .protocol-content ul {
+            list-style-type: disc;
+            padding-left: 1.5rem; /* pl-6 */
+            margin-bottom: 1rem; /* mb-4 */
+        }
+        .protocol-content li {
+            margin-bottom: 0.25rem; /* mb-1 */
+        }
+        .protocol-content .medication {
+            color: #3b82f6; /* text-blue-600 */
+            font-weight: 600;
+        }
+        .protocol-content .procedure {
+            font-weight: 700; /* bold */
+        }
+        .protocol-content .protocol-link {
+            color: #8b5cf6; /* text-purple-600 */
+            font-weight: 600;
+        }
+        .protocol-content .important-note {
+            color: #ef4444; /* text-red-600 */
+            font-weight: 700; /* bold */
+        }
+        .skill-level-grid {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 1rem;
+            align-items: start;
+        }
+        .skill-level-indicator {
+            font-weight: 700;
+            padding: 0.5rem;
+            border-radius: 0.375rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <div id="app-container" class="max-w-4xl mx-auto bg-white min-h-screen shadow-lg">
+        
+        <!-- Header -->
+        <header class="bg-gray-800 text-white p-4 sticky top-0 z-10 shadow-md flex items-center justify-between">
+            <button id="back-button" class="hidden text-white">&larr; Back</button>
+            <h1 id="app-title" class="text-xl font-bold text-center flex-grow">EMS Protocols</h1>
+            <div class="w-16"></div> <!-- Spacer -->
+        </header>
+
+        <!-- Search Bar (hidden initially) -->
+        <div id="search-container" class="p-4 bg-gray-50 border-b border-gray-200 hidden">
+            <input type="text" id="search-input" placeholder="Search protocols and meds..." class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none transition">
+        </div>
+
+        <!-- Main Content Area -->
+        <main id="content-area" class="p-4">
+            <p id="loading-status" class="mt-4 text-center text-lg text-gray-500">Loading data...</p>
+        </main>
+
+        <!-- Bottom Navigation (hidden initially) -->
+        <nav id="bottom-nav" class="bg-gray-800 text-white p-2 sticky bottom-0 z-10 shadow-inner flex justify-around hidden">
+            <button id="nav-protocols" class="flex-1 text-center py-2 rounded-lg font-semibold bg-gray-700">Protocols</button>
+            <button id="nav-meds" class="flex-1 text-center py-2 rounded-lg font-semibold">Medications</button>
+        </nav>
+
+    </div>
+
+    <script>
+        // --- DATA STORE ---
+        // This will be populated by the selected CSV file.
+        let db = {
+            categories: [],
+            protocols: [],
+            medications: []
+        };
+
+        // --- APPLICATION LOGIC ---
+        document.addEventListener('DOMContentLoaded', () => {
+            const contentArea = document.getElementById('content-area');
+            const searchInput = document.getElementById('search-input');
+            const searchContainer = document.getElementById('search-container');
+            const backButton = document.getElementById('back-button');
+            const appTitle = document.getElementById('app-title');
+            const navProtocols = document.getElementById('nav-protocols');
+            const navMeds = document.getElementById('nav-meds');
+            const bottomNav = document.getElementById('bottom-nav');
+            
+            // Define the path to your CSV file. It must be in the same folder as this HTML file.
+            const dataFilePath = 'protocols.csv'; 
+
+            let historyStack = [];
+            let currentView = 'protocols'; // 'protocols' or 'meds'
+
+            const categoryColors = {
+                green: { bg: 'bg-green-100', text: 'text-green-800', border: 'border-green-500' },
+                blue: { bg: 'bg-blue-100', text: 'text-blue-800', border: 'border-blue-500' },
+                red: { bg: 'bg-red-100', text: 'text-red-800', border: 'border-red-500' },
+                pink: { bg: 'bg-pink-100', text: 'text-pink-800', border: 'border-pink-500' },
+                yellow: { bg: 'bg-yellow-100', text: 'text-yellow-800', border: 'border-yellow-500' },
+                purple: { bg: 'bg-purple-100', text: 'text-purple-800', border: 'border-purple-500' },
+                gray: { bg: 'bg-gray-200', text: 'text-gray-800', border: 'border-gray-500' },
+                indigo: { bg: 'bg-indigo-100', text: 'text-indigo-800', border: 'border-indigo-500' },
+            };
+            
+            // --- DATA LOADING & CSV PROCESSING ---
+            async function loadData(path) {
+                try {
+                    const response = await fetch(path);
+                    if (!response.ok) {
+                        throw new Error(`Network response was not ok. Status: ${response.status}`);
+                    }
+                    const csvText = await response.text();
+                    
+                    Papa.parse(csvText, {
+                        header: true,
+                        skipEmptyLines: true,
+                        complete: (results) => {
+                            try {
+                                processCSVData(results.data);
+                                initializeAppUI(); // Initialize UI after data is processed
+                            } catch (error) {
+                                contentArea.innerHTML = `<p class="text-center text-red-600 p-4">Error processing data from <strong>${path}</strong>. Please check the CSV file's format and content.</p>`;
+                                console.error("CSV Processing Error:", error);
+                            }
+                        },
+                        error: (error) => {
+                             contentArea.innerHTML = `<p class="text-center text-red-600 p-4">Error parsing CSV file: ${error.message}</p>`;
+                        }
+                    });
+                } catch (error) {
+                    contentArea.innerHTML = `<p class="text-center text-red-600 p-4">Could not load the data file from <strong>'${path}'</strong>. Make sure the file exists in the same folder as this HTML file and is named correctly.</p>`;
+                    console.error("Fetch Error:", error);
+                }
+            }
+
+            function processCSVData(data) {
+                // Reset db
+                db = { categories: [], protocols: [], medications: [] };
+
+                data.forEach(row => {
+                    // Skip any row that doesn't have a type
+                    if (!row.type) return;
+
+                    const type = row.type.toLowerCase().trim();
+                    
+                    if (type === 'category') {
+                        db.categories.push({
+                            id: row.id,
+                            name: row.title,
+                            color: row.category,
+                        });
+                    } else if (type === 'protocol') {
+                         db.protocols.push({
+                            id: row.id,
+                            title: row.title,
+                            category: row.category,
+                            content: row.content,
+                        });
+                    } else if (type === 'medication') {
+                         db.medications.push({
+                            id: row.id,
+                            name: row.title,
+                            content: row.content,
+                        });
+                    }
+                });
+
+                if (db.protocols.length === 0 && db.medications.length === 0) {
+                    throw new Error("No valid 'protocol' or 'medication' rows found in the CSV data.");
+                }
+            }
+
+            // --- UI RENDERING FUNCTIONS ---
+            const renderHome = () => {
+                let html = '';
+                if (currentView === 'protocols') {
+                    appTitle.textContent = 'EMS Protocols';
+                    searchContainer.style.display = 'block';
+                    html += '<div class="grid grid-cols-1 md:grid-cols-2 gap-4">';
+                    db.categories.forEach(cat => {
+                        const colors = categoryColors[cat.color] || categoryColors.gray;
+                        html += `
+                            <div class="category-card p-4 rounded-lg shadow-sm cursor-pointer ${colors.bg} border-l-4 ${colors.border} hover:shadow-md transition" data-category="${cat.id}">
+                                <h2 class="text-lg font-bold ${colors.text}">${cat.name}</h2>
+                            </div>
+                        `;
+                    });
+                     html += `
+                        <div class="md:col-span-2 p-4 rounded-lg bg-gray-100 border-l-4 border-gray-400 text-sm text-gray-600">
+                            <strong>Disclaimer:</strong> This application is for quick reference only. Always follow local protocols and on-line medical direction.
+                        </div>`;
+                    html += '</div>';
+                } else {
+                    appTitle.textContent = 'Medication Reference';
+                    searchContainer.style.display = 'block';
+                    html += renderMedList();
+                }
+                contentArea.innerHTML = html;
+                updateUIState('home');
+                searchInput.value = '';
+            };
+
+            const renderProtocolList = (categoryId) => {
+                const category = db.categories.find(c => c.id === categoryId);
+                if (!category) return;
+                const protocols = db.protocols.filter(p => p.category === categoryId);
+                const colors = categoryColors[category.color] || categoryColors.gray;
+                let html = `<h2 class="text-2xl font-bold mb-4 ${colors.text}">${category.name}</h2><div class="space-y-3">`;
+                protocols.forEach(protocol => {
+                    html += `
+                        <div class="protocol-item p-4 rounded-lg shadow-sm cursor-pointer bg-gray-50 hover:bg-gray-100 border-l-4 ${colors.border} transition" data-protocol-id="${protocol.id}">
+                            <span class="font-semibold">${protocol.id}:</span> ${protocol.title}
+                        </div>
+                    `;
+                });
+                html += '</div>';
+                contentArea.innerHTML = html;
+                appTitle.textContent = category.name;
+                updateUIState('list');
+            };
+
+            const renderProtocolDetail = (protocolId) => {
+                const protocol = db.protocols.find(p => p.id === protocolId);
+                if (!protocol) return;
+                const category = db.categories.find(c => c.id === protocol.category);
+                const colors = category ? (categoryColors[category.color] || categoryColors.gray) : categoryColors.gray;
+                const categoryName = category ? category.name : 'Uncategorized';
+                const html = `
+                    <div class="border-l-4 ${colors.border} pl-4 mb-4">
+                        <h2 class="text-2xl font-bold">${protocol.title}</h2>
+                        <p class="text-sm font-semibold ${colors.text}">${categoryName}</p>
+                    </div>
+                    <div class="protocol-content">${protocol.content}</div>
+                `;
+                contentArea.innerHTML = html;
+                appTitle.textContent = protocol.id;
+                updateUIState('detail');
+            };
+
+             const renderMedList = (filter = '') => {
+                const filteredMeds = db.medications
+                    .filter(med => med.name.toLowerCase().includes(filter.toLowerCase()))
+                    .sort((a, b) => a.name.localeCompare(b.name));
+
+                let html = '<div class="space-y-3">';
+                if (filteredMeds.length > 0) {
+                     filteredMeds.forEach(med => {
+                        html += `
+                            <div class="med-item p-4 rounded-lg shadow-sm cursor-pointer bg-gray-50 hover:bg-gray-100 border-l-4 border-indigo-500 transition" data-med-id="${med.id}">
+                                <span class="font-semibold">${med.name}</span>
+                            </div>
+                        `;
+                    });
+                } else {
+                     html += `<p class="text-gray-500 text-center">No medications found.</p>`;
+                }
+
+                html += '</div>';
+                return html;
+            };
+
+            const renderMedDetail = (medId) => {
+                const med = db.medications.find(p => p.id === medId);
+                if (!med) return;
+                const html = `
+                    <div class="border-l-4 border-indigo-500 pl-4 mb-4">
+                        <h2 class="text-2xl font-bold">${med.name}</h2>
+                    </div>
+                    <div class="protocol-content">${med.content}</div>
+                `;
+                contentArea.innerHTML = html;
+                appTitle.textContent = med.name;
+                updateUIState('detail');
+            };
+
+            const renderSearchResults = (query) => {
+                query = query.toLowerCase();
+                let resultsHtml = '';
+                
+                if (currentView === 'protocols') {
+                    const protocols = db.protocols.filter(p => p.title.toLowerCase().includes(query) || p.id.toLowerCase().includes(query));
+                    if (protocols.length > 0) {
+                        resultsHtml = '<h2 class="text-xl font-bold mb-4 text-gray-700">Protocol Results</h2><div class="space-y-3">';
+                        protocols.forEach(protocol => {
+                             const category = db.categories.find(c => c.id === protocol.category);
+                             const colors = category ? (categoryColors[category.color] || categoryColors.gray) : categoryColors.gray;
+                            resultsHtml += `
+                                <div class="protocol-item p-4 rounded-lg shadow-sm cursor-pointer bg-gray-50 hover:bg-gray-100 border-l-4 ${colors.border} transition" data-protocol-id="${protocol.id}">
+                                    <span class="font-semibold">${protocol.id}:</span> ${protocol.title}
+                                </div>
+                            `;
+                        });
+                        resultsHtml += '</div>';
+                    }
+                } else { // Meds view
+                    resultsHtml = renderMedList(query);
+                }
+
+                if (resultsHtml === '' || (currentView === 'meds' && !resultsHtml.includes('med-item'))) {
+                    resultsHtml = `<p class="text-center text-gray-500 mt-8">No results found for "${query}"</p>`;
+                }
+                
+                contentArea.innerHTML = resultsHtml;
+            };
+
+            const updateUIState = (state) => {
+                if (state === 'home') {
+                    backButton.classList.add('hidden');
+                    if (currentView === 'protocols') searchContainer.style.display = 'block';
+                } else {
+                    backButton.classList.remove('hidden');
+                    searchContainer.style.display = 'none';
+                }
+            };
+            
+            const navigate = (stateFn, ...args) => {
+                const currentState = contentArea.innerHTML;
+                const currentTitle = appTitle.textContent;
+                const currentSearchDisplay = searchContainer.style.display;
+                
+                historyStack.push({
+                    content: currentState, 
+                    title: currentTitle, 
+                    search: currentSearchDisplay
+                });
+                
+                stateFn(...args);
+            };
+
+            // --- INITIALIZE APP UI (called after data load) ---
+            function initializeAppUI() {
+                // Show the main UI elements that were hidden
+                searchContainer.classList.remove('hidden');
+                bottomNav.classList.remove('hidden');
+
+                backButton.addEventListener('click', () => {
+                    const lastState = historyStack.pop();
+                    if (lastState) {
+                        contentArea.innerHTML = lastState.content;
+                        appTitle.textContent = lastState.title;
+                        searchContainer.style.display = lastState.search;
+                        if (historyStack.length === 0) {
+                            updateUIState('home');
+                        } else {
+                            updateUIState('list'); 
+                        }
+                    }
+                });
+
+                contentArea.addEventListener('click', (e) => {
+                    const categoryCard = e.target.closest('.category-card');
+                    const protocolItem = e.target.closest('.protocol-item');
+                    const medItem = e.target.closest('.med-item');
+
+                    if (categoryCard) {
+                        const categoryId = categoryCard.dataset.category;
+                        navigate(renderProtocolList, categoryId);
+                    } else if (protocolItem) {
+                        const protocolId = protocolItem.dataset.protocolId;
+                        navigate(renderProtocolDetail, protocolId);
+                    } else if (medItem) {
+                        const medId = medItem.dataset.medId;
+                        navigate(renderMedDetail, medId);
+                    }
+                });
+
+                searchInput.addEventListener('input', (e) => {
+                    const query = e.target.value;
+                    if (query.length > 1) {
+                        renderSearchResults(query);
+                    } else if (query.length === 0) {
+                        if (currentView === 'protocols') {
+                            renderHome();
+                        } else {
+                            contentArea.innerHTML = renderMedList();
+                        }
+                    }
+                });
+                
+                navProtocols.addEventListener('click', () => {
+                    if (currentView !== 'protocols') {
+                        currentView = 'protocols';
+                        navProtocols.classList.add('bg-gray-700');
+                        navMeds.classList.remove('bg-gray-700');
+                        historyStack = [];
+                        renderHome();
+                    }
+                });
+
+                navMeds.addEventListener('click', () => {
+                    if (currentView !== 'meds') {
+                        currentView = 'meds';
+                        navMeds.classList.add('bg-gray-700');
+                        navProtocols.classList.remove('bg-gray-700');
+                        historyStack = [];
+                        renderHome();
+                    }
+                });
+
+                // Render the initial home screen
+                renderHome();
+            }
+            
+            // Start the data loading process when the page is ready
+            loadData(dataFilePath);
+        });
+    </script>
+
+</body>
+</html>
+
