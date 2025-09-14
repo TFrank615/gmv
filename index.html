@@ -113,7 +113,16 @@
         <!-- Header -->
         <header class="bg-gray-800 text-white px-4 z-10 shadow-md flex items-center justify-between flex-shrink-0">
             <button id="back-button" class="invisible text-white active:opacity-75 w-16 text-left">&larr; Back</button>
-            <h1 id="app-title" class="text-xl font-bold text-center flex-grow px-2 truncate">GMV Protocols</h1>
+            
+            <!-- Title with Logos -->
+            <div class="flex-grow flex items-center justify-center">
+                <!-- VVV REPLACE 'src' WITH YOUR LEFT LOGO FILE VVV -->
+                <img src="./images/favicon-32x32.png" alt="Left Logo" class="h-8 w-auto mr-3">
+                <h1 id="app-title" class="text-xl font-bold text-center px-2 truncate">GMV Protocols</h1>
+                <!-- VVV REPLACE 'src' WITH YOUR RIGHT LOGO FILE VVV -->
+                <img src="./images/sol.png" alt="Right Logo" class="h-8 w-auto ml-3">
+            </div>
+
             <div class="w-16"></div> <!-- Spacer -->
         </header>
 
@@ -502,5 +511,4 @@
 
 </body>
 </html>
-
 
