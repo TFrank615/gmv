@@ -17,7 +17,7 @@
     <link rel="apple-touch-startup-image" href="./images/apple-launch.png">
 
 
-    <title>GMV Protocol</title>
+    <title>GMV EMS Protocol</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Papa Parse for CSV reading -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
@@ -398,6 +398,21 @@
 
             // --- INITIALIZE APP UI (called after data load) ---
             function initializeAppUI() {
+                // Prevent links from opening in Safari when in standalone mode
+                if (("standalone" in window.navigator) && window.navigator.standalone) {
+                    document.addEventListener('click', function(event) {
+                        const target = event.target.closest('a');
+                        if (target) {
+                            // Prevent the default link behavior
+                            event.preventDefault();
+                            // NOTE: This stops the app from opening a new browser window.
+                            // If the CSV content has links that should navigate *within* the app,
+                            // custom logic would need to be added here to handle the `target.href`.
+                            console.log(`Internal link click captured: ${target.href}`);
+                        }
+                    }, false);
+                }
+                
                 // Show the main UI elements that were hidden
                 searchContainer.classList.remove('hidden');
                 bottomNav.classList.remove('hidden');
@@ -477,7 +492,4 @@
 
 </body>
 </html>
-
-
-
 
