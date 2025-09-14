@@ -243,6 +243,7 @@
 
             // --- UI RENDERING FUNCTIONS ---
             const renderHome = () => {
+                contentArea.scrollTop = 0;
                 let html = '';
                 if (currentView === 'protocols') {
                     appTitle.textContent = 'EMS Protocols';
@@ -272,6 +273,7 @@
             };
 
             const renderProtocolList = (categoryId) => {
+                contentArea.scrollTop = 0;
                 const category = db.categories.find(c => c.id === categoryId);
                 if (!category) return;
                 const protocols = db.protocols.filter(p => p.category === categoryId);
@@ -291,6 +293,7 @@
             };
 
             const renderProtocolDetail = (protocolId) => {
+                contentArea.scrollTop = 0;
                 const protocol = db.protocols.find(p => p.id === protocolId);
                 if (!protocol) return;
                 const category = db.categories.find(c => c.id === protocol.category);
@@ -331,6 +334,7 @@
             };
 
             const renderMedDetail = (medId) => {
+                contentArea.scrollTop = 0;
                 const med = db.medications.find(p => p.id === medId);
                 if (!med) return;
                 const html = `
@@ -345,6 +349,7 @@
             };
 
             const renderSearchResults = (query) => {
+                contentArea.scrollTop = 0;
                 query = query.toLowerCase();
                 let resultsHtml = '';
                 
@@ -425,6 +430,7 @@
                         contentArea.innerHTML = lastState.content;
                         appTitle.textContent = lastState.title;
                         searchContainer.style.display = lastState.search;
+                        contentArea.scrollTop = 0;
                         if (historyStack.length === 0) {
                             updateUIState('home');
                         } else {
@@ -494,4 +500,6 @@
 
 </body>
 </html>
+
+
 
