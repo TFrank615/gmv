@@ -3780,162 +3780,329 @@ protocol,4011,Obstetrical Emergencies ,4000,"<div>
     <h3 class=""mt-6"">4011.4 Aspirin and the Pregnant Patient</h3>
     <p>Aspirin is contraindicated in third trimester due to possibility of pre and post-partum hemorrhaging and protentional fetal harm.</p>
 </div>"
-protocol,4012,Overdose/Poisonings ,4000,"<div>
-    <h3>4012.1 General Guidelines</h3>
+protocol,4012,Overdose/Poisonings ,4000,"<h3>General Guidelines</h3>
     <ul>
-        <li>EMS personnel should contact and confer with MCP for direction on suspected poisonings. Poison Control is intended for use by the general public.</li>
-        <li>If possible, provide receiving facility all available information about the substance: Safety data sheets (SDS), The container (if it is safe to do so), The label or an image of the label and warning information.</li>
-        <li>See Clinical Pearls for recommendations on treatment for button battery ingestion.</li>
+      <li>EMS personnel should contact and confer with MCP for direction on suspected poisonings.</li>
+      <li>Poison Control is intended for use by the general public.</li>
+      <li>If possible, provide receiving facility all available information about the substance:
+        <ul>
+            <li>Safety data sheets (SDS)</li>
+            <li>The container (if it is safe to do so)</li>
+            <li>The label or an image of the label and warning information if it is unsafe or unpractical to transport the actual substance container</li>
+        </ul>
+      </li>
+      <li>See Clinical Pearls for recommendations on treatment for button battery ingestion.</li>
     </ul>
 
-    <h3 class=""mt-6"">4012.2 Clinical Management</h3>
-    <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
-        <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
-        <div class=""skill-level-grid mt-2"">
-            <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
-            <div>
-                <p>If respirations are impaired or there is suspicion of narcotic overdose:</p>
-                <ul>
-                    <li><span class=""font-bold"">A</span> Administer Naloxone, up to 4 mg IN (half dose per nostril). May repeat Naloxone doses in 2 minutes.</li>
-                    <li class=""text-pink-600""><span class=""font-bold"">P</span> Naloxone: Less than or equal to 20 kg then 0.1 mg/kg IN, (max dose 2 mg), may repeat x one. Greater than 20 kg 2 mg, IN, may repeat as needed.</li>
-                    <li>Titrate Naloxone to adequate respirations.</li>
-                    <li>Consider patient restraint before administration of Naloxone.</li>
-                </ul>
-            </div>
-            <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
-            <div>
-                <p>If patient has a pulse, Naloxone should be administered before inserting an ETT. When given IV or IN, the onset of action for Naloxone is approximately 2 minutes.</p>
-            </div>
-            <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
-            <div>
-                <ul>
-                    <li>If respirations are impaired or there is suspicion of narcotic overdose:
-                        <ul class=""list-disc pl-5 mt-1"">
-                            <li><span class=""font-bold"">A</span> Administer Naloxone, up to 4 mg IN, 2mg IV or 4 mg IM. May repeat Naloxone doses in 2 minutes. Consider repeat IV dosing if no or inadequate response is noted.</li>
-                            <li class=""text-pink-600""><span class=""font-bold"">P</span> Administer Naloxone: Less than or equal to 20 kg then 0.1 mg/kg IN, IV, IM (max dose 2 mg), may repeat x one. Greater than 20 kg 2 mg, IN, IV, IM, may repeat as needed. Naloxone slow IV is preferred, but it may be given IN or IM before IV is established. Titrate to adequate respirations.</li>
-                            <li class=""text-pink-600""><span class=""font-bold"">P</span> If using IN route and respirations don't improve after 2 minutes, establish IV and administer IV dose.</li>
-                        </ul>
-                    </li>
-                    <li class=""mt-2"">Stimulant Overdose (cocaine, methamphetamines, etc.) with chest pain:
-                        <ul class=""list-disc pl-5 mt-1"">
-                            <li><span class=""font-bold"">A</span> Nitroglycerin 0.4 mg SL, if SBP >100, every 5 minutes to a total of three doses.</li>
-                            <li><span class=""font-bold"">A</span> Midazolam 10 mg, IN (5 mg in each nostril) or 2.5 mg slow IV, or 5 mg IM. Repeat Midazolam 5 mg IN or 2.5 mg slow IV or 5 mg IM for unrelieved chest pain.</li>
-                            <li><span class=""font-bold"">G</span> For patients greater than 69 y/o, reduce dosing for sedatives and analgesics to one half (½) of the adult doses.</li>
-                        </ul>
-                    </li>
-                    <li class=""mt-2"">Tricyclic Antidepressant Overdose may be evidenced by bradycardia, tachycardia, hypotension and prolongation of the QRS complex.
-                        <ul class=""list-disc pl-5 mt-1"">
-                            <li><span class=""font-bold"">A</span> Sodium Bicarbonate 100 mEq, slow IV. Repeat 50 mEq for persistent QRS prolongation.</li>
-                            <li class=""text-pink-600""><span class=""font-bold"">P</span> Sodium Bicarbonate 1 mEq/kg slow IV. Repeat 0.5 mEq/kg for persistent QRS prolongation.</li>
-                        </ul>
-                    </li>
-                    <li class=""mt-2"">Calcium Channel Blocker Overdose:
-                        <ul class=""list-disc pl-5 mt-1"">
-                            <li><span class=""font-bold"">A</span> Calcium Chloride, 1 Gm slow IV.</li>
-                            <li class=""text-pink-600""><span class=""font-bold"">P</span> Calcium Chloride, 0.2 ml/kg (20 mg/kg) slow IV (max dose 500 mg).</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
+    <h3>Clinical Management</h3>
+    <h4>Pediatric Considerations</h4>
+    <ul>
+        <li>Most pediatric patients with respiratory depression do not have narcotic overdose. They are either septic or have respiratory failure.</li>
+        <li>Treatment for button battery ingestion is for patients greater to or equal to 12 months of age.</li>
+    </ul>
+    
+    <h4>Signs & Symptoms</h4>
+    <ul>
+      <li>Mental status changes</li>
+      <li>Hypo/hypertension</li>
+      <li>Decreased respiratory rate</li>
+      <li>Tachycardia or bradycardia</li>
+      <li>Cardiac dysrhythmias</li>
+      <li>Seizures</li>
+    </ul>
+
+    <h3>Treatment Algorithm</h3>
+    
+    <h4>EMR / EMT</h4>
+    <ul>
+        <li>If respirations are impaired or there is suspicion of narcotic overdose:</li>
+        <li><b>Adult:</b> Administer Naloxone, up to 4 mg IN (half dose per nostril). May repeat Naloxone doses in 2 minutes.</li>
+        <li><b>Pediatric Naloxone:</b>
+            <ul>
+                <li>Less than or equal to 20 kg then 0.1 mg/kg IN, (max dose 2 mg), may repeat x one.</li>
+                <li>Greater than 20 kg: 2 mg, IN, may repeat as needed.</li>
+            </ul>
+        </li>
+        <li>Titrate Naloxone to adequate respirations.</li>
+        <li>Consider patient restraint before administration of Naloxone.</li>
+    </ul>
+
+    <h4>AEMT</h4>
+    <ul>
+        <li>If patient has a pulse, Naloxone should be administered before inserting an ETT.</li>
+        <li>When given IV or IN, the onset of action for Naloxone is approximately 2 minutes.</li>
+        <li>If respirations are impaired or there is suspicion of narcotic overdose:</li>
+        <li><b>Adult:</b> Administer Naloxone, up to 4 mg IN, 2mg IV or 4 mg IM. May repeat Naloxone doses in 2 minutes. Consider repeat IV dosing if no or inadequate response is noted.</li>
+        <li><b>Pediatric Naloxone:</b>
+            <ul>
+                <li>Less than or equal to 20 kg then 0.1 mg/kg IN, IV, IM (max dose 2 mg), may repeat x one.</li>
+                <li>Greater than 20 kg: 2 mg, IN, IV, IM, may repeat as needed.</li>
+                <li>Naloxone slow IV is preferred, but it may be given IN or IM before IV is established.</li>
+                <li>If using IN route and respirations don't improve after 2 minutes, establish IV and administer IV dose.</li>
+            </ul>
+        </li>
+        <li>Titrate to adequate respirations.</li>
+    </ul>
+
+    <h4>Paramedic</h4>
+    <ul>
+        <li>Follow AEMT guidelines for Naloxone administration.</li>
+        <li><b>Stimulant Overdose (cocaine, methamphetamines, etc.) with chest pain:</b>
+            <ul>
+                <li><b>Adult:</b> Nitroglycerin 0.4 mg SL, if SBP >100, every 5 minutes to a total of three doses.</li>
+                <li><b>Adult:</b> Midazolam 10 mg, IN (5 mg in each nostril) or 2.5 mg slow IV, or 5 mg IM.</li>
+                <li>Repeat Midazolam 5 mg IN (2.5 mg in each nostril) or 2.5 mg slow IV or 5 mg IM for unrelieved chest pain.</li>
+                <li>For patients greater than 69 y/o, reduce dosing for sedatives and analgesics to one half of the adult doses.</li>
+            </ul>
+        </li>
+        <li><b>Tricyclic Antidepressant Overdose:</b> (May be evidenced by bradycardia, tachycardia, hypotension and prolonged QRS)
+            <ul>
+                <li><b>Adult:</b> Sodium Bicarbonate 100 mEq, slow IV. May repeat 50 mEq, slow IV for persistent QRS prolongation.</li>
+                <li><b>Pediatric:</b> Sodium Bicarbonate 1 mEq/kg slow IV. May repeat 0.5 mEq/kg slow IV for persistent QRS prolongation.</li>
+            </ul>
+        </li>
+        <li><b>Calcium Channel Blocker Overdose:</b>
+            <ul>
+                <li><b>Adult:</b> Calcium Chloride, 1 Gm slow IV.</li>
+                <li><b>Pediatric:</b> Calcium Chloride, 0.2 ml/kg (20 mg/kg) slow IV (max dose 500 mg).</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>Consult</h3>
+    <ul>
+        <li>For guidance on suspected poisonings contact MCP.</li>
+        <li>Calcium Channel Blocker, Beta Blocker and Tricyclic antidotes in this protocol are by MCP order only.</li>
+    </ul>
+
+    <h3>Clinical Pearls</h3>
+    <ul>
+      <li>Consider other causes of altered mental status such as hypoglycemia, head trauma, sepsis, and stroke.</li>
+      <li>When Naloxone is given intranasal (IN), the onset of action is approximately 2 minutes.</li>
+      <li>Naloxone is not felt to be effective in the reversal of cardiac arrest from opioid overdose. Airway control, ventilation, and quality CPR are still the mainstay of treatment.</li>
+      <li>Naloxone is not indicated in the management of newborns as it can cause withdrawal and secondary issues.</li>
+      <li>Ondansetron (Zofran) is NOT to be given prophylactically with Naloxone.</li>
+      <li><b>For ingestion of lithium button batteries:</b> If honey is at the scene, patients > 12 months old may be given ~10 ml every 10 minutes (up to 6 times) to coat the battery. Document as ""self or family administered"".</li>
+    </ul>
+
+    <h3>Medication Examples</h3>
+    <h4>Tricyclic Antidepressant Examples:</h4>
+    <ul>
+        <li>Amitriptyline (Elavil, Endep)</li>
+        <li>Nortriptyline (Pamelor, Aventyl)</li>
+        <li>Amoxapine (Asendin)</li>
+        <li>Clomipramine (Anafranil)</li>
+        <li>Desipramine (Norpramine)</li>
+        <li>Doxepin (Sinequan)</li>
+        <li>Imipramine (Tofranil)</li>
+        <li>Protriptyline (Vivactil)</li>
+        <li>Trimipramine (Surmontil)</li>
+    </ul>
+    <h4>Calcium Channel Blocker examples:</h4>
+    <ul>
+        <li>Amlodipine (Norvasc)</li>
+        <li>Diltiazem (Cardizem)</li>
+        <li>Felodipine (Plendil)</li>
+        <li>Isradipine (Dynacirc)</li>
+        <li>Nifedipine (Procardia, Adalat)</li>
+        <li>Verapamil (Calan, Isoptin)</li>
+    </ul>
+    <h4>Beta Blocker examples</h4>
+    <ul>
+        <li>Acebutolol (Sectral)</li>
+        <li>Atenolol (Tenormin)</li>
+        <li>Carvedilol (Coreg)</li>
+        <li>Labetalol (Normodyne, Trandate)</li>
+        <li>Metoprolol (Toprol, Lopressor)</li>
+        <li>Nadolol (Corgard)</li>
+        <li>Pindolol (Viskin)</li>
+        <li>Propranolol (Inderal)</li>
+        <li>Sotalol (Betapace)</li>
+        <li>Timolol (Blocadren)</li>
+    </ul>"
+protocol,4013,Respiratory Distress/Pulmonary Edema ,4000,"<h3>General Guidelines</h3>
+    <ul>
+      <li>This protocol is for patients with respiratory distress secondary to pulmonary edema.</li>
+      <li>For patients with wheezing, see Medical Protocol 4003 - Asthma/COPD/Emphysema.</li>
+    </ul>
+
+    <h3>Clinical Management</h3>
+    <div class=""grid md:grid-cols-2 gap-4"">
+      <div>
+        <h4>Signs & Symptoms</h4>
+        <ul>
+          <li>Cyanosis</li>
+          <li>Clammy skin</li>
+          <li>Presence/Absence of fever</li>
+          <li>Coughing</li>
+          <li>Wheezing</li>
+          <li>Labored breathing</li>
+          <li>Diaphoresis</li>
+          <li>Pitting edema</li>
+          <li>Bilateral lower lobe rales</li>
+          <li>Tachypnea</li>
+          <li>Apprehension</li>
+          <li>Jugular vein distension (JVD)</li>
+          <li>Inability to talk</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Differential Diagnosis</h4>
+        <ul>
+          <li>Myocardial infarction</li>
+          <li>Congestive heart failure</li>
+          <li>Asthma</li>
+          <li>Anaphylaxis</li>
+          <li>Aspiration</li>
+          <li>Chronic obstructive pulmonary disease</li>
+          <li>Pleural effusion</li>
+          <li>Pneumonia</li>
+          <li>Pulmonary embolus</li>
+          <li>Pericardial tamponade</li>
+        </ul>
+      </div>
     </div>
-</div>"
-protocol,4013,Respiratory Distress/Pulmonary Edema ,4000,"<div>
-    <h3>4013.1 General Guidelines</h3>
-    <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
-        <div class=""grid grid-cols-1 md:grid-cols-2 gap-4"">
-            <div>
-                <h4 class=""text-base font-bold"">Assessment</h4>
-                <ul class=""list-disc pl-5 text-sm"">
-                    <li>Evaluate breath sounds.</li>
-                    <li>Obtain pulse oximetry reading.</li>
-                    <li>Obtain capnography reading.</li>
-                </ul>
-            </div>
-            <div>
-                <h4 class=""text-base font-bold"">Signs & Symptoms</h4>
-                <p class=""text-sm"">Clammy skin, Cyanosis, Fever, Coughing, Wheezing, Labored breathing, Diaphoresis, Pitting edema, Bilateral lower lobe rales, Tachypnea, Apprehension, JVD, Inability to talk.</p>
-            </div>
-        </div>
-        <div class=""mt-4 pt-4 border-t"">
-            <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
-            <div class=""skill-level-grid mt-2"">
-                <div class=""skill-level-indicator bg-gray-200 text-gray-800"">EMR</div>
-                <div>
-                    <ul>
-                        <li>Provide high flow O₂.</li>
-                        <li>Call for transport.</li>
-                    </ul>
-                </div>
-                <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
-                <div>
-                    <ul>
-                        <li>{Obtain and transmit 12 Lead EKG}.</li>
-                        <li><span class=""font-bold"">A</span> If Pulmonary Edema, then Continuous Positive Pressure Airway (CPAP).</li>
-                    </ul>
-                </div>
-                <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
-                <div>
-                    <p>If Pulmonary Edema:</p>
-                    <ul>
-                        <li>CPAP use is encouraged prior to the initiation of drug therapy.</li>
-                        <li><span class=""font-bold"">A</span> If patient has SBP greater than 100, Nitroglycerin 0.4 mg SL up to 3, 1 every 5 minutes.</li>
-                    </ul>
-                </div>
-                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
-                <div>
-                    <p>If Pulmonary Edema:</p>
-                    <ul>
-                        <li>CPAP or {Bi-PAP} use is encouraged prior to the initiation of drug therapy.</li>
-                        <li>Consider need for possible early endotracheal intubation.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+
+    <h3>Treatment Algorithm</h3>
+
+    <h4>EMT</h4>
+    <ul>
+      <li>Position patient upright with legs dependent, as tolerated.</li>
+      <li>Administer Oxygen to maintain SpO2 > 94%.</li>
+      <li>If patient exhibits signs of severe respiratory distress, apply CPAP.</li>
+      <li>Assist patient with their own prescribed Nitroglycerin, if SBP is greater than 100 mmHg.</li>
+    </ul>
+
+    <h4>AEMT</h4>
+    <ul>
+      <li>Administer Nitroglycerin 0.4 mg SL every 5 minutes as long as SBP remains > 100 mmHg.</li>
+      <li>Establish IV access.</li>
+    </ul>
+
+    <h4>Paramedic</h4>
+    <ul>
+      <li>If SBP is greater than 100 mmHg, administer Nitroglycerin 0.4 mg SL every 5 minutes. There is no maximum dose as long as SBP remains above 100 mmHg.</li>
+      <li>If patient is in severe respiratory distress, consider IV Nitroglycerin if available and trained.</li>
+    </ul>
+
+    <h3>Clinical Pearls</h3>
+    <ul>
+      <li>Evaluate breath sounds:
+        <ul>
+          <li><strong>Clear:</strong> treat cause (e.g. MI, pulmonary embolism, metabolic disturbance, and hyperventilation).</li>
+          <li><strong>Wheezes:</strong> treat cause (e.g. pulmonary edema, FBAO, asthma, allergic reaction).</li>
+          <li><strong>Rales:</strong> treat cause (e.g. pulmonary edema, pneumonia).</li>
+          <li><strong>Diminished or absent:</strong>
+            <ul>
+              <li>Unilateral: treat cause (e.g., pneumothorax, hemothorax, pneumonia, surgically removed lung).</li>
+              <li>Bilateral: treat cause (e.g., respiratory failure, COPD, asthma).</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Pneumonia may look like CHF with pulmonary edema. However, the pneumonia patient is often dehydrated and has an elevated temperature.</li>
+    </ul>"
+protocol,4014,Seizures,4000,"<h3>Clinical Management</h3>
+    <div class=""grid md:grid-cols-2 gap-4"">
+      <div>
+        <h4>Assessment</h4>
+        <h4>Signs & Symptoms</h4>
+        <ul>
+          <li>Decreased mental status</li>
+          <li>Sleepiness</li>
+          <li>Incontinence</li>
+          <li>Observed seizure activity</li>
+          <li>Evidence of trauma</li>
+        </ul>
+        <h4>Pediatric Considerations</h4>
+        <ul>
+            <li>None</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Differential Diagnosis</h4>
+        <ul>
+          <li>Head trauma</li>
+          <li>Tumor</li>
+          <li>Metabolic, hepatic or renal failure</li>
+          <li>Hypoxia</li>
+          <li>Electrolyte abnormality</li>
+          <li>Drugs, medications</li>
+          <li>Infection/fever</li>
+          <li>Alcohol withdrawal</li>
+          <li>Eclampsia</li>
+          <li>Stroke/TIA</li>
+          <li>Hyperthermia</li>
+          <li>Psychogenic Non-epileptic Seizures</li>
+        </ul>
+      </div>
     </div>
-</div>"
-protocol,4014,Seizures,4000,"<div>
-    <h3>4014.1 Clinical Management</h3>
-    <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
-        <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
-        <div class=""skill-level-grid mt-2"">
-            <div class=""skill-level-indicator bg-gray-200 text-gray-800"">EMR</div>
-            <div>
-                <p>BVM and nasopharyngeal airway during seizure as needed. Maintain normothermia.</p>
-            </div>
-            <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
-            <div>
+
+    <h3>Treatment Algorithm</h3>
+
+    <h4>EMR</h4>
+    <ul>
+      <li>BVM and nasopharyngeal airway during seizure as needed.</li>
+      <li>Maintain normothermia.</li>
+    </ul>
+
+    <h4>EMT</h4>
+    <ul>
+      <li>Obtain Pulse Oximeter and Capnography reading.</li>
+      <li>If glucose less than 60, or there is strong suspicion of hypoglycemia despite glucometer readings, then follow 4008 Hypoglycemia/Hyperglycemia.</li>
+      <li>Place patient in the recovery position during assessment and transport.</li>
+    </ul>
+
+    <h4>AEMT</h4>
+    <ul>
+      <li>Cardiac monitor</li>
+      <li>For actively seizing adult patients:
+        <ul>
+          <li><strong>For patients greater than 69 y/o, reduce dosing for sedatives and analgesics to one half ( ) of the adult doses</strong></li>
+          <li>Midazolam 10 mg IN (5 mg in each nostril), or Midazolam 2.5 mg slow IV, or Midazolam 5 mg IM</li>
+          <li>If still seizing, repeat Midazolam doses:
+            <ul>
+              <li>Repeat Midazolam 5 mg IN (2.5 mg in each nostril) after 10 minutes.</li>
+              <li>Or repeat Midazolam 2.5 mg slow IV after 5 minutes.</li>
+              <li>Or repeat Midazolam 5 mg IM after 10 minutes.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+       <li>For actively seizing pediatric patients:
+        <ul>
+            <li>Midazolam 0.2 mg/kg IN (max IN dose 10 mg) or Midazolam 0.1 mg/kg slow IV (max IV dose 2.5 mg) or Midazolam 0.2 mg/kg IM (max IM dose 5 mg)</li>
+            <li>If still seizing, repeat Midazolam doses:
                 <ul>
-                    <li>Obtain Pulse Oximeter and {Capnography} reading.</li>
-                    <li>If glucose less than 60, or there is strong suspicion of hypoglycemia despite glucometer readings, then follow 4008 Hypoglycemia/Hyperglycemia.</li>
-                    <li>Place patient in the recovery position during assessment and transport.</li>
+                    <li>Repeat Midazolam 0.2 mg/kg IN (max IN dose 5 mg) after 10 minutes</li>
+                    <li>Or repeat Midazolam 0.1 mg/kg slow IV (max IV dose 2.5 mg) after 5 minutes</li>
+                    <li>Or repeat Midazolam 0.2 mg/kg IM (max IM dose 5 mg) after 10 minutes</li>
                 </ul>
-            </div>
-            <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
-            <div><p>Cardiac monitor.</p></div>
-            <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
-            <div>
-                <ul>
-                    <li>For actively seizing adult patients:
-                        <ul class=""list-disc pl-5 mt-1"">
-                             <li><span class=""font-bold"">G</span> For patients greater than 69 y/o, reduce dosing for sedatives and analgesics to one half (½) of the adult doses.</li>
-                             <li><span class=""font-bold"">A</span> Midazolam 10 mg IN (5 mg in each nostril), or Midazolam 2.5 mg slow IV, or Midazolam 5 mg IM.</li>
-                             <li><span class=""font-bold"">A</span> If still seizing, repeat Midazolam doses: Repeat Midazolam 5 mg IN (2.5 mg in each nostril) after 10 minutes, Or repeat Midazolam 2.5 mg slow IV after 5 minutes, Or repeat Midazolam 5 mg IM after 10 minutes.</li>
-                        </ul>
-                    </li>
-                    <li class=""mt-2"">For actively seizing pediatric patients:
-                        <ul class=""list-disc pl-5 mt-1 text-pink-600"">
-                             <li><span class=""font-bold"">P</span> Midazolam 0.2 mg/kg IN (max IN dose 10 mg) or Midazolam 0.1 mg/kg slow IV (max IV dose 2.5 mg) or Midazolam 0.2 mg/kg IM (max IM dose 5 mg).</li>
-                             <li><span class=""font-bold"">P</span> If still seizing, repeat Midazolam doses: Repeat Midazolam 0.2 mg/kg IN (max IN dose 5 mg) after 10 minutes, Or repeat Midazolam 0.1 mg/kg slow IV (max IV dose 2.5 mg) after 5 minutes, Or repeat Midazolam 0.2 mg/kg IM (max IM dose 5 mg) after 10 minutes.</li>
-                        </ul>
-                    </li>
-                    <li class=""mt-2""><span class=""font-bold"">A</span> If seizing pregnant patient with gestation greater than 20 weeks or postpartum less than 6 weeks, administer Magnesium Sulfate 4 grams (whole bag) infused with macro-drip tubing over 20 min.</li>
-                    <li class=""mt-2 text-pink-600""><span class=""font-bold"">P</span> If seizing pregnant or postpartum patient is less than 16 years old but meets criteria above, then administer Magnesium Sulfate 4 grams (whole bag) infused with macro-drip tubing over 20 min.</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>"
+            </li>
+        </ul>
+      </li>
+    </ul>
+
+    <h4>Paramedic</h4>
+     <ul>
+        <li>If seizing pregnant patient with gestation greater than 20 weeks or postpartum less than 6 weeks, administer Magnesium Sulfate 4 grams (whole bag) infused with macro-drip tubing over 20 min.</li>
+        <li>If seizing pregnant or postpartum patient is less than 16 years old but meets criteria above, then administer Magnesium Sulfate 4 grams (whole bag) infused with macro-drip tubing over 20 min</li>
+    </ul>
+
+    <h3>Consult</h3>
+    <ul>
+        <li>None</li>
+    </ul>
+
+    <h3>Clinical Pearls</h3>
+    <ul>
+      <li>When obtaining history be sure to include the following:
+        <ul>
+            <li>Description of seizures, areas of body involved, and duration</li>
+            <li>Other known medical history (e.g., head injury, diabetes, drugs, alcohol, stroke, heart disease, recent fever or illness, possible toxicological agents)</li>
+        </ul>
+      </li>
+    </ul>"
 protocol,4015,Sepsis,4000,"<div>
     <h3>4015.1 General Guidelines</h3>
     <ul>
