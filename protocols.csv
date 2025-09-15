@@ -7,9 +7,7 @@ category,5000,PEDIATRIC CONSIDERATIONS,pink,
 category,6000,SPECIAL OPERATIONS,yellow,
 category,7000,ADMINISTRATION,green,
 ,,,,
-protocol,1001,Introduction to Treatment Protocols,1000,"<div>
-    <h3>1001.1 Introduction to Treatment Protocols</h3>
-    <ul>
+protocol,1001,Introduction to Treatment Protocols,1000,"<ul>
         <li>Each protocol has been approved by the Greater Miami Valley EMS Council and the Regional Physician Advisory Board for Region 3 (as defined by the State Board of Emergency Medical, Fire and Transportation Services [EMFTS]).</li>
         <li>Each tab bears an effective date and a last modified date marking it as the latest version.</li>
         <li>A new addition to protocol would reflect a duplicate ""Effective"" and ""Last Modified"" date.</li>
@@ -22,7 +20,7 @@ protocol,1001,Introduction to Treatment Protocols,1000,"<div>
     <ul>
         <li>All GMVEMSC Treatment Protocols are intended for color printing, and hard copy retention.</li>
         <li>These protocols are also intended for electronic display in Adobe Portable Document Format (PDF).
-            <ul class=""list-roman pl-6 mt-2"">
+            <ul class=""list-disc pl-6"">
                 <li>The PDF version includes links to the different tabs throughout the document.</li>
                 <li>The GMVEMSC logo on most pages is a hyperlink back to the table of contents.</li>
             </ul>
@@ -35,7 +33,7 @@ protocol,1001,Introduction to Treatment Protocols,1000,"<div>
         <li>This protocol is for use by those individuals operating in and under the authority of the Greater Miami Valley EMS Council (GMVEMSC) Drug Bag Exchange Program and certified by the State of Ohio as an EMS provider.</li>
         <li>The provider must pass both the skills check-off and Computer Based Testing (CBT) for the current year.</li>
         <li>The GMVEMSC Treatment Protocols apply to the following certification levels:
-            <ul class=""list-roman pl-6 mt-2"">
+            <ul class=""list-disc pl-6"">
                 <li>Emergency Medical Responder (EMR)</li>
                 <li>Emergency Medical Technician (EMT)</li>
                 <li>Advanced Emergency Medical Technician (AEMT)</li>
@@ -48,7 +46,7 @@ protocol,1001,Introduction to Treatment Protocols,1000,"<div>
     <ul>
         <li>The protocol is to be used in the field only.</li>
         <li>Communicate with the receiving facility as soon as practical:
-             <ul class=""list-roman pl-6 mt-2"">
+            <ul class=""list-disc pl-6"">
                 <li>When transporting unstable patients</li>
                 <li>Transporting to hospitals that request contact for all patients delivered to their facility.</li>
             </ul>
@@ -63,9 +61,9 @@ protocol,1001,Introduction to Treatment Protocols,1000,"<div>
     <h3>1001.5 Protocol Design</h3>
     <ul>
         <li>The GMVEMSC protocols are organized around the General Patient Management Protocol which must be followed for all patients. This universally applicable protocol/flowchart allows the providers to integrate additional treatment protocols beyond general patient management as clinically necessary for specific patient care, emergency stabilization, and treatment.
-             <ul class=""list-roman pl-6 mt-2"">
+            <ul class=""list-disc pl-6"">
                 <li>As an example, while caring for a specific patient with chest pain, shortness of breath, and nausea the provider would:
-                    <ol class=""list-decimal pl-6 mt-2"">
+                    <ol class=""list-decimal pl-6"">
                         <li>Follow the General Patient Management Protocol</li>
                         <li>Integrate and follow the Chest Pain Protocol</li>
                         <li>Integrate and follow the Respiratory Distress Protocol if indicated</li>
@@ -79,58 +77,40 @@ protocol,1001,Introduction to Treatment Protocols,1000,"<div>
         </li>
         <li>In most cases, a specific guideline will only be mentioned once within the protocol. All other circumstances where that guideline would be applicable will simply refer to the original guideline.</li>
         <li>Where applicable, a guideline mentioned in another section will have a hyperlink provided.</li>
-        <li><strong>Formatting:</strong>
-            <ul class=""list-roman pl-6 mt-2"">
+        <li>Formatting
+            <ul class=""list-disc pl-6"">
                 <li>All attempts will be made to keep the protocol focused and specific.</li>
                 <li>Extracurricular and enhancing information will be provided in an official study guide.</li>
                 <li>All levels of providers will be addressed within a single protocol.</li>
-                <li>Procedures and treatments marked with a diamond (<span class=""font-bold text-blue-600"">&diams;</span>) always require a physician's order.</li>
-                <li>Items enclosed in brackets (<span class=""font-mono"">{ }</span>) are at the option of the agency and their Medical Director.</li>
-                <li>Sections that apply only to adults are bulleted with an ""A"".</li>
-                <li>All pediatric treatments will be in <span class=""text-pink-600"">pink</span> and bulleted with a ""P"".</li>
+                <li>Procedures and treatments marked with a diamond (&diams;) always require a physician's order.</li>
+                <li>Items enclosed in brackets ({}) are at the option of the agency and their Medical Director.</li>
+                <li>Sections that apply only to adults are bulleted with an ""A""</li>
+                <li>All pediatric treatments will be in pink and bulleted with a ""P"".</li>
                 <li>There are also sections which apply to only Geriatric patients and are bulleted with a ""G.""</li>
             </ul>
         </li>
     </ul>
-    
+
     <h3>1001.6 Clinical Management Tables</h3>
-    <p>The following is an annotated example of a Clinical Management Table:</p>
-    <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
-        <div class=""grid grid-cols-1 md:grid-cols-3 gap-4"">
-            <div class=""md:col-span-2 space-y-4"">
-                <div>
-                    <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
-                    <p class=""text-sm italic"">This is where pediatric specific info might go. Dosing and treatment will still be listed in the algorithm.</p>
-                </div>
-                 <div class=""grid grid-cols-1 sm:grid-cols-3 gap-2"">
-                    <div><h4 class=""text-base font-bold"">Assessment</h4></div>
-                    <div><h4 class=""text-base font-bold"">Signs & Symptoms</h4><p class=""text-sm"">This is where S&S will go.</p></div>
-                    <div><h4 class=""text-base font-bold"">Differential Diagnosis</h4><p class=""text-sm"">This is where differentials will go.</p></div>
-                </div>
-                <div>
-                    <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
-                    <p class=""text-sm"">This will be where guidelines for all certification levels will go.</p>
-                </div>
+    <ul>
+        <li>In addition to general statements, this protocol will utilize table-based algorithms where applicable.</li>
+        <li>The table will demonstrate what care can be given at each provider level.
+            <ul class=""list-disc pl-6"">
+                <li>The level of certifications will be signified by the colored tabs to the right of each section.</li>
+            </ul>
+        </li>
+        <li>Even with a step-by-step algorithm in place, critical thinking is encouraged.</li>
+        <li>While the table is sequential and listed by provider level, many elements in each section can be completed simultaneously.</li>
+        <li>The following is an annotated example of a Clinical Management Table:
+            <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
+                <p><strong>Pediatric Considerations:</strong> This is where pediatric specific info might go. Dosing and treatment will still be listed in the algorithm.</p>
+                <p class=""mt-2""><strong>Assessment:</strong> This is where Signs & Symptoms and Differential Diagnosis will go.</p>
+                <p class=""mt-2""><strong>Treatment Algorithm:</strong> This will be where guidelines for all certification levels will go (EMR, EMT, AEMT, Paramedic).</p>
+                <p class=""mt-2""><strong>Consult:</strong> If requirements exist for any level to call for orders, that will be listed here. This section will also list guidelines for alerts, requests for MCP advice, or requests to call the receiving facility.</p>
+                <p class=""mt-2""><strong>Clinical Pearls:</strong> Any important guidelines or clinical information will be added here. This will not be a study guide nor a skill sheet.</p>
             </div>
-            <div class=""space-y-2"">
-                <div class=""p-2 rounded text-sm text-center bg-gray-200 text-gray-800 font-semibold"">EMR</div>
-                <div class=""p-2 rounded text-sm text-center bg-blue-200 text-blue-800 font-semibold"">EMT</div>
-                <div class=""p-2 rounded text-sm text-center bg-green-200 text-green-800 font-semibold"">AEMT</div>
-                <div class=""p-2 rounded text-sm text-center bg-yellow-200 text-yellow-800 font-semibold"">Paramedic</div>
-            </div>
-        </div>
-        <div class=""mt-4 pt-4 border-t space-y-4"">
-             <div>
-                <h4 class=""text-base font-bold"">Consult</h4>
-                <p class=""text-sm"">If requirements exist for any level to call for orders, that will be listed here. This section also lists guidelines for alerts, MCP advice, or requests to call the receiving facility.</p>
-            </div>
-             <div>
-                <h4 class=""text-base font-bold"">Clinical Pearls</h4>
-                <p class=""text-sm"">Any important guidelines or clinical information will be added here. This will not be a study guide nor a skill sheet.</p>
-            </div>
-        </div>
-    </div>
-</div>"
+        </li>
+    </ul>"
 protocol,1002,Communication with Hospital or Medical Control ,1000,"<div>
     <h3>1002.1 Reasons to Contact the Hospital</h3>
     <p>To notify the hospital when time is needed to prepare for patient arrival. Examples include:</p>
@@ -407,7 +387,8 @@ protocol,1005,General Patient Management ,1000,"<div>
             </div>
         </div>
     </div>
-</div>"
+</div>
+"
 protocol,1006,Patient Abuse and Neglect ,1000,"<div>
     <h3>1006.1 Guideline</h3>
     <ul>
@@ -846,7 +827,8 @@ protocol,1010,Sedate to Intubate and Rapid Sequence Intubation ,1000,"<div>
         </li>
         <li class=""mt-2"">Any of the above evaluations could be credited if the procedure is performed under direct supervision by the Medical Director, Supervisor or Training Officer the field or a clinical setting.</li>
     </ul>
-</div>"
+</div>
+"
 protocol,1011,Tracheostomy and Laryngectomy Care ,1000,"<div>
     <h3>1011.1 General Guidelines</h3>
     <ul>
@@ -996,7 +978,11 @@ protocol,1011,Tracheostomy and Laryngectomy Care ,1000,"<div>
     <div class=""mt-4"">
         <p class=""text-center font-bold text-sm"">Tracheostomy Tube Parts</p>
             </div>
-</div>"
+</div>
+<div class=""flex flex-col items-center text-center"">
+        <img src=""./images/1011-1.png"" alt=""img1"" class=""w-full"">
+        <img src=""./images/1011-2.png"" alt=""img1"" class=""w-full"">
+      </div>"
 protocol,1012,Intraossesous Infusion ,1000,"<div>
     <h3>1012.1 General Guidelines</h3>
     <ul>
@@ -1045,7 +1031,7 @@ protocol,1012,Intraossesous Infusion ,1000,"<div>
         <div class=""mt-4 pt-4 border-t"">
             <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
             <div class=""skill-level-grid mt-2"">
-                <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
+                <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT+</div>
                 <div>
                      <ul>
                         <li>After IO confirmation, IV pressure bags may facilitate infusion.</li>
@@ -1294,60 +1280,116 @@ protocol,2001,Resuscitation Guidelines ,2000,"<div>
         </div>
     </div>
 </div>"
-protocol,2002,Cardiac Arrest - BLS ,2000,"<div>
-    <h3>2002.1 AHA CPR Guidelines (2020)</h3>
+protocol,2002,Cardiac Arrest - BLS ,2000,"<h3>2002.1 This protocol has adopted the 2020 American Heart Association CPR Guidelines</h3>
     <div class=""overflow-x-auto"">
-        <table class=""w-full text-sm text-left"">
-            <thead class=""text-xs text-gray-700 uppercase bg-gray-100"">
-                <tr><th class=""px-2 py-2""></th><th class=""px-2 py-2"">ADULTS</th><th class=""px-2 py-2"">CHILDREN / INFANTS</th><th class=""px-2 py-2"">NEWBORNS</th></tr>
+        <table class=""w-full text-sm text-left text-gray-500"">
+            <thead class=""text-xs text-gray-700 uppercase bg-gray-50"">
+                <tr>
+                    <th scope=""col"" class=""py-3 px-6""></th>
+                    <th scope=""col"" class=""py-3 px-6"">ADULTS</th>
+                    <th scope=""col"" class=""py-3 px-6"">CHILDREN & INFANTS</th>
+                    <th scope=""col"" class=""py-3 px-6"">NEWBORNS</th>
+                </tr>
             </thead>
             <tbody>
-                <tr class=""border-b""><td class=""px-2 py-2 font-semibold"">CPR Order</td><td colspan=""3"" class=""px-2 py-2"">CAB: Compression, Airway, Breathing</td></tr>
-                <tr class=""border-b bg-gray-50""><td class=""px-2 py-2 font-semibold"">Ratio (No Advanced Airway)</td><td class=""px-2 py-2"">1 or 2 Rescuers: 30:2</td><td class=""px-2 py-2"">1 Rescuer - 30:2<br>2+ Rescuers - 15:2</td><td class=""px-2 py-2"">3:1</td></tr>
-                <tr class=""border-b""><td class=""px-2 py-2 font-semibold"">Ratio (With Advanced Airway)</td><td class=""px-2 py-2"">Continuous compressions (100-120/min).<br>1 breath every 6 seconds.</td><td class=""px-2 py-2"">Continuous compressions (100-120/min).<br>1 breath every 2-3 seconds.</td><td class=""px-2 py-2"">40-60 breaths/min</td></tr>
-                <tr class=""border-b bg-gray-50""><td class=""px-2 py-2 font-semibold"">Compression Rate</td><td colspan=""2"" class=""px-2 py-2"">100 to 120 per minute</td><td class=""px-2 py-2"">120 per minute</td></tr>
-                <tr class=""border-b""><td class=""px-2 py-2 font-semibold"">Compression Depth</td><td class=""px-2 py-2"">At Least 2 Inches</td><td class=""px-2 py-2"">1/3 Depth of Chest (About 2"" for Child, 1.5"" for Infant)</td><td class=""px-2 py-2"">1/3 Depth of Chest</td></tr>
-                <tr class=""border-b bg-gray-50""><td class=""px-2 py-2 font-semibold"">Rescue Breathing</td><td class=""px-2 py-2"">1 breath every 5-6 seconds<br>(10-12 breaths/min)</td><td class=""px-2 py-2"">1 breath every 2-3 seconds<br>(20-30 breaths/min)</td><td class=""px-2 py-2"">40-60 breaths/min</td></tr>
-                 <tr class=""border-b""><td class=""px-2 py-2 font-semibold"">Compression Notes</td><td colspan=""3"" class=""px-2 py-2"">Minimize interruptions in chest compressions. Limit interruptions to less than 10 seconds.</td></tr>
+                <tr class=""bg-white border-b"">
+                    <th scope=""row"" class=""py-4 px-6 font-medium text-gray-900 whitespace-nowrap"">CPR Order</th>
+                    <td colspan=""3"" class=""py-4 px-6 text-center"">CAB: Compression, Airway, Breathing</td>
+                </tr>
+                <tr class=""bg-gray-50 border-b"">
+                    <th scope=""row"" class=""py-4 px-6 font-medium text-gray-900 whitespace-nowrap"">Compression to Breaths Ratio Without Advanced Airway</th>
+                    <td class=""py-4 px-6"">1 or 2 Rescuers 30:2</td>
+                    <td class=""py-4 px-6"">1 Rescuer - 30:2<br>2+ Rescuers - 15:2</td>
+                    <td class=""py-4 px-6"">3:1</td>
+                </tr>
+                <tr class=""bg-white border-b"">
+                    <th scope=""row"" class=""py-4 px-6 font-medium text-gray-900 whitespace-nowrap"">Compression to Breaths Ratio With Advanced Airway</th>
+                    <td class=""py-4 px-6"">Continuous compressions at a rate of 100-120/min. Give 1 breath every 6 seconds.</td>
+                    <td class=""py-4 px-6"">Continuous compressions at a rate of 100-120/min. Give 1 breath every 2-3 seconds.</td>
+                    <td class=""py-4 px-6"">40-60 breaths/min</td>
+                </tr>
+                <tr class=""bg-gray-50 border-b"">
+                    <th scope=""row"" class=""py-4 px-6 font-medium text-gray-900 whitespace-nowrap"">Compression Rate</th>
+                    <td colspan=""2"" class=""py-4 px-6 text-center"">100 to 120 per minute</td>
+                    <td class=""py-4 px-6"">120 per minute</td>
+                </tr>
+                <tr class=""bg-white border-b"">
+                    <th scope=""row"" class=""py-4 px-6 font-medium text-gray-900 whitespace-nowrap"">Compression Notes</th>
+                    <td colspan=""3"" class=""py-4 px-6 text-center"">Minimize interruptions in chest compressions. Limit interruptions to less than 10 seconds</td>
+                </tr>
+                 <tr class=""bg-gray-50 border-b"">
+                    <th scope=""row"" class=""py-4 px-6 font-medium text-gray-900 whitespace-nowrap"">Compression Depth</th>
+                    <td class=""py-4 px-6"">At Least 2 Inches</td>
+                    <td class=""py-4 px-6"">1/3 Depth of Chest (About 2"""")<br>1/3 Depth of Chest (About 1½"""")</td>
+                    <td class=""py-4 px-6"">1/3 Depth of Chest</td>
+                </tr>
+                <tr class=""bg-white"">
+                    <th scope=""row"" class=""py-4 px-6 font-medium text-gray-900 whitespace-nowrap"">Rescue Breathing</th>
+                    <td class=""py-4 px-6"">1 breath every 5-6 seconds (10-12 breaths/min)</td>
+                    <td class=""py-4 px-6"">1 breath every 2-3 seconds (20-30 breaths/min)</td>
+                    <td class=""py-4 px-6"">40-60 breaths/min</td>
+                </tr>
             </tbody>
         </table>
     </div>
 
     <h3 class=""mt-6"">2002.2 Basic Life Support</h3>
-     <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
-         <div class=""grid grid-cols-1 md:grid-cols-2 gap-4"">
-             <div>
-                <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
-                <p class=""text-sm italic text-pink-600"">If available, use age-appropriate AEDs or pads.</p>
-            </div>
+    <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
+        <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
+        <p class=""text-sm italic"">If available, use age-appropriate AEDS or pads</p>
+
+        <div class=""grid md:grid-cols-2 gap-4 my-4"">
             <div>
                 <h4 class=""text-base font-bold"">Signs & Symptoms</h4>
-                <ul class=""list-disc pl-5 text-sm""><li>Unresponsive</li><li>Pulseless and apneic</li></ul>
+                <ul>
+                    <li>Unresponsive</li>
+                    <li>Pulseless and apneic</li>
+                </ul>
             </div>
-         </div>
-         <div class=""mt-4 pt-4 border-t"">
+            <div>
+                <h4 class=""text-base font-bold"">Differential Diagnosis</h4>
+                <ul>
+                    <li>Signs of irreversible death</li>
+                    <li>Other causes of unresponsiveness</li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
             <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
             <div class=""skill-level-grid mt-2"">
-                <div class=""skill-level-indicator bg-gray-200 text-gray-800 col-span-full md:col-span-1"">EMR / EMT</div>
-                <div class=""md:col-start-2"">
-                    <ul>
-                        <li>If witnessed or unwitnessed arrest, initiate quality CPR for 1-2 minutes.</li>
-                        <li>If available, initiate mechanical CPR using an approved device.</li>
-                        <li>Attach and use AED after at least 2 minutes of CPR.</li>
-                        <li>Utilize AED as it is programmed. (Even if it is not to AHA guidelines)</li>
-                        <li>Repeat cycles of defibrillation and CPR for 2 minutes.</li>
-                        <li>Patient should be transported as appropriate.</li>
-                    </ul>
-                </div>
-                <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
-                <div><p>Patient with return of spontaneous circulation (ROSC) should be transported to an interventional facility if transport time is less than 30 minutes.</p></div>
-                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+                <div class=""skill-level-indicator bg-gray-200 text-gray-800"">EMR</div>
                 <div>
                     <ul>
-                        <li>Obtain and transmit 12 Lead EKG if patient has ROSC.</li>
+                        <li>If witnessed or unwitnessed arrest, initiate quality CPR for 1-2 minutes</li>
+                        <li>If available, initiate mechanical CPR using an approved device</li>
+                        <li>Attach and use AED after at least 2 minutes of CPR</li>
+                        <li>Utilize AED as it is programmed. (Even if it is not to AHA guidelines)</li>
+                        <li>Repeat cycles of defibrillation and CPR for 2 minutes</li>
+                        <li>Patient should be transported as appropriate</li>
+                    </ul>
+                </div>
+
+                <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
+                <div>
+                    <ul>
+                        <li>Patient with return of spontaneous circulation (ROSC) should be transported to an interventional facility if transport time is less than 30 minutes.</li>
+                    </ul>
+                </div>
+
+                <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
+                <div>
+                    <ul>
+                       <li>Obtain and transmit 12 Lead EKG if patient has ROSC</li>
+                    </ul>
+                </div>
+                
+                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+                <div>
+                     <ul>
                         <li>Paramedics are expected to provide resuscitative care at the scene.</li>
                         <li>Cardiac arrests should not be transported unless:
-                            <ul class=""list-disc pl-5 mt-1"">
+                            <ul class=""list-disc pl-5"">
                                 <li>Return of spontaneous circulation (ROSC)</li>
                                 <li>The airway cannot be secured</li>
                                 <li>Vascular access is not established</li>
@@ -1357,86 +1399,133 @@ protocol,2002,Cardiac Arrest - BLS ,2000,"<div>
                     </ul>
                 </div>
             </div>
-         </div>
-         <div class=""mt-4 pt-4 border-t space-y-2"">
-             <div><h4 class=""text-base font-bold"">Consult</h4><p class=""text-sm"">No consult required unless applying Field Termination Guideline.</p></div>
-             <div>
+        </div>
+
+        <div class=""mt-4 pt-4 border-t space-y-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Consult</h4>
+                <p class=""text-sm"">No consult required unless applying Field Termination Guideline</p>
+            </div>
+            <div>
                 <h4 class=""text-base font-bold"">Clinical Pearls</h4>
-                <ul class=""list-disc pl-5 text-sm"">
-                    <li>Use jaw-thrust method to open airway on trauma patients.</li>
-                    <li>Allow the chest to fully recoil after each compression.</li>
-                    <li>Change person compressing chest every 2 minutes.</li>
-                    <li>Resume CPR beginning with compressions after each defibrillation.</li>
-                    <li>Minimize interruptions to compressions before and after each shock to less than 10 seconds.</li>
-                    <li>For pregnant patients in cardiac arrest, consider need for manual uterine displacement.</li>
-                    <li>In all cardiac arrests, consider the ACLS treatable causes (H's & T's) to your level of certification: Hypoxia, Hypovolemia, Hydrogen Ion, Hypothermia, Toxins, Tension pneumothorax, Tamponade, Thrombosis (Coronary, Pulmonary).</li>
+                <ul>
+                    <li>Use jaw-thrust method to open airway on trauma patients</li>
+                    <li>Allow the chest to fully recoil after each compression</li>
+                    <li>Change person compressing chest every 2 minutes</li>
+                    <li>Resume CPR beginning with compressions after each defibrillation</li>
+                    <li>Minimize interruptions to compressions before and after each shock to less than 10 seconds</li>
+                    <li>For pregnant patients in cardiac arrest: Consider need for manual uterine displacement</li>
+                    <li>In all cardiac arrests, consider the ACLS treatable causes (Hs & Ts) to your level of certification:
+                        <ul class=""list-disc pl-5"">
+                            <li>Hypoxia</li>
+                            <li>Hypovolemia</li>
+                            <li>Hydrogen Ion</li>
+                            <li>Hypothermia</li>
+                            <li>Toxins</li>
+                            <li>Tension pneumothorax</li>
+                            <li>Tamponade, Cardiac</li>
+                            <li>Thrombosis (Coronary, Pulmonary)</li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
-         </div>
-     </div>
-</div>"
-protocol,2003,Cardiac Arrest – Asystole or PEA ,2000,"<div>
-    <h3>2003.1 General Guidelines</h3>
+        </div>
+    </div>"
+protocol,2003,Cardiac Arrest – Asystole or PEA ,2000,"<h3>2003.1 General Guidelines</h3>
     <ul>
         <li>In all cardiac arrest patients, apply the 2002 Cardiac Arrest: Basic Life Support protocol.</li>
         <li>Apply the appropriate guideline after rhythm interpretation.</li>
         <li>The rhythms may change and will require flexibility to move between the different protocols.</li>
-        <li>If ROSC, then follow 2001 Resuscitation Guidelines.</li>
+        <li>If ROSC, then follow 2001 Resuscitation Guidelines</li>
     </ul>
 
     <h3 class=""mt-6"">2003.2 Clinical Management</h3>
     <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
-        <div class=""grid grid-cols-1 md:grid-cols-2 gap-4"">
-             <div>
-                <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
-                <p class=""text-sm italic text-pink-600"">Pediatric dosing should never exceed adult doses.</p>
-            </div>
+        <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
+        <p class=""text-sm italic"">Pediatric dosing should never exceed adult doses</p>
+
+        <div class=""grid md:grid-cols-2 gap-4 my-4"">
             <div>
                 <h4 class=""text-base font-bold"">Signs & Symptoms</h4>
-                <ul class=""list-disc pl-5 text-sm"">
+                <ul>
                     <li>Unresponsive</li>
                     <li>Pulseless and apneic</li>
-                    <li>Either no electrical activity on cardiac monitor or electrical activity on monitor with no pulse present.</li>
+                    <li>Either:
+                        <ul class=""list-disc pl-5"">
+                            <li>No electrical activity on cardiac monitor</li>
+                            <li>Electrical activity on monitor with no pulse present</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h4 class=""text-base font-bold"">Differential Diagnosis</h4>
+                <ul>
+                    <li>Ventricular Fibrillation</li>
+                    <li>Pulseless Ventricular Tachycardia</li>
+                    <li>Other causes of unresponsiveness</li>
+                    <li>Device (lead) error</li>
+                    <li>Signs of irreversible death</li>
                 </ul>
             </div>
         </div>
-        <div class=""mt-4 pt-4 border-t"">
+
+        <div>
             <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
             <div class=""skill-level-grid mt-2"">
                 <div class=""skill-level-indicator bg-gray-200 text-gray-800"">EMR</div>
-                <div><p>If witnessed or unwitnessed arrest, initiate quality CPR for up to 2 minutes. Follow 2002 Cardiac Arrest - BLS protocol.</p></div>
+                <div>
+                    <ul>
+                        <li>If witnessed or unwitnessed arrest, initiate quality CPR for up to 2 minutes.</li>
+                        <li>Follow 2002 Cardiac Arrest -BLS protocol</li>
+                        <li>Apply the Automatic External Defibrillator (AED) and check for a shockable rhythm.</li>
+                        <li>If no defibrillation is indicated, continuous CPR</li>
+                    </ul>
+                </div>
+
                 <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
-                <div><p>Apply the Automatic External Defibrillator (AED) and check for a shockable rhythm. If no defibrillation is indicated, continuous CPR.</p></div>
+                <div>
+                    <ul>
+                        <li>Obtain and transmit 12 Lead EKG if patient has ROSC</li>
+                    </ul>
+                </div>
+
                 <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
                 <div>
                     <ul>
-                        <li>Obtain and transmit 12 Lead EKG if patient has ROSC.</li>
-                        <li>Consider possible causes.</li>
-                        <li>Consider Field Termination as identified in 2001 Resuscitation Guidelines.</li>
+                       <li>Consider possible causes</li>
+                       <li>Consider Field Termination as identified in 2001 Resuscitation Guidelines</li>
                     </ul>
                 </div>
+                
                 <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
                 <div>
-                    <ul>
-                        <li><span class=""font-bold"">A</span> Epinephrine (1:10,000) 1 mg, IV or IO, repeat every 3-5 minutes.</li>
-                        <li class=""text-pink-600""><span class=""font-bold"">P</span> Epinephrine (1:10,000) 0.01 mg/kg IV or IO, repeat every 3-5 minutes.</li>
-                        <li>The Paramedic may consider Field Termination after administering Epinephrine.</li>
+                     <ul>
+                        <li>A Epinephrine (1:10,000) 1 mg, IV or IO, repeat every 3-5 minutes.</li>
+                        <li>P Epinephrine (1:10,000) 0.01 mg/kg IV or IO, repeat every 3-5 minutes.</li>
+                        <li>The Paramedic may consider Field Termination after administering Epinephrine</li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class=""mt-4 pt-4 border-t space-y-2"">
-             <div>
+
+        <div class=""mt-4 pt-4 border-t space-y-4"">
+            <div>
                 <h4 class=""text-base font-bold"">Consult</h4>
-                <p class=""text-sm"">No consult required unless applying Field Termination Guideline. The AEMT or paramedic may consult MCP to field terminate. Contact ED to request a Cardiac Alert if applicable.</p>
+                <ul>
+                    <li>No consult required unless applying Field Termination Guideline.</li>
+                    <li>The AEMT or paramedic may consult MCP to field terminate.</li>
+                    <li>Contact ED to request a Cardiac Alert if applicable.</li>
+                </ul>
             </div>
-             <div>
+            <div>
                 <h4 class=""text-base font-bold"">Clinical Pearls</h4>
-                <p class=""text-sm"">Contact receiving hospital prior to arrival with a cardiac arrest patient.</p>
+                <ul>
+                    <li>Contact receiving hospital prior to arrival with a cardiac arrest patient</li>
+                </ul>
             </div>
         </div>
-    </div>
-</div>"
+    </div>"
 protocol,2004,Cardiac Emergencies – Renal Dialysis ,2000,"<div>
     <h3>2004.1 General Guidelines</h3>
     <ul>
@@ -1494,98 +1583,140 @@ protocol,2004,Cardiac Emergencies – Renal Dialysis ,2000,"<div>
         </div>
     </div>
 </div>"
-protocol,2005,Cardiac Arrest – V-Fib or Pulseless V-Tach ,2000,"<div>
-    <h3>2005.1 General Guidelines</h3>
+protocol,2005,Cardiac Arrest – V-Fib or Pulseless V-Tach ,2000,"<h3>2005.1 General Guidelines</h3>
     <ul>
         <li>In all cardiac arrest patients, apply the 2002 Cardiac Arrest: Basic Life Support protocol.</li>
         <li>Apply the appropriate guideline after rhythm interpretation.</li>
         <li>The rhythms may change and will require flexibility to move between the different protocols.</li>
-        <li>If ROSC, then follow 2001 Resuscitation Guidelines.</li>
+        <li>If ROSC, then follow 2001 Resuscitation Guidelines</li>
     </ul>
 
     <h3 class=""mt-6"">2005.2 Clinical Management</h3>
     <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
-        <div class=""grid grid-cols-1 md:grid-cols-2 gap-4"">
-             <div>
-                <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
-                <p class=""text-sm italic text-pink-600"">Pediatric dosing should never exceed adult doses.</p>
-            </div>
+        <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
+        <p class=""text-sm italic"">Pediatric dosing should never exceed adult doses</p>
+
+        <div class=""grid md:grid-cols-2 gap-4 my-4"">
             <div>
                 <h4 class=""text-base font-bold"">Signs & Symptoms</h4>
-                <ul class=""list-disc pl-5 text-sm"">
+                <ul>
                     <li>Unresponsive</li>
                     <li>Pulseless and apneic</li>
                     <li>Ventricular fibrillation or ventricular tachycardia on cardiac monitor or AED</li>
                 </ul>
             </div>
+            <div>
+                <h4 class=""text-base font-bold"">Differential Diagnosis</h4>
+                <ul>
+                    <li>Asystole</li>
+                    <li>Artifact/Device failure</li>
+                    <li>Signs of irreversible death</li>
+                    <li>Other causes of unresponsiveness</li>
+                </ul>
+            </div>
         </div>
-        <div class=""mt-4 pt-4 border-t"">
+
+        <div>
             <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
             <div class=""skill-level-grid mt-2"">
                 <div class=""skill-level-indicator bg-gray-200 text-gray-800"">EMR</div>
-                <div><p>If witnessed or unwitnessed arrest, initiate quality CPR for 1-2 minutes and proceed to first defibrillation. Follow Basic Life Support protocol.</p></div>
+                <div>
+                    <ul>
+                        <li>If witnessed or unwitnessed arrest, initiate quality CPR for 1-2 minutes and proceed to first defibrillation</li>
+                        <li>Follow Basic Life Support protocol</li>
+                        <li>Defibrillate as indicated by the Automatic External Defibrillator (AED)</li>
+                    </ul>
+                </div>
+
                 <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
-                <div><p>Defibrillate as indicated by the Automatic External Defibrillator (AED).</p></div>
+                <div>
+                    <ul>
+                        <li>Obtain and transmit 12 Lead EKG if patient has ROSC</li>
+                    </ul>
+                </div>
+
                 <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
                 <div>
                     <ul>
-                        <li>Obtain and transmit 12 Lead EKG if patient has ROSC.</li>
-                        <li>Defibrillate as required based on EKG interpretation.</li>
-                        <li><span class=""font-bold"">A</span> {For refractory V-Fib/PVT after three shocks, consider Vector Change Defibrillation for subsequent shocks}.</li>
-                        <li>Consider possible causes.</li>
+                       <li>Consider possible causes</li> 
+                       <li>Defibrillate as required based on EKG interpretation</li>
+                       <li>A {For refractory V-Fib/PVT after three shocks, consider Vector Change Defibrillation for subsequent shocks}</li>
                     </ul>
                 </div>
+                
                 <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
                 <div>
-                    <ul>
-                        <li>Alternate between CPR/Defibrillation/Medication Administration.</li>
-                        <li><span class=""font-bold"">A</span> Epinephrine 1 mg 1:10,000, IV or IO, repeat every 3-5 minutes.</li>
-                        <li class=""text-pink-600""><span class=""font-bold"">P</span> Epinephrine (1:10,000) 0.01 mg/kg IV or IO, repeat every 3-5 minutes.</li>
-                        <li><strong>After third defibrillation:</strong>
-                            <ul class=""list-disc pl-5 mt-1"">
-                                <li><span class=""font-bold"">A</span> Amiodarone 300 mg, IV or IO.</li>
-                                <li class=""text-pink-600""><span class=""font-bold"">P</span> Amiodarone 5 mg/kg IV or IO (max first dose 300 mg).</li>
-                                <li>If Amiodarone is not available, use Lidocaine:
-                                    <ul class=""list-disc pl-5 mt-1"">
-                                        <li><span class=""font-bold"">A</span> Lidocaine 150 mg, IV or IO.</li>
-                                        <li class=""text-pink-600""><span class=""font-bold"">P</span> Lidocaine 1.0 mg/kg IV or IO (max first dose 100 mg).</li>
+                     <ul>
+                        <li>Alternate between CPR/Defibrillation/Medication Administration</li>
+                        <li>A Epinephrine 1 mg 1:10,000, IV or IO, repeat every 3-5 minutes</li>
+                        <li>P Epinephrine (1:10,000) 0.01 mg/kg IV or IO, repeat every 3-5 minutes</li>
+                        <li>After third defibrillation:
+                            <ul class=""list-disc pl-5"">
+                                <li>A Amiodarone 300 mg, IV or IO</li>
+                                <li>P Amiodarone 5 mg/kg IV or IO (max first dose 300 mg)</li>
+                                <li>If Amiodarone is not available, use Lidocaine
+                                    <ul class=""list-disc pl-5"">
+                                        <li>A Lidocaine 150 mg, IV or 10</li>
+                                        <li>P Lidocaine 1.0 mg/kg IV or IO (max first dose 100 mg)</li>
                                     </ul>
                                 </li>
                             </ul>
                         </li>
-                        <li><span class=""font-bold"">A</span> With evidence of pulseless polymorphic ventricular tachycardia (torsades de pointes), Magnesium Sulfate 2 gm infused with macro-drip tubing over 10 minutes.</li>
-                        <li><span class=""font-bold"">A</span> {After three traditional defibrillations and at least one antiarrhythmic medication, consider Double Sequential Defibrillation for subsequent shocks}.</li>
-                        <li><strong>After sixth defibrillation:</strong>
-                            <ul class=""list-disc pl-5 mt-1"">
-                                <li><span class=""font-bold"">A</span> Amiodarone 150 mg, IV or IO.</li>
-                                <li class=""text-pink-600""><span class=""font-bold"">P</span> Amiodarone 5 mg/kg IV or IO (max first dose 150 mg).</li>
-                                <li>If Amiodarone is not available, use Lidocaine:
-                                     <ul class=""list-disc pl-5 mt-1"">
-                                        <li><span class=""font-bold"">A</span> Lidocaine 75 mg, IV or IO.</li>
-                                        <li class=""text-pink-600""><span class=""font-bold"">P</span> Lidocaine 1.0 mg/kg IV or IO (max first dose 75 mg).</li>
+                        <li>A With evidence of pulseless polymorphic ventricular tachycardia (torsades de pointes), Magnesium Sulfate 2 gm infused with macro-drip tubing over 10 minutes.</li>
+                        <li>A {After three traditional defibrillations and at least one antiarrhythmic medication, consider Double Sequential Defibrillation for subsequent shocks}</li>
+                        <li>After sixth defibrillation:
+                             <ul class=""list-disc pl-5"">
+                                <li>A Amiodarone 150 mg, IV or IO</li>
+                                <li>P Amiodarone 5 mg/kg IV or IO (max first dose 150 mg)</li>
+                                <li>If Amiodarone is not available, use Lidocaine
+                                    <ul class=""list-disc pl-5"">
+                                        <li>A Lidocaine 75 mg, IV or IO</li>
+                                        <li>P Lidocaine 1.0 mg/kg IV or IO (max first dose 75 mg)</li>
                                     </ul>
                                 </li>
                             </ul>
                         </li>
                         <li>If patient converts with ROSC from a ventricular arrhythmia and no anti-arrhythmic has been given, then:
-                            <ul class=""list-disc pl-5 mt-1"">
-                                <li><span class=""font-bold"">A</span> Amiodarone 150 mg in 250 ml NS, IV over 10 minutes using 60 drop/ml tubing.</li>
-                                <li>Do not infuse unless SBP is greater than 100.</li>
-                                <li>Consider IV fluid 500 ml to increase SBP to 100 or higher prior to infusion.</li>
+                            <ul class=""list-disc pl-5"">
+                                <li>A Amiodarone 150 mg in 250 ml NS, IV over 10 minutes using 60 drop/ml tubing</li>
+                                <li>Do not infuse unless SBP is greater than 100</li>
+                                <li>Consider IV fluid 500 ml to increase SBP to 100 or higher prior to infusion</li>
                             </ul>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
+
+        <div class=""mt-4 pt-4 border-t space-y-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Consult</h4>
+                <ul>
+                    <li>No consult required unless applying Field Termination Guideline.</li>
+                    <li>The AEMT or paramedic may consult MCP to field terminate.</li>
+                    <li>Contact ED to request a Cardiac Alert if applicable.</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class=""text-base font-bold"">Clinical Pearls</h4>
+                <ul>
+                    <li>For initial and subsequent defibrillations, follow manufacturer recommendation for energy settings</li>
+                    <li>Pediatric defibrillation settings will start at 2 J/kg (or biphasic equivalent) and increase by 2 J/kg (or biphasic equivalent) each shock.</li>
+                    <li>Maximum pediatric shock will be 10 J/kg (or biphasic equivalent)</li>
+                    <li>Resume chest compressions immediately following each defibrillation, without performing pulse check, for 1-2 minutes</li>
+                    <li>Contact receiving hospital prior to arrival with a cardiac arrest patient</li>
+                </ul>
+            </div>
+        </div>
     </div>
+    
     <h3 class=""mt-6"">2005.3 Alternate Defibrillation Techniques</h3>
     <ul>
-        <li>Vector Change and Double Sequential Defibrillation are optional skills in the GMVEMSC Protocol.</li>
+        <li>Vector Change and Double Sequential Defibrillation are optional skills in the GMVEMSC Protocol</li>
         <li>Providers SHOULD NOT apply these techniques without the explicit consent of their Medical Director.</li>
         <li>These procedures are approved for adult patients only.</li>
-        <li><strong>Vector Change Defibrillation (for Advanced EMTs and Paramedics)</strong>
-            <ul class=""list-roman pl-6 mt-2"">
+        <li>Vector Change Defibrillation (for Advanced EMTs and Paramedics)
+            <ul class=""list-disc pl-5"">
                 <li>This technique is for refractory ventricular fibrillation/pulseless ventricular tachycardia.</li>
                 <li>Refractory V-Fib/PVT is defined as NOT CONVERTED by three standard defibrillations.</li>
                 <li>The AEMT or Paramedic will place a second set of defib pads in an anterior-posterior position.</li>
@@ -1593,8 +1724,8 @@ protocol,2005,Cardiac Arrest – V-Fib or Pulseless V-Tach ,2000,"<div>
                 <li>Subsequent defibrillations will be through the anterior-posterior placed pads.</li>
             </ul>
         </li>
-        <li class=""mt-2""><strong>Double Sequential Defibrillation (for Paramedics)</strong>
-             <ul class=""list-roman pl-6 mt-2"">
+        <li>Double Sequential Defibrillation (for Paramedics)
+             <ul class=""list-disc pl-5"">
                 <li>This technique is for refractory V-Fib/PVT following three standard defibrillations and a least one round of an antiarrhythmic agent (amiodarone or lidocaine).</li>
                 <li>This requires the presence of two manual biphasic defibrillators.</li>
                 <li>One set of pads will be placed in the anterior-apical (traditional) position and one set will be placed in the anterior-posterior position.</li>
@@ -1603,22 +1734,36 @@ protocol,2005,Cardiac Arrest – V-Fib or Pulseless V-Tach ,2000,"<div>
                 <li>CAUTION: Every agency considering applying this procedure needs to consult with the manufacturer of their cardiac monitor for advice. This technique is considered ""off-label"".</li>
             </ul>
         </li>
-        <li class=""mt-2"">Neither Vector Change nor Double Sequential Defibrillation is indicated in Recurrent V-Fib/PVT, which is defined as V-Fib/PVT that reoccurs episodically after successful conversion with intervening episodes of organized electrical activity.</li>
+        <li>Neither Vector Change nor Double Sequential Defibrillation is indicated in Recurrent V-Fib/PVT, which is defined as V-Fib/PVT that reoccurs episodically after successful conversion with intervening episodes of organized electrical activity.</li>
+    </ul>"
+protocol,2006,AICD Activations ,2000,"<h3>2006.1 General Guidelines</h3>
+    <ul>
+        <li>A patient experiencing repeated AICD (Automatic Implantable Cardioverter-Defibrillator) activations should receive sedation or pain management from the AEMT or Paramedic.</li>
     </ul>
-</div>"
-protocol,2006,AICD Activations ,2000,"<div>
-    <h3>2006.1 General Guidelines</h3>
-    <p>A patient experiencing repeated AICD (Automatic Implantable Cardioverter-Defibrillator) activations should receive sedation or pain management from the AEMT or Paramedic.</p>
 
     <h3 class=""mt-6"">2006.2 Clinical Management</h3>
-     <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
-        <h4 class=""text-base font-bold"">Signs & Symptoms</h4>
-        <ul class=""list-disc pl-5 text-sm"">
-            <li>AICD in place and firing</li>
-            <li>Sudden pain</li>
-            <li>Muscle spasms</li>
-        </ul>
-        <div class=""mt-4 pt-4 border-t"">
+    <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
+        <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
+        <p class=""text-sm italic"">None</p>
+
+        <div class=""grid md:grid-cols-2 gap-4 my-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Signs & Symptoms</h4>
+                <ul>
+                    <li>AICD in place and firing</li>
+                    <li>Sudden pain</li>
+                    <li>Muscle spasms</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class=""text-base font-bold"">Differential Diagnosis</h4>
+                <ul>
+                    <li>None</li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
             <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
             <div class=""skill-level-grid mt-2"">
                 <div class=""skill-level-indicator bg-gray-200 text-gray-800"">EMR</div>
@@ -1628,30 +1773,46 @@ protocol,2006,AICD Activations ,2000,"<div>
                         <li>Be prepared to defibrillate in the event of AICD failure.</li>
                     </ul>
                 </div>
+
                 <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
                 <div>
                     <ul>
                         <li>Monitor and transport as indicated.</li>
                         <li>Consider calling for ALS care.</li>
-                        <li>Be prepared to defibrillate in the event of AICD failure.</li>
                     </ul>
                 </div>
+
                 <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
-                <div><p>Midazolam 2.5 mg slow IV for sedation.</p></div>
-                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
                 <div>
                     <ul>
-                        <li>Consider 1014 Pain Management Protocol.</li>
-                        <li><span class=""font-bold"">G</span> For patients greater than 69 y/o, reduce dosing for sedatives and analgesics to one half (½) of the adult doses.</li>
+                       <li>Be prepared to defibrillate in the event of AICD failure.</li>
+                       <li>Midazolam 2.5 mg slow IV for sedation.</li>
+                       <li>Consider 1014 Pain Management Protocol.</li>
+                       <li>G For patients greater than 69 y/o, reduce dosing for sedatives and analgesics to one half ( ) of the adult doses.</li>
+                    </ul>
+                </div>
+                
+                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+                <div>
+                     <ul>
                         <li>Be prepared to manually cardiovert or defibrillate in the event of AICD failure.</li>
                     </ul>
                 </div>
             </div>
         </div>
-    </div>
-</div>"
-protocol,2007,Ventricular Assist Device ,2000,"<div>
-    <h3>2007.1 General Guidelines</h3>
+
+        <div class=""mt-4 pt-4 border-t space-y-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Consult</h4>
+                <p class=""text-sm"">None</p>
+            </div>
+            <div>
+                <h4 class=""text-base font-bold"">Clinical Pearls</h4>
+                <p class=""text-sm"">None</p>
+            </div>
+        </div>
+    </div>"
+protocol,2007,Ventricular Assist Device ,2000,"<h3>2007.1 General Guidelines</h3>
     <ul>
         <li>It is important to recognize the patient with a ventricular assist device (VAD).</li>
         <li>Routinely, your agency will be advised when a VAD patient is in your community.</li>
@@ -1662,50 +1823,91 @@ protocol,2007,Ventricular Assist Device ,2000,"<div>
     <h3 class=""mt-6"">2007.2 Assessing the VAD Patient</h3>
     <ul>
         <li>Skin color and mental status are the best indicators of stability in the VAD patient.</li>
-        <li>A pulse is usually not palpable in the VAD patient. Nearly all VADs are continuous flow devices. If the device is a pulsatile flow device, a pulse should be palpable.</li>
+        <li>A pulse is usually not palpable in the VAD patient. Nearly all VADs are continuous flow devices.</li>
+        <li>If the device is a pulsatile flow device, a pulse should be palpable.</li>
         <li>Blood pressure may or may not be obtainable and auscultated readings are usually unreliable.
-            <ul class=""list-roman pl-6 mt-2"">
-                <li>In a continuous flow device, mean arterial blood pressure (MAP) can be obtained by auscultating with a {Doppler}. The first sound heard reflects the MAP.</li>
+            <ul class=""list-disc pl-5"">
+                <li>In a continuous flow device, mean arterial blood pressure (MAP) can be obtained by auscultating with a {Doppler}.</li>
+                <li>The first sound heard during auscultation reflects the MAP.</li>
                 <li>The MAP displayed by an automated non-invasive measurement may also be used.</li>
                 <li>A normal and expected MAP in a patient with a VAD is 65-90 mmHg.</li>
                 <li>If the device is a pulsatile flow device, a blood pressure should be measurable.</li>
             </ul>
         </li>
         <li>Pulse oximetry readings seem to be accurate, despite the manufacturer stating otherwise.</li>
-        <li>Quantitative waveform capnography should be accurate and can be reflective of cardiac output. An EtCO₂ of less than 30 mmHg can be indicative of low perfusion secondary to poor pump function.</li>
-        <li>{ECG 12-lead} as usual, no interference from the VAD is expected.</li>
+        <li>Quantitative waveform capnography should be accurate and can be reflective of cardiac output</li>
+        <li>An EtCO2 of less than 30 mmHg can be indicative of low perfusion secondary to poor pump function.</li>
+        <li>{ECG 12-lead} as usual, no interference from the VAD is expected</li>
         <li>Temperature should be measured as infection and sepsis are common.</li>
     </ul>
 
     <h3 class=""mt-6"">2007.3 Transporting the VAD Patient</h3>
     <ul>
         <li>Patients with or without a VAD problem should be transported to the nearest appropriate Hospital ED.</li>
-        <li>Do NOT delay ground transportation waiting to speak with the patient's VAD Coordinator.</li>
-        <li>Always bring the patient's resource bag with you. It should contain: spare batteries and a battery charging unit, spare control unit, contact information for the VAD Coordinator, and directions for equipment and alarm troubleshooting.</li>
+        <li>Do NOT delay ground transportation waiting to speak with the patient’s VAD Coordinator.</li>
+        <li>Always bring the patients resource bag with you. It should contain:
+            <ul class=""list-disc pl-5"">
+                <li>Spare batteries and a battery charging unit</li>
+                <li>Spare control unit</li>
+                <li>Contact information for the VAD Coordinator.</li>
+                <li>Directions for equipment and alarm troubleshooting.</li>
+            </ul>
+        </li>
         <li>Always bring spare batteries for the VAD with the patient, even if it is not a VAD related problem.</li>
-        <li>If the transport is going to be prolonged or it is expected that the patient will be away for a while, try to bring the VAD base power unit with you. Alternately, you can ask the patient's family/caregiver to bring it to the hospital. There may be a need to bring it with the patient and plug it into an inverter for power.</li>
+        <li>If the transport is going to be prolonged or it is expected that the patient will be away for a while, try to bring the VAD base power unit with you.
+             <ul class=""list-disc pl-5"">
+                <li>Alternately, you can ask the patient’s family/caregiver to bring it to the hospital.</li>
+            </ul>
+        </li>
+        <li>There may be a need to bring it with the patient and plug it into an inverter for power.</li>
     </ul>
-
+    
     <h3 class=""mt-6"">2007.4 Clinical Management</h3>
     <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
-        <h4 class=""text-base font-bold"">Signs & Symptoms</h4>
-        <ul class=""list-disc pl-5 text-sm"">
-            <li>VAD equipment</li>
-            <li>VAD vests or battery packs</li>
-        </ul>
-        <div class=""mt-4 pt-4 border-t"">
+        <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
+        <p class=""text-sm italic"">None</p>
+
+        <div class=""grid md:grid-cols-2 gap-4 my-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Signs & Symptoms</h4>
+                <ul>
+                    <li>VAD equipment</li>
+                    <li>VAD vests or battery packs</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class=""text-base font-bold"">Differential Diagnosis</h4>
+                <ul>
+                    <li>None</li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
             <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
             <div class=""skill-level-grid mt-2"">
-                <div class=""skill-level-indicator bg-gray-200 text-gray-800 col-span-full md:col-span-1"">EMR / EMT</div>
-                 <div class=""md:col-start-2"">
+                <div class=""skill-level-indicator bg-gray-200 text-gray-800"">EMR</div>
+                <div>
                     <ul>
-                        <li>Determine if you have a patient with a VAD problem, or a patient with a VAD that has a medical/trauma problem. If there is no indication of possible VAD malfunction or failure, exit to appropriate protocols.</li>
-                        <li><strong>Assess the VAD:</strong>
-                            <ul class=""list-disc pl-5 mt-1"">
-                                <li>Auscultate over the VAD pump location (Should be just to the left of the epigastrium, immediately below the heart). If the pump is functioning, a low hum should be audible.</li>
+                        <li>Determine if you have a patient with a VAD problem, or a patient with a VAD that has a medical/trauma problem.</li>
+                        <li>If there is no indication of possible VAD malfunction or failure, exit to appropriate protocols.</li>
+                        <li>Assess the VAD:
+                            <ul class=""list-disc pl-5"">
+                                <li>Auscultate over the VAD pump location (Should be just to the left of the epigastrium, immediately below the heart)</li>
+                                <li>If the pump is functioning, a low hum should be audible.</li>
                                 <li>Do not assume that the pump is functioning just because the control unit does not indicate a problem.</li>
-                                <li>Palpate the control unit. A hot control unit indicates the pump may be working harder than it should be. This often indicates a pump problem such as a thrombosis.</li>
-                                <li>Look at the alarms on the control panel. Trouble with the VAD will usually be identified by an alarm. The patient will usually have a resource guide to direct alarm troubleshooting.</li>
+                            </ul>
+                        </li>
+                         <li>Palpate the control unit.
+                            <ul class=""list-disc pl-5"">
+                                <li>A hot control unit indicates the pump may be working harder than it should be</li>
+                                <li>This often indicates a pump problem such as a thrombosis.</li>
+                            </ul>
+                        </li>
+                        <li>Look at the alarms on the control panel
+                            <ul class=""list-disc pl-5"">
+                                <li>Trouble with the VAD will usually be identified by an alarm.</li>
+                                <li>The patient will usually have a resource guide to direct alarm troubleshooting.</li>
                             </ul>
                         </li>
                         <li>Ask if the device is a continuous or pulsatile flow device.</li>
@@ -1713,24 +1915,45 @@ protocol,2007,Ventricular Assist Device ,2000,"<div>
                         <li>Ask if chest compressions can be performed in the event of pump failure.</li>
                         <li>Inquire about DNR status.</li>
                         <li>If there is indication of possible device malfunction or failure:
-                            <ul class=""list-disc pl-5 mt-1"">
-                                <li>Attempt to restart VAD if previously off for less than 5 minutes. If VAD off longer than 5 minutes, then locate the patient's ""Emergency Contact Card""/VAD ID Card, contact the VAD coordinator, and discuss the plan with caregivers.</li>
+                             <ul class=""list-disc pl-5"">
+                                <li>Attempt to restart VAD if previously off for less than 5 minutes.</li>
+                                <li>If VAD off longer than 5 minutes, then:
+                                     <ul class=""list-disc pl-5"">
+                                        <li>Locate the patients ""Emergency Contact Card""/VAD ID Card</li>
+                                        <li>Contact the VAD coordinator.</li>
+                                     </ul>
+                                </li>
+                             </ul>
+                        </li>
+                        <li>Discuss the plan with caregivers.</li>
+                    </ul>
+                    <li>If a VAD patient is unresponsive and pulseless with a non-functioning VAD and has previously indicated a desire for resuscitative efforts, begin chest compressions.
+                            <ul class=""list-disc pl-5"">
+                                <li>Defibrillation pads should be placed anterior/posterior</li>
+                                <li>AVOID THE USE OF MECHANICAL CPR DEVICES</li>
+                                <li>Ensure that all troubleshooting efforts (reconnecting wires, changing batteries, replacing the control unit) have failed prior to starting chest compressions.</li>
                             </ul>
                         </li>
-                        <li>If a VAD patient is unresponsive and pulseless with a non-functioning VAD and has previously indicated a desire for resuscitative efforts, begin chest compressions.
-                             <ul class=""list-disc pl-5 mt-1"">
-                                <li>Defibrillation pads should be placed anterior/posterior.</li>
-                                <li>AVOID THE USE OF MECHANICAL CPR DEVICES.</li>
-                                <li><span class=""font-bold"">G</span> Ensure that all troubleshooting efforts (reconnecting wires, changing batteries, replacing the control unit) have failed prior to starting chest compressions.</li>
-                            </ul>
-                        </li>
+                </div>
+
+                <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
+                <div>
+                    <ul>
                         <li>Follow BLS protocol.</li>
                         <li>Transport urgently.</li>
                     </ul>
                 </div>
-                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+
+                <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
                 <div>
                     <ul>
+                       <li>No additional directives at this level.</li>
+                    </ul>
+                </div>
+                
+                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+                <div>
+                     <ul>
                         <li>Only symptomatic dysrhythmias not at the patient's baseline should be treated.</li>
                         <li>If indicated, place electrical therapy/defibrillation pads away from VAD site and AICD.</li>
                         <li>VAD patients may receive ACLS interventions.</li>
@@ -1738,10 +1961,15 @@ protocol,2007,Ventricular Assist Device ,2000,"<div>
                 </div>
             </div>
         </div>
-        <div class=""mt-4 pt-4 border-t space-y-2"">
+
+        <div class=""mt-4 pt-4 border-t space-y-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Consult</h4>
+                <p class=""text-sm"">None</p>
+            </div>
             <div>
                 <h4 class=""text-base font-bold"">Clinical Pearls</h4>
-                <ul class=""list-disc pl-5 text-sm"">
+                <ul>
                     <li>Utilize the patient and family as a resource.</li>
                     <li>Always contact the VAD Coordinator if there is a VAD related problem or question.</li>
                     <li>Common complications in VAD patients include stroke (incidence up to 25%), bleeding, dysrhythmias, and infection.</li>
@@ -1750,27 +1978,21 @@ protocol,2007,Ventricular Assist Device ,2000,"<div>
                 </ul>
             </div>
         </div>
-    </div>
-</div>"
-protocol,2008,Suspected Cardiac Chest Pain ,2000,"<div>
-    <h3>2008.1 General Guidelines</h3>
-    <p>Unstable cardiac patients are hypotensive, or have chest pain with poor skin color or diaphoresis.</p>
+    </div>"
+protocol,2008,Suspected Cardiac Chest Pain ,2000,"<h3>2008.1 General Guidelines</h3>
+    <ul>
+        <li>Unstable cardiac patients are hypotensive, or have chest pain with poor skin color or diaphoresis.</li>
+    </ul>
 
     <h3 class=""mt-6"">2008.2 Clinical Management</h3>
     <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
-        <div class=""grid grid-cols-1 md:grid-cols-2 gap-4"">
-             <div>
-                <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
-                <div class=""text-sm italic text-pink-600"">
-                    <p>Chest pain in pediatrics is rarely related to a cardiac event.</p>
-                    <p>Assessment for other causes (e.g., muscle pain, respiratory difficulties, injury) should be completed to determine the source of pain.</p>
-                    <p>Apply supplemental oxygen and transport.</p>
-                    <p class=""font-bold uppercase"">The rest of chest pain algorithm does not apply to peds.</p>
-                </div>
-            </div>
+        <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
+        <p class=""text-sm italic"">Chest pain in the pediatrics is rarely related to a cardiac event. Assessment for other causes (e.g., muscle pain, respiratory difficulties, injury) should be completed to determine the source of pain. Apply supplemental oxygen and transport. THE REST OF CHEST PAIN ALGORITHM DOES NOT APPLY TO PEDS.</p>
+
+        <div class=""grid md:grid-cols-2 gap-4 my-4"">
             <div>
                 <h4 class=""text-base font-bold"">Signs & Symptoms</h4>
-                <ul class=""list-disc pl-5 text-sm"">
+                <ul>
                     <li>Chest pain</li>
                     <li>Shortness of breath</li>
                     <li>Syncope</li>
@@ -1781,54 +2003,70 @@ protocol,2008,Suspected Cardiac Chest Pain ,2000,"<div>
                     <li>Vomiting</li>
                 </ul>
             </div>
+            <div>
+                <h4 class=""text-base font-bold"">Differential Diagnosis</h4>
+                <ul>
+                    <li>Pericarditis</li>
+                    <li>Pulmonary embolism</li>
+                    <li>Asthma/COPD</li>
+                    <li>Pneumothorax</li>
+                    <li>Aortic dissection or aneurysm</li>
+                    <li>GE reflux or hiatal hernia</li>
+                    <li>Chest trauma</li>
+                    <li>Esophageal spasm</li>
+                </ul>
+            </div>
         </div>
-        <div class=""mt-4 pt-4 border-t"">
+
+        <div>
             <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
             <div class=""skill-level-grid mt-2"">
                 <div class=""skill-level-indicator bg-gray-200 text-gray-800"">EMR</div>
                 <div>
                     <ul>
                         <li>Arrange for rapid ALS transport.</li>
-                        <li>Apply O₂ as appropriate.
-                            <ul class=""list-disc pl-5 mt-1"">
-                                <li>Oxygen saturations less than 94%, should be given oxygen via NC and titrated to 94%.</li>
-                                <li>Oxygen saturations 94% or higher, should not get any oxygen.</li>
-                                <li>Do not withhold oxygen from a patient with SOB or respiratory distress.</li>
-                            </ul>
-                        </li>
+                        <li>Apply O2 as appropriate.</li>
+                        <li>Oxygen saturations less than 94%, should be given oxygen via NC and titrated to 94%.</li>
+                        <li>Oxygen saturations 94% or higher, should not get any oxygen.</li>
+                        <li>Do not withhold oxygen from a patient with SOB or respiratory distress.</li>
                     </ul>
                 </div>
+
                 <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
                 <div>
                     <ul>
-                        <li><span class=""font-bold text-blue-600"">&diams;</span> Give Aspirin (ASA) 324 mg (chewed) to every patient greater than 25 y/o with symptoms of Acute Coronary Syndrome (ACS).</li>
+                        <li><span class=""font-bold text-blue-600"">&diams;</span> Give Aspirin (ASA) 324 mg (chewed) to every patient greater than 25y/o with symptoms of Acute Coronary Syndrome (ACS).</li>
                         <li><span class=""font-bold text-blue-600"">&diams;</span> Administer Nitroglycerin 0.4 mg SL, every 5 minutes, for pain, to a total of three pills with vital signs between doses.
-                            <ul class=""list-disc pl-5 mt-1"">
+                            <ul class=""list-disc pl-5"">
                                 <li>SBP must be greater than 100.</li>
                                 <li>Patient must be greater than 25 y/o.</li>
                             </ul>
                         </li>
-                    </ul>
-                </div>
-                 <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
-                <div>
-                    <ul>
                         <li>Prior to moving patient, acquire a supine {12-lead EKG} on all patients with ACS symptoms.</li>
-                        <li>Transmit {12 Lead EKG} with two identifiers to MCP.</li>
+                        <li>{Transmit 12 Lead EKG} with two identifiers to MCP.</li>
                         <li>The MCP shall be contacted after at least the initial {12-lead EKG} transmission is completed.</li>
                         <li>Consult MCP for appropriate destination.</li>
                         <li>Consider and transmit repeat {12-lead EKGs} during transport.</li>
-                        <li><span class=""font-bold text-blue-600"">&diams;</span> Must obtain MCP permission to administer Aspirin (ASA) to patients 25 y/o or younger.</li>
-                        <li>The AEMT must also transmit the {12-Lead EKGs}.</li>
                     </ul>
                 </div>
-                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+
+                <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
                 <div>
                     <ul>
-                        <li>Administer Nitroglycerin 0.4 mg SL, every 5 minutes, for pain, to a total of three pills with vital signs between doses.</li>
-                        <li>Prior to Nitroglycerin administration, establish vascular access for patients who have not previously had Nitroglycerin.</li>
-                        <li>Consider 1014 Pain Management Protocol, provided SBP greater than 100 after first dose of nitroglycerin. <span class=""important-note"">DO NOT WAIT UNTIL 3 NITROGLYCERIN TABLETS ARE GIVEN BEFORE CONSIDERING FENTANYL.</span></li>
-                        <li>IV fluid, up to 500 ml, may be administered to a patient with SBP less than 100 without pulmonary edema.</li>
+                       <li><span class=""font-bold text-blue-600"">&diams;</span> Must obtain MCP permission to administer Aspirin (ASA) to patients 25 y/o or younger</li>
+                       <li>The AEMT must also transmit the {12-Lead EKGs}</li>
+                       <li>Administer Nitroglycerin 0.4 mg SL, every 5 minutes, for pain, to a total of three pills with vital signs between doses.</li>
+                       <li>Prior to Nitroglycerin administration, establish vascular access for patients who have not previously had Nitroglycerin.</li>
+                       <li>Consider 1014 Pain Management Protocol, provided SBP greater than 100 after first dose of nitroglycerin.</li>
+                       <li><strong>DO NOT WAIT UNTIL 3 NITROGLYCERIN TABLETS ARE GIVEN BEFORE CONSIDERING FENTANYL.</strong></li>
+                       <li>IV fluid, up to 500 ml, may be administered to a patient with SBP less than 100 without pulmonary edema.</li>
+                    </ul>
+                </div>
+                
+                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+                <div>
+                     <ul>
+                        
                         <li>Treat cardiogenic shock with or without pulmonary edema as identified in 4016 Shock.</li>
                         <li>If evidence of STEMI, transport to an interventional cardiac catherization lab.</li>
                         <li>The Paramedic should only transmit a {12-lead EKG} that meets Cardiac Alert criteria, or that is questionable.</li>
@@ -1836,10 +2074,34 @@ protocol,2008,Suspected Cardiac Chest Pain ,2000,"<div>
                 </div>
             </div>
         </div>
-    </div>
-</div>"
-protocol,2009,Cardiac Alert Program ,2000,"<div>
-    <h3>2009.1 General Guidelines</h3>
+
+        <div class=""mt-4 pt-4 border-t space-y-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Consult</h4>
+                <ul>
+                    <li>Without consultation, the Suspected Cardiac Chest Pain protocol only applies to patients greater than 25 years old with ACS symptoms.</li>
+                    <li>Contact MCP for further advice with pediatric chest pain as needed.</li>
+                    <li>For the EMT, the following requires MCP orders:
+                        <ul class=""list-disc pl-5"">
+                            <li>Aspirin administration</li>
+                            <li>Nitroglycerin administration</li>
+                            <li>Accessing the GMVEMSC Drug Bag</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h4 class=""text-base font-bold"">Clinical Pearls</h4>
+                <ul>
+                    <li>No significant change in patient condition in the field should be expected from the administration of Aspirin.</li>
+                    <li>Patient must chew Aspirin.</li>
+                    <li>Aspirin is contraindicated in third trimester of pregnancy.</li>
+                    <li>Do not administer Nitroglycerin (NTG) if the patient has taken Viagra, Cialis, Levitra, Revatio, or similar medications within the last 24 hours.</li>
+                </ul>
+            </div>
+        </div>
+    </div>"
+protocol,2009,Cardiac Alert Program ,2000,"<h3>2009.1 General Guidelines</h3>
     <ul>
         <li>The intent of the Program is to decrease the ""Door to Balloon"" time for pre-hospital AMI Patients.</li>
         <li>Providers will make early notification to the receiving facility and speak directly with the Physician.</li>
@@ -1860,10 +2122,13 @@ protocol,2009,Cardiac Alert Program ,2000,"<div>
 
     <h3 class=""mt-6"">2009.4 Clinical Management</h3>
     <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
-        <div class=""grid grid-cols-1 md:grid-cols-2 gap-4"">
+        <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
+        <p class=""text-sm italic"">Consider differential diagnosis</p>
+
+        <div class=""grid md:grid-cols-2 gap-4 my-4"">
             <div>
                 <h4 class=""text-base font-bold"">Signs & Symptoms</h4>
-                <ul class=""list-disc pl-5 text-sm"">
+                <ul>
                     <li>Chest pain</li>
                     <li>Difficulty breathing</li>
                     <li>Syncope</li>
@@ -1872,7 +2137,7 @@ protocol,2009,Cardiac Alert Program ,2000,"<div>
             </div>
             <div>
                 <h4 class=""text-base font-bold"">Differential Diagnosis</h4>
-                <ul class=""list-disc pl-5 text-sm"">
+                <ul>
                     <li>None in the presence of ACS symptoms</li>
                     <li>Chest trauma</li>
                     <li>Pulmonary issues</li>
@@ -1880,35 +2145,53 @@ protocol,2009,Cardiac Alert Program ,2000,"<div>
                 </ul>
             </div>
         </div>
-        <div class=""mt-4 pt-4 border-t"">
+
+        <div>
             <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
             <div class=""skill-level-grid mt-2"">
-                <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
+                <div class=""skill-level-indicator bg-gray-200 text-gray-800"">EMR</div>
                 <div>
-                     <ul>
+                    <ul>
+                        <li>No additional orders at this level.</li>
+                    </ul>
+                </div>
+
+                <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
+                <div>
+                    <ul>
                         <li>Acquire and transmit the {12 Lead ECG} in any suspected AMI or in cardiac arrest with ROSC.</li>
                         <li>Contact the receiving hospital for further orders and/or destination directives.</li>
                         <li>Acquire serial {12 Lead ECGs} enroute to the hospital.</li>
-                        <li>The recommendation is to repeat {12 Lead ECGs} every 5 minutes or with any change in condition/presentation.</li>
-                     </ul>
-                </div>
-                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
-                <div>
-                    <ul>
+                        <li>The recommendation is to repeat {12 Lead ECGs} every 5 minutes or with any change in condition/presentation}</li>
                         <li>Consider applying defibrillation pads to confirmed myocardial infarction patients.</li>
                         <li>Transport patients with ST Elevation MI (STEMI) or ROSC after cardiac arrest to an Interventional facility.</li>
-                        <li>Consider aggressive fluid administration of up to 500 ml to manage cardiogenic shock. Reassess lungs frequently.</li>
-                        <li>In significant AMIs, patients may develop cardiac conduction disorders (PVCs, BBB and 2° or 3° blocks).</li>
-                        <li>If patient develops significant bradycardia, then utilize 2010 Bradycardia.</li>
+                    </ul>
+                </div>
+
+                <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
+                <div>
+                    <ul>
+                       <li>Consider aggressive fluid administration of up to 500 ml to manage cardiogenic shock.</li>
+                    </ul>
+                </div>
+                
+                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+                <div>
+                     <ul>
+                        <li>Reassess lungs frequently.</li>
+                        <li>In significant AMIs, patients may develop cardiac conduction disorders (PVCs, BBB and 2º or 3º blocks).</li>
+                        <li>If patient develops significant bradycardia, then utilize 2010 Bradycardia</li>
                         <li>Monitor blood pressure and administer Nitroglycerin or Fentanyl cautiously.</li>
-                        <li><span class=""font-bold"">A</span> If patient is still hypotensive after other therapy, begin Norepinephrine by adding 4 mg to 250 ml of IV fluids. Infuse starting at 30 drops per minute (max. 45 drops) with 60 drop tubing and titrate to effect. Increase by 5 drops/minute every 5 minutes.</li>
+                        <li>A If patient is still hypotensive after other therapy, begin Norepinephrine by adding 4 mg to 250 ml of IV fluids. Infuse starting at 30 drops per minute (max. 45 drops) with 60 drop tubing and titrate to effect. Increase by 5 drops/minute every 5 minutes.</li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class=""mt-4 pt-4 border-t space-y-2"">
-            <div><h4 class=""text-base font-bold"">Consult</h4>
-                <ul class=""list-disc pl-5 text-sm"">
+
+        <div class=""mt-4 pt-4 border-t space-y-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Consult</h4>
+                <ul>
                     <li>The EMT and AEMT should contact the MCP after {12 Lead EKG} transmissions for further orders.</li>
                     <li>The Paramedic is expected to read and interpret the {12-lead EKG}.</li>
                     <li>Do not rely solely on the computer interpretation or expect the physician to interpret the transmitted {12 Lead EKG} for you.</li>
@@ -1916,49 +2199,68 @@ protocol,2009,Cardiac Alert Program ,2000,"<div>
             </div>
             <div>
                 <h4 class=""text-base font-bold"">Clinical Pearls</h4>
-                <ul class=""list-disc pl-5 text-sm"">
+                <ul>
                     <li>An interventional facility is a hospital that provides Percutaneous Cardiac Interventions 24 hours a day.</li>
                     <li>To determine the regional interventional facilities, see 7013 Hospital Capabilities Chart.</li>
                     <li>Rerouting at interventional facilities does not apply to Cardiac Alerts.</li>
                     <li>Consider air medical transport if the interventional facility is over 30 minutes away.</li>
-                    <li>Exceptions to transporting to an interventional facility include: It is medically necessary to transport the patient to the closest hospital for stabilization; It is unsafe to transport the patient directly due to adverse weather/ground conditions or excessive transport time; Transporting the patient would cause a critical shortage of local EMS resources; Patient requests transport to a different facility, despite EMS education of patient.</li>
+                    <li>Exceptions to transporting to an interventional facility include:
+                        <ul class=""list-disc pl-5"">
+                            <li>It is medically necessary to transport the patient to the closest hospital for stabilization.</li>
+                            <li>It is unsafe to transport the patient directly due to adverse weather/ground conditions or excessive transport time.</li>
+                            <li>Transporting the patient to would cause a critical shortage of local EMS resources.</li>
+                            <li>Patient requests transport to a different facility, despite EMS education of patient.</li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
-    </div>
-</div>"
-protocol,2010,Bradycardia ,2000,"<div>
-    <h3>2010.1 General Guidelines</h3>
+    </div>"
+protocol,2010,Bradycardia ,2000,"<h3>2010.1 General Guidelines</h3>
     <ul>
         <li>Bradycardia is any rate less than 60 bpm.</li>
         <li>Non-symptomatic bradycardia may be a normal finding in otherwise healthy individuals.</li>
         <li>Assess the patient and determine medical history.</li>
-        <li>Treat unexplained or symptomatic bradycardia.</li>
+        <li>Treat unexplained or symptomatic bradycardia</li>
     </ul>
 
     <h3 class=""mt-6"">2010.2 Clinical Management</h3>
     <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
-        <div class=""grid grid-cols-1 md:grid-cols-2 gap-4"">
-            <div>
-                <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
-                <div class=""text-sm italic text-pink-600"">
-                    <p>With adequate perfusion, monitor vital signs, and apply oxygen if needed.</p>
-                    <p>Hypoxia in pediatric patients will produce bradycardia.</p>
-                </div>
-            </div>
+        <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
+        <p class=""text-sm italic"">With adequate perfusion, monitor vital signs, and apply oxygen if needed. Hypoxia in pediatric patients will produce bradycardia.</p>
+
+        <div class=""grid md:grid-cols-2 gap-4 my-4"">
             <div>
                 <h4 class=""text-base font-bold"">Signs & Symptoms</h4>
-                <ul class=""list-disc pl-5 text-sm"">
+                <ul>
                     <li>Heart rate less than 60 bpm</li>
                     <li>Syncope</li>
-                    <li>Unstable bradycardia (Hypotension, Altered mental status)</li>
-                    <li>Unresolved chest pain</li>
-                    <li>Poor skin color</li>
-                    <li>Diaphoresis</li>
+                    <li>Unstable bradycardia
+                        <ul class=""list-disc pl-5"">
+                            <li>Hypotension</li>
+                            <li>Altered mental status</li>
+                            <li>Unresolved chest pain</li>
+                            <li>Poor skin color</li>
+                            <li>Diaphoresis</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h4 class=""text-base font-bold"">Differential Diagnosis</h4>
+                <ul>
+                    <li>Acute myocardial infarction</li>
+                    <li>Hypoxia</li>
+                    <li>Hypothermia</li>
+                    <li>Elevated ICP (Stroke or Trauma)</li>
+                    <li>Spinal cord lesion</li>
+                    <li>Sick sinus syndrome</li>
+                    <li>Athletic patients</li>
                 </ul>
             </div>
         </div>
-        <div class=""mt-4 pt-4 border-t"">
+
+        <div>
             <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
             <div class=""skill-level-grid mt-2"">
                 <div class=""skill-level-indicator bg-gray-200 text-gray-800"">EMR</div>
@@ -1969,50 +2271,61 @@ protocol,2010,Bradycardia ,2000,"<div>
                         <li>For adequate perfusion, observe and monitor vital signs.</li>
                     </ul>
                 </div>
+
                 <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
                 <div>
                     <ul>
                         <li>Obtain {12-lead EKG}, transmit and call receiving facility.</li>
                         <li>Transport immediately unless ALS intercept is less than 5 minutes.</li>
-                        <li class=""text-pink-600""><span class=""font-bold"">P</span> For Pediatric patients less than 2 years old:
-                            <ul class=""list-disc pl-5 mt-1"">
-                                <li>Look for signs and symptoms of shock or hypoperfusion.</li>
-                                <li>Secure the airway and ventilate with BVM at 1 breath every 3-4 seconds.</li>
-                                <li>If heart rate and perfusion do not increase within 30 to 60 seconds, then perform CPR.</li>
-                            </ul>
-                        </li>
+                        <li>For Pediatric patients less than 2 years old:
+                           <ul class=""list-disc pl-5"">
+                               <li>P Look for signs and symptoms of shock or hypoperfusion</li>
+                               <li>P Secure the airway and ventilate with BVM at 1 breath every 3-4 seconds</li>
+                               <li>P If heart rate and perfusion do not increase within 30 to 60 seconds, then perform CPR.</li>
+                           </ul>
+                       </li>
                     </ul>
                 </div>
-                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+
+                <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
                 <div>
                     <ul>
-                        <li>Obtain and interpret {12 Lead EKG}.</li>
+                       <li>No additional orders at this level.</li>
+                    </ul>
+                </div>
+                
+                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+                <div>
+                     <ul>
+                        <li>Obtain and interpret {12 Lead EKG}</li>
                         <li>Wide complex bradycardia patients should spark consideration of treatment of hyperkalemia.
-                            <ul class=""list-disc pl-5 mt-1"">
-                                <li><span class=""font-bold"">A</span> Administer both Calcium Chloride 10% 1 g (Calcium Chloride or Gluconate) and Sodium Bicarbonate 100 mEq. Flush well between these medications. It is critical that these drugs not be given together, as they will precipitate.</li>
+                            <ul class=""list-disc pl-5"">
+                                <li><span class=""font-bold text-blue-600"">&diams;</span> Administer both Calcium Chloride 10% 1 g (Calcium Chloride or Gluconate) and Sodium Bicarbonate 100 mEq.</li>
+                                <li>Flush well between these medications. It is critical that these drugs not be given together, as they will precipitate.</li>
                             </ul>
                         </li>
                         <li>With evidence of poor perfusion in adults and pediatrics:
-                            <ul class=""list-disc pl-5 mt-1"">
-                                <li><span class=""font-bold"">A</span> Consider Atropine 1 mg IV, up to total of 3 mg.</li>
-                                <li class=""text-pink-600""><span class=""font-bold"">P</span> Epinephrine (1:10,000) 0.01 mg/kg, IV, repeat every 5 minutes.</li>
+                            <ul class=""list-disc pl-5"">
+                                <li>A Consider Atropine 1 mg IV, up to total of 3 mg.</li>
+                                <li>P If AV block:
+                                    <ul class=""list-disc pl-5"">
+                                        <li>P Consider Atropine 0.02 mg/kg IV (minimum dose 0.1 mg, maximum single dose 0.5 mg)</li>
+                                        <li>P May repeat dose every 5 minutes. Max total dose of 1 mg.</li>
+                                    </ul>
+                                </li>
+                                <li>P Epinephrine (1:10,000) 0.01 mg/kg, IV, repeat every 5 minutes.</li>
                             </ul>
                         </li>
-                         <li>If treatments are ineffective begin pacing:
-                            <ul class=""list-disc pl-5 mt-1"">
-                                <li><span class=""font-bold"">A</span> If time permits, Ketamine 25 mg IV (preferred method) or Midazolam 2.5 mg slow IV prior to pacing.</li>
-                                <li><span class=""font-bold"">A</span> DO NOT reduce Ketamine or Midazolam doses by half for patients greater than 69 y/o.</li>
-                                <li><span class=""font-bold"">A</span> Set at 70 BPM, 20 mA and increase until mechanical capture is obtained.</li>
-                            </ul>
-                        </li>
-                         <li>If AV block:
-                            <ul class=""list-disc pl-5 mt-1 text-pink-600"">
-                                <li><span class=""font-bold"">P</span> Consider Atropine 0.02 mg/kg IV (minimum dose 0.1 mg, maximum single dose 0.5 mg). May repeat dose every 5 minutes. Max total dose of 1 mg.</li>
-                                <li><span class=""font-bold"">P</span> Consider pacing:
-                                    <ul class=""list-disc pl-5 mt-1"">
-                                        <li>Pediatric electrodes should be used on patients less than 15 kg.</li>
-                                        <li>Consider Midazolam 0.1 mg/kg (max dose 2 mg) slow IV prior to pacing.</li>
-                                        <li>Start with 5 mA increasing as needed to 200 mA at a rate of 80 bpm until capture.</li>
+                        <li>If treatments are ineffective begin pacing:
+                            <ul class=""list-disc pl-5"">
+                                <li>A If time permits, Ketamine 25 mg IV (preferred method) or Midazolam 2.5 mg slow IV prior to pacing.</li>
+                                <li>A DO NOT reduce Ketamine or Midazolam doses by half for patients greater than 69 y/o</li>
+                                <li>A Set at 70 BPM, 20 mA and increase until mechanical capture is obtained.</li>
+                                <li>P Consider pacing:
+                                    <ul class=""list-disc pl-5"">
+                                        <li>P Pediatric electrodes should be used on patients less than 15 kg.</li>
+                                        <li>P Consider Midazolam 0.1 mg/kg (max dose 2 mg) slow IV prior to pacing.</li>
+                                        <li>P Start with 5 mA increasing as needed to 200 mA at a rate of 80 bpm until capture.</li>
                                     </ul>
                                 </li>
                             </ul>
@@ -2021,39 +2334,63 @@ protocol,2010,Bradycardia ,2000,"<div>
                 </div>
             </div>
         </div>
-        <div class=""mt-4 pt-4 border-t"">
-            <h4 class=""text-base font-bold"">Consult</h4>
-            <p class=""text-sm"">The paramedic will consult for administration of Calcium Chloride 10% (or Gluconate) and Sodium Bicarbonate.</p>
+
+        <div class=""mt-4 pt-4 border-t space-y-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Consult</h4>
+                <p class=""text-sm"">The paramedic will consult for administration of Calcium Chloride 10% (or Gluconate) and Sodium Bicarbonate.</p>
+            </div>
+            <div>
+                <h4 class=""text-base font-bold"">Clinical Pearls</h4>
+                <p class=""text-sm"">None</p>
+            </div>
         </div>
-    </div>
-</div>"
-protocol,2011,Tachycardia ,2000,"<div>
-    <h3>2011.1 General Guidelines</h3>
+    </div>"
+protocol,2011,Tachycardia ,2000,"<h3>2011.1 General Guidelines</h3>
     <ul>
         <li>Tachycardia is any heart rate greater than 100 bpm.</li>
         <li>Assess the patient and determine medical history.</li>
-        <li>Treat unexplained or symptomatic tachycardia.</li>
+        <li>Treat unexplained or symptomatic tachycardia</li>
     </ul>
 
     <h3 class=""mt-6"">2011.2 Clinical Management</h3>
     <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
-        <div class=""grid grid-cols-1 md:grid-cols-2 gap-4"">
-            <div>
-                <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
-                <p class=""text-sm italic text-pink-600"">With adequate perfusion, monitor vital signs, and apply oxygen if needed.</p>
-            </div>
+        <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
+        <p class=""text-sm italic"">With adequate perfusion, monitor vital signs, and apply oxygen if needed.</p>
+
+        <div class=""grid md:grid-cols-2 gap-4 my-4"">
             <div>
                 <h4 class=""text-base font-bold"">Signs & Symptoms</h4>
-                <ul class=""list-disc pl-5 text-sm"">
+                <ul>
                     <li>Heart rate greater than 100 bpm</li>
                     <li>Dizziness</li>
                     <li>Chest pain</li>
                     <li>Shortness of breath</li>
-                    <li>Unstable tachycardia (Hypotension, Altered mental status)</li>
+                    <li>Unstable tachycardia
+                        <ul class=""list-disc pl-5"">
+                            <li>Hypotension</li>
+                            <li>Altered mental status thought to be due to tachycardic rhythms</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h4 class=""text-base font-bold"">Differential Diagnosis</h4>
+                <ul>
+                    <li>Myocardial infarction</li>
+                    <li>Electrolyte imbalance</li>
+                    <li>Exertion/pain/emotional stress</li>
+                    <li>Fever</li>
+                    <li>Hypoxia</li>
+                    <li>Hypovolemia or anemia</li>
+                    <li>Drug overdose</li>
+                    <li>Hyperthyroidism</li>
+                    <li>Pulmonary embolus</li>
                 </ul>
             </div>
         </div>
-        <div class=""mt-4 pt-4 border-t"">
+
+        <div>
             <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
             <div class=""skill-level-grid mt-2"">
                 <div class=""skill-level-indicator bg-gray-200 text-gray-800"">EMR</div>
@@ -2063,6 +2400,7 @@ protocol,2011,Tachycardia ,2000,"<div>
                         <li>Call for transport immediately.</li>
                     </ul>
                 </div>
+
                 <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
                 <div>
                     <ul>
@@ -2070,62 +2408,91 @@ protocol,2011,Tachycardia ,2000,"<div>
                         <li>Transport immediately unless ALS intercept is less than 5 minutes.</li>
                     </ul>
                 </div>
-                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+
+                <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
                 <div>
                     <ul>
-                        <li>Obtain and interpret {12 Lead ECG}.</li>
+                       <li>No additional orders at this level.</li>
+                    </ul>
+                </div>
+                
+                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+                <div>
+                     <ul>
+                        <li>Obtain and interpret {12 Lead ECG}</li>
                         <li><strong>Stable:</strong>
-                            <ul class=""list-disc pl-5 mt-1"">
+                           <ul class=""list-disc pl-5"">
                                 <li><u>Narrow Complex - Regular</u>
-                                    <ul class=""list-disc pl-5 mt-1"">
-                                        <li><span class=""font-bold"">A</span> Vagal maneuvers</li>
-                                        <li><span class=""font-bold"">A</span> Adenosine 6 mg rapid IVP, saline flush</li>
-                                        <li><span class=""font-bold"">A</span> May repeat Adenosine 12 mg rapid IVP x2, saline flush</li>
+                                    <ul class=""list-disc pl-5"">
+                                        <li>A Vagal maneuvers</li>
+                                        <li>A Adenosine 6 mg rapid IVP, saline flush</li>
+                                        <li>A May repeat Adenosine 12 mg rapid IVP x 2, saline flush</li>
                                     </ul>
                                 </li>
-                                <li class=""mt-2""><u>Wide Complex - Regular or Irregular</u>
-                                    <ul class=""list-disc pl-5 mt-1"">
-                                        <li><span class=""font-bold"">A</span> Amiodarone 150 mg in 250 ml NS, IV over 10 minutes using 60 drop/ml tubing.</li>
-                                        <li><span class=""font-bold"">A</span> If Amiodarone not available use Lidocaine: Lidocaine 150 mg IV/IO.</li>
+                                <li><u>Wide Complex - Regular or Irregular</u>
+                                    <ul class=""list-disc pl-5"">
+                                        <li>A Amiodarone 150 mg in 250 ml NS, IV over 10 minutes using 60 drop/ml tubing.</li>
+                                        <li>A If Amiodarone not available use Lidocaine</li>
+                                        <li>A Lidocaine 150 mg IV/IO</li>
                                     </ul>
                                 </li>
+                           </ul>
+                        </li>
+                        <li><strong>Unstable:</strong>
+                           <ul class=""list-disc pl-5"">
+                                <li>A Consider administration of a sedative/analgesic prior to cardioversion</li>
+                                <li>A Ketamine 25 mg IV (preferred method) or Midazolam 2.5 mg slow IV</li>
+                                <li>A DO NOT reduce Ketamine or Midazolam doses by half for patients greater than 69 y/o</li>
+                                <li>A Cardioversion: 100, 200, 300, 360 J for monophasic or biphasic equivalent</li>
+                           </ul>
+                        </li>
+                        <li>With evidence of polymorphic ventricular tachycardia (torsades de pointes):
+                            <ul class=""list-disc pl-5"">
+                                <li>A If unstable: Unsynchronized Cardioversion: 100, 200, 300, 360 J for monophasic or biphasic equivalent</li>
+                                <li>A If stable: Magnesium Sulfate 2 gm infused with macro-drip tubing over 10 minutes</li>
                             </ul>
                         </li>
-                        <li class=""mt-2""><strong>Unstable:</strong>
-                            <ul class=""list-disc pl-5 mt-1"">
-                                 <li><span class=""font-bold"">A</span> Consider administration of a sedative/analgesic prior to cardioversion: Ketamine 25 mg IV (preferred method) or Midazolam 2.5 mg slow IV.</li>
-                                 <li><span class=""font-bold"">A</span> DO NOT reduce Ketamine or Midazolam doses by half for patients greater than 69 y/o.</li>
-                                 <li><span class=""font-bold"">A</span> Cardioversion: 100, 200, 300, 360 J for monophasic or biphasic equivalent.</li>
+                        <li><strong>Stable Pediatrics:</strong>
+                            <ul class=""list-disc pl-5"">
+                                <li>P Vagal maneuvers (blowing through a straw or oxygen tubing, etc.)</li>
+                                <li>P Adenosine 0.1 mg/kg rapid IVP (max dose 6 mg), saline flush.</li>
+                                <li>P If no response, Adenosine 0.2 mg/kg rapid IVP (max dose 12 mg), saline flush. Repeat x 1.</li>
                             </ul>
                         </li>
-                        <li class=""mt-2"">With evidence of polymorphic ventricular tachycardia (torsades de pointes):
-                             <ul class=""list-disc pl-5 mt-1"">
-                                <li><span class=""font-bold"">A</span> If unstable: Unsynchronized Cardioversion: 100, 200, 300, 360 J for monophasic or biphasic equivalent.</li>
-                                <li><span class=""font-bold"">A</span> If stable: Magnesium Sulfate 2 gm infused with macro-drip tubing over 10 minutes.</li>
-                            </ul>
-                        </li>
-                        <li class=""mt-2""><strong>Stable Pediatrics:</strong>
-                             <ul class=""list-disc pl-5 mt-1 text-pink-600"">
-                                <li><span class=""font-bold"">P</span> Vagal maneuvers (blowing through a straw or oxygen tubing, etc.)</li>
-                                <li><span class=""font-bold"">P</span> Adenosine 0.1 mg/kg rapid IVP (max dose 6 mg), saline flush.</li>
-                                <li><span class=""font-bold"">P</span> If no response, Adenosine 0.2 mg/kg rapid IVP (max dose 12 mg), saline flush. Repeat x 1.</li>
-                            </ul>
-                        </li>
-                         <li class=""mt-2""><strong>Unstable Pediatrics:</strong>
-                             <ul class=""list-disc pl-5 mt-1 text-pink-600"">
-                                <li><span class=""font-bold"">P</span> Consider cardioversion.</li>
-                                <li><span class=""font-bold"">P</span> If time permits, Midazolam 0.1 mg/kg slow IV (max dose 2.5 mg).</li>
-                                <li><span class=""font-bold"">P</span> Cardioversion 1 J/kg. If no response, repeat cardioversion at 2 J/kg.</li>
+                        <li><strong>Unstable Pediatrics:</strong>
+                             <ul class=""list-disc pl-5"">
+                                <li>P Consider cardioversion.</li>
+                                <li>P If time permits, Midazolam 0.1 mg/kg slow IV (max dose 2.5 mg).</li>
+                                <li>P Cardioversion 1 J/kg</li>
+                                <li>P If no response, repeat cardioversion at 2 J/kg</li>
                             </ul>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-    </div>
-</div>"
-protocol,3001,General Trauma Management ,3000,"<div>
-    <h3>3001.1 General Guidelines</h3>
+
+        <div class=""mt-4 pt-4 border-t space-y-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Consult</h4>
+                <ul>
+                    <li>Paramedics should not cardiovert:
+                        <ul class=""list-disc pl-5"">
+                            <li>Patients without hemodynamic changes</li>
+                            <li>Patients whose hemodynamic changes have other apparent causes.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h4 class=""text-base font-bold"">Clinical Pearls</h4>
+                <ul>
+                    <li>If patient has history of Paroxysmal Supraventricular Tachycardia (PSVT) and advises it takes 12 mg of Adenosine, then skip the 6 mg dose.</li>
+                </ul>
+            </div>
+        </div>
+    </div>"
+protocol,3001,General Trauma Management ,3000,"<h3>3001.1 General Guidelines</h3>
     <ul>
         <li>Minor trauma patients may be transported to non-trauma centers.</li>
         <li>Major trauma patients are to be transported as soon as possible to the nearest appropriate facility.</li>
@@ -2136,74 +2503,106 @@ protocol,3001,General Trauma Management ,3000,"<div>
 
     <h3 class=""mt-6"">3001.2 Clinical Management</h3>
     <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
-        <div class=""grid grid-cols-1 md:grid-cols-2 gap-4"">
-            <div>
-                <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
-                <div class=""text-sm italic text-pink-600"">
-                    <p>May not exhibit typically.</p>
-                    <p>Injuries may not present the same as in adults.</p>
-                    <p>Will present decompensated shock late.</p>
-                </div>
-            </div>
+        <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
+        <p class=""text-sm italic"">May not exhibit typically. Injuries may not present the same as in adults. Will present decompensated shock late.</p>
+
+        <div class=""grid md:grid-cols-2 gap-4 my-4"">
             <div>
                 <h4 class=""text-base font-bold"">Signs & Symptoms</h4>
-                <ul class=""list-disc pl-5 text-sm"">
+                <ul>
                     <li>Traumatic injuries</li>
                     <li>DCAP-BTLS</li>
                 </ul>
             </div>
+            <div>
+                <h4 class=""text-base font-bold"">Differential Diagnosis</h4>
+                <ul>
+                    <li>Medical complaints with S/S that mimic traumatic injuries</li>
+                </ul>
+            </div>
         </div>
-        <div class=""mt-4 pt-4 border-t"">
+
+        <div>
             <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
             <div class=""skill-level-grid mt-2"">
-                <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
+                <div class=""skill-level-indicator bg-gray-200 text-gray-800"">EMR</div>
                 <div>
                     <ul>
                         <li>The only procedures that should take precedence to transport of major trauma patients are:
-                            <ul class=""list-disc pl-5 mt-1"">
+                            <ul class=""list-disc pl-5"">
                                 <li>Airway management</li>
                                 <li>Stabilization of neck/back or obvious femur and pelvic fractures on a backboard</li>
-                                <li><span class=""font-bold"">G</span> Exsanguinating hemorrhage control</li>
+                                <li>Exsanguinating hemorrhage control</li>
                                 <li>Extrication</li>
                             </ul>
                         </li>
                         <li>Maintain patient's body temperature.</li>
                         <li>Take a manual BP on all trauma patients.</li>
                         <li>Repeat vitals on trauma patients every 5 minutes.</li>
-                        <li>On-scene time should be limited to 10 minutes or less, except when there are extenuating circumstances.</li>
                     </ul>
                 </div>
-                <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
-                <div>
-                    <p>Report Mechanism of Injury, Injuries, Vital signs, Treatment (MIVT), GCS with components, and ETA to the receiving facility.</p>
-                </div>
-                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+
+                <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
                 <div>
                     <ul>
-                        <li>IVs should be established en route to the hospital unless the patient is trapped, transport is otherwise delayed, or patient has no life-threatening injuries, and transport prior to analgesia would be extremely painful.</li>
-                        <li><span class=""font-bold"">A</span> Start the IV with a large bore catheter and macro drip tubing.</li>
-                        <li><span class=""font-bold"">A</span> Administer up to a 1000 ml IV fluid bolus.</li>
-                        <li class=""text-pink-600""><span class=""font-bold"">P</span> Administer 20 ml/kg of IV fluid.</li>
-                        <li><span class=""font-bold"">A</span> IV flow rates are as follows:
-                            <ul class=""list-disc pl-5 mt-1"">
-                                <li>Keep open rate for major head trauma with adequate perfusion.</li>
-                                <li>IV wide open if the patient has inadequate perfusion (including head trauma) utilizing {IV Pressure Infusion Pump or Bag} or similar equipment if available.</li>
-                                <li>Titrate all IV flow rates to maintain SBP ~100.</li>
+                        <li>On-scene time should be limited to 10 minutes or less, except when there are extenuating circumstances.</li>
+                        <li>Report Mechanism of Injury, Injuries, Vital signs, Treatment (MIVT), GCS with components, and ETA to the receiving facility.</li>
+                    </ul>
+                </div>
+
+                <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
+                <div>
+                    <ul>
+                       <li>IVs should be established en route to the hospital unless the patient is trapped, transport is otherwise delayed, or patient has no life-threatening injuries, and transport prior to analgesia would be extremely painful.</li>
+                       <li>A Start the IV with a large bore catheter and macro drip tubing.</li>
+                       <li>A Administer up to a 1000 ml IV fluid bolus</li>
+                       <li>P Administer 20 ml/kg of IV fluid</li>
+                       <li>A IV flow rates are as follows:
+                           <ul class=""list-disc pl-5"">
+                               <li>Keep open rate for major head trauma with adequate perfusion</li>
+                               <li>IV wide open if the patient has inadequate perfusion (including head trauma) utilizing {IV Pressure Infusion Pump or Bag} or similar equipment if available</li>                              
+                           </ul>                         
+                       </li>
+                       <li>Titrate all IV flow rates to maintain SBP ~100</li> 
+                       <li>For penetrating trauma to the chest and abdomen:
+                            <ul class=""list-disc pl-5"">
+                               <li>If a radial pulse is present and the patient is conscious and mentating, load and go.</li>
+                               <li>If no radial pulse, infuse IV fluid in 250 ml boluses until radial pulse is present and then stop fluid.</li>
                             </ul>
-                        </li>
-                         <li>For penetrating trauma to the chest and abdomen:
-                            <ul class=""list-disc pl-5 mt-1"">
-                                <li>If a radial pulse is present and the patient is conscious and mentating, load and go.</li>
-                                <li>If no radial pulse, infuse IV fluid in 250 ml boluses until radial pulse is present and then stop fluid.</li>
-                            </ul>
-                        </li>
-                        <li>Consider 1014 Pain Management Protocol.</li>
+                       </li>
+                       <li>Consider 1014 Pain Management Protocol.</li>
+                    </ul>
+                </div>
+                
+                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+                <div>
+                     <ul>
+                        <li>No additional orders at this level.</li>
                     </ul>
                 </div>
             </div>
         </div>
-    </div>
-</div>"
+
+        <div class=""mt-4 pt-4 border-t space-y-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Consult</h4>
+                <ul>
+                    <li>Use of on-line MCP for medical direction in the field for difficult cases is encouraged.</li>
+                    <li>Pre-arrival notification of the receiving facility is essential!</li>
+                    <li>Keep the receiving hospital informed on the patient's condition, significant changes should be reported.</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class=""text-base font-bold"">Clinical Pearls</h4>
+                <ul>
+                    <li>Hypothermia is a significant and frequent problem in shock for major trauma patients.</li>
+                    <li>Surgical emergencies with increased fluid administration cause dilution, lower body temperatures and increase coagulopathies, all of which increase mortality.</li>
+                    <li>To address this, allow for ""permissive hypotension,""</li>
+                    <li>This means that IV fluids are not administered to these patients unless there is loss of radial pulse.</li>
+                </ul>
+            </div>
+        </div>
+    </div>"
 protocol,3002,Major Trauma ,3000,"<div>
     <h3>3002.1 Clinical Management</h3>
     <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
@@ -2295,12 +2694,11 @@ protocol,3003,Glasgow Coma Score ,3000,"<div>
         </table>
     </div>
 </div>"
-protocol,3004,Trauma Arrest ,3000,"<div>
-    <h3>3004.1 General Guidelines</h3>
+protocol,3004,Trauma Arrest ,3000,"<h3>3004.1 General Guidelines</h3>
     <ul>
         <li>Traumatic cardiac arrest care will follow the same algorithm as other cardiac arrest scenarios.</li>
         <li>Mechanical CPR devices are contraindicated in traumatic arrest where there is:
-            <ul class=""list-disc pl-6 mt-2"">
+            <ul class=""list-disc pl-5"">
                 <li>Injury or mechanism of injury to the neck</li>
                 <li>Injury or mechanism of injury to the thoracic cavity (anterior or posterior)</li>
                 <li>Injury or mechanism of injury to the abdominal cavity</li>
@@ -2314,10 +2712,10 @@ protocol,3004,Trauma Arrest ,3000,"<div>
     <ul>
         <li>Emergency medical responders (EMRs) may not terminate a trauma cardiac arrest.</li>
         <li>The criteria for termination of resuscitation in arrest from blunt or penetrating trauma is:
-            <ul class=""list-roman pl-6 mt-2"">
+            <ul class=""list-disc pl-5"">
                 <li>No immediately reversible cause can be determined after rapid primary survey and treatment.</li>
                 <li>No signs of life after BLS (e.g. respiratory effort, purposeful movement, reactive pupils, etc.)</li>
-                <li>Sustained EtCO₂ of below 10 mmHg</li>
+                <li>Sustained EtCO2 of below 10 mmHg</li>
                 <li>If no ALS equipment is available at the scene and transport will exceed 20 minutes.</li>
             </ul>
         </li>
@@ -2325,410 +2723,955 @@ protocol,3004,Trauma Arrest ,3000,"<div>
     </ul>
 
     <h3 class=""mt-6"">3004.3 Clinical Management</h3>
-     <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
-        <div class=""mt-4 pt-4 border-t"">
+    <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
+        <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
+        <p class=""text-sm italic"">If the pediatric patient does not meet non-initiation criteria, then begin resuscitation.</p>
+
+        <div class=""grid md:grid-cols-2 gap-4 my-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Signs & Symptoms</h4>
+                <ul>
+                    <li>Cardiac arrest with traumatic injury or significant mechanism of injury</li>
+                    <li>Unresponsive, pulseless, and apneic</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class=""text-base font-bold"">Differential Diagnosis</h4>
+                <ul>
+                    <li>Signs of irreversible death</li>
+                    <li>Other causes of unresponsiveness</li>
+                    <li>Meets 1003 Non-initiation of Care Protocol</li>
+                    <li>Excessive hemorrhage</li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
             <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
             <div class=""skill-level-grid mt-2"">
                 <div class=""skill-level-indicator bg-gray-200 text-gray-800"">EMR</div>
                 <div>
                     <ul>
-                        <li>Initiate basic life support as defined in 2002 Cardiac Arrest - BLS.</li>
-                        <li>Internal/External hemorrhage control (e.g., tourniquets, pelvic binders, etc.).</li>
+                        <li>Initiate basic life support as defined in 2002 Cardiac Arrest - BLS</li>
+                        <li>Internal/External hemorrhage control (e.g., tourniquets, pelvic binders, etc.)</li>
+                        
                     </ul>
                 </div>
+
                 <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
                 <div>
                     <ul>
-                        <li>Consider the possibility of both medical and traumatic causes (mixed mechanisms).</li>
-                        <li>Initiate a Rapid Primary Survey for reversible causes. TREATMENT OF REVERSIBLE CAUSES SHOULD BE A PRIORITY.</li>
-                        <li>Cardiac monitoring/defibrillations via AED.</li>
+                       <li>Consider the possibility of both medical and traumatic causes (mixed mechanisms).</li>
+                       <li>Initiate a Rapid Primary Survey for reversible causes. TREATMENT OF REVERSIBLE CAUSES SHOULD BE A PRIORITY.</li>
+                       <li>Cardiac monitoring/defibrillations via AED.</li>
+                       <li>Consider Termination of Resuscitation. (AEMT and Paramedic will continue through the algorithm before termination).</li>
                     </ul>
                 </div>
+
                 <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
                 <div>
                     <ul>
-                         <li>Consider Termination of Resuscitation. (AEMT and Paramedic will continue through the algorithm before termination).</li>
-                         <li>Continue treating any organized rhythm with rate greater than 40 because of the potential of pseudo-PEA.</li>
-                         <li>Secure airway and confirm with continuous EtCO₂.</li>
-                         <li>Bilateral needle decompression as indicated (ex. high airway resistance, chest trauma, subcutaneous air).
-                            <ul class=""list-disc pl-5 mt-1"">
-                                <li>Fourth or fifth intercostal space in the mid-axillary line</li>
-                                <li>Second or third intercostal space in the mid-clavicular line (use nipple line as a guide)</li>
-                                <li class=""text-pink-600""><span class=""font-bold"">P</span> In patients less than 8 years old, decompression site choice will be limited to the 2nd or 3rd intercostal space at the mid-clavicular line.</li>
+                       <li>Continue treating any organized rhythm with rate greater than 40 because of the potential of pseudo-PEA.</li>
+                       <li>Secure airway and confirm with continuous EtCO2.</li>
+                       <li>Bilateral needle decompression as indicated (ex. high airway resistance, chest trauma, subcutaneous air).
+                            <ul class=""list-disc pl-5"">
+                               <li>Fourth or fifth intercostal space in the mid-axillary line</li>
+                               <li>Second or third intercostal space in the mid-clavicular line (use nipple line as a guide)</li>
+                               <li>P In patients less than 8 years old, decompression site choice will be limited to the 2nd or 3rd intercostal space at the mid-clavicular line</li>
                             </ul>
-                         </li>
-                         <li>Repeat needle decompression as indicated (continued high airway pressure).</li>
+                       </li>
+                       <li>Repeat needle decompression as indicated (continued high airway pressure).</li>
+                       <li>Administer rapid IV fluid administration:
+                            <ul class=""list-disc pl-5"">
+                               <li>A Administer up to 1000 ml IV fluid</li>
+                               <li>P Administer 20 ml/kg of IV fluid</li>
+                            </ul>
+                       </li>
+                       <li>If ROSC is achieved, transport immediately.</li>
                     </ul>
                 </div>
+                
                 <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
                 <div>
-                    <ul>
-                        <li>Administer rapid IV fluid administration:
-                            <ul class=""list-disc pl-5 mt-1"">
-                                <li><span class=""font-bold"">A</span> Administer up to 1000 ml IV fluid</li>
-                                <li class=""text-pink-600""><span class=""font-bold"">P</span> Administer 20 ml/kg of IV fluid</li>
-                            </ul>
-                        </li>
-                        <li>If ROSC is achieved, transport immediately.</li>
+                     <ul>
+                        <li>No additional orders at this level</li>
                     </ul>
                 </div>
             </div>
         </div>
-     </div>
-</div>"
-protocol,3005,Burns and Smoke Inhalation ,3000,"<div>
-    <h3>3005.1 General Guidelines</h3>
+
+        <div class=""mt-4 pt-4 border-t space-y-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Consult</h4>
+                <ul>
+                    <li>Contact MCP for Field Termination</li>
+                    <li>Be ready to provide the following information:
+                        <ul class=""list-disc pl-5"">
+                            <li>Duration of resuscitation</li>
+                            <li>How long the patient was in arrest prior to EMS arrival</li>
+                            <li>Witnessed or unwitnessed cardiac arrest</li>
+                            <li>Capnography values</li>
+                            <li>Presenting rhythm (for AEMT and Paramedic)</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h4 class=""text-base font-bold"">Clinical Pearls</h4>
+                <ul>
+                    <li>For pregnant patient in arrest consider need for manual uterine displacement.</li>
+                </ul>
+            </div>
+        </div>
+    </div>"
+protocol,3005,Burns and Smoke Inhalation ,3000,"<h3>3005.1 General Guidelines</h3>
     <ul>
         <li>It is strongly recommended that at dispatch, agencies immediately call for the nearest available cyanide antidote cache whenever any of the following occur:
-            <ul class=""list-roman pl-6 mt-2"">
+            <ul class=""list-disc pl-5"">
                 <li>Dispatched on a report of a person trapped with exposure to fire or smoke in an enclosed area.</li>
                 <li>Dispatched on a report of an incident involving cyanide.</li>
                 <li>Report of a Mayday or firefighter down with exposure to fire or smoke in an enclosed area.</li>
             </ul>
         </li>
-        <li>Estimate and report total Body Surface Area (BSA) involved using universally accepted methods. BSA estimates should include only full and partial thickness burns.</li>
+        <li>Estimate and report total Body Surface Area (BSA) involved using universally accepted methods.
+            <ul class=""list-disc pl-5"">
+                <li>BSA estimates should include only full and partial thickness burns.</li>
+            </ul>
+        </li>
         <li>Inhalation injuries with an unsecured airway should be transported to the nearest facility.</li>
         <li>Chemical burns are hazardous material situations and must be grossly decontaminated at the scene.</li>
     </ul>
 
     <h3 class=""mt-6"">3005.2 Specific Care for Burns</h3>
-    <p><strong>Radiation burns:</strong></p>
     <ul>
-        <li>If there is radioactive material on the patient, then they must be decontaminated.
-            <ol class=""list-decimal pl-6 mt-1"">
-                <li>Consider contacting a Hazardous Materials Team for assistance with decontamination.</li>
-                <li>Contact the hospital prior to arrival like with any other hazardous materials case.</li>
-            </ol>
+        <li>Radiation burns:
+            <ul class=""list-disc pl-5"">
+                <li>If there is radioactive material on the patient, then they must be decontaminated.
+                    <ul class=""list-disc pl-5"">
+                        <li>Consider contacting a Hazardous Materials Team for assistance with decontamination.</li>
+                        <li>Contact the hospital prior to arrival like with any other hazardous materials case.</li>
+                    </ul>
+                </li>
+                <li>Treat critical medical conditions first.</li>
+            </ul>
         </li>
-        <li>Treat critical medical conditions first. Treat injuries like thermal burns once the area is decontaminated.</li>
+        <li>Treat injuries like thermal burns once the area is decontaminated</li>
     </ul>
 
     <h3 class=""mt-6"">3005.3 Clinical Management</h3>
     <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
-        <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
-        <div class=""skill-level-grid mt-2"">
-            <div class=""skill-level-indicator bg-gray-200 text-gray-800"">EMR</div>
+        <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
+        <p class=""text-sm italic"">None</p>
+
+        <div class=""grid md:grid-cols-2 gap-4 my-4"">
             <div>
+                <h4 class=""text-base font-bold"">Signs & Symptoms</h4>
                 <ul>
-                    <li>Stop the burning and minimize contamination.</li>
-                    <li>Assess for respiratory distress, stridor, hoarseness, sooty sputum, singed eyebrows, and nares, or burns of the face or airway.</li>
-                    <li>If available, use {CO oximeter}.</li>
-                    <li>For inhalation burns: Administer high flow oxygen via non-rebreather mask.</li>
-                    <li>Keep patient warm.</li>
-                    <li>Superficial, partial thickness and full thickness burns should be covered with clean, dry sheets or dressings.</li>
-                    <li>Do not apply ice or ice packs to burns, if ice was applied prior to arrival, then remove.</li>
-                    <li>Remove clothing and jewelry from injured parts. Do not remove items which have adhered to the skin.</li>
+                    <li>Burns, pain, swelling</li>
+                    <li>Hypotension/shock</li>
+                    <li>Airway compromise/distress</li>
+                    <li>Singed facial or nasal hair</li>
+                    <li>Hoarseness/wheezing</li>
                 </ul>
             </div>
-            <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
             <div>
+                <h4 class=""text-base font-bold"">Differential Diagnosis</h4>
                 <ul>
-                    <li>If available deliver {humidified} oxygen.</li>
-                    <li><span class=""font-bold text-blue-600"">&diams;</span> For inhalation burns: If no humidifier is available, administer Saline 3 ml via nebulizer. Repeat as needed.</li>
-                </ul>
-            </div>
-            <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
-            <div><p>Apply cardiac monitor, especially if patient has suffered a lightning strike or electrical burn.</p></div>
-            <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
-            <div>
-                <ul>
-                    <li>Provide endotracheal intubation if apneic.</li>
-                    <li>Administer fluids to maintain perfusion, do not overhydrate. Fluids should be a balanced electrolyte solution when available.</li>
-                    <li>IV access can be acquired in areas with burnt tissue if necessary and before intraosseous needle access.</li>
-                    <li>Consider 1014 Pain Management Protocol.</li>
-                    <li>Early intubation as indicated. Do not wait for complete airway obstruction or respiratory arrest.</li>
-                    <li>For known or suspected cyanide poisoning, use 3008 Cyanide Poisoning and Antidotes.</li>
+                    <li>Superficial burns</li>
+                    <li>Partial thickness burns</li>
+                    <li>Full thickness burns</li>
+                    <li>Chemical, Thermal, Electrical, Radiation burns</li>
                 </ul>
             </div>
         </div>
-    </div>
-</div>"
-protocol,3006,Carbon Monoxide Poisoning ,3000,"<div>
-    <h3>3006.1 Clinical Management</h3>
-    <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
-        <div class=""mt-4 pt-4 border-t"">
+
+        <div>
             <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
             <div class=""skill-level-grid mt-2"">
-                <div class=""skill-level-indicator bg-gray-200 text-gray-800 col-span-full md:col-span-1"">EMR / EMT</div>
-                <div class=""md:col-start-2"">
+                <div class=""skill-level-indicator bg-gray-200 text-gray-800"">EMR</div>
+                <div>
                     <ul>
-                        <li>Remove patients from the environment.</li>
-                        <li>Provide high flow O₂ to all suspected carbon monoxide poisonings.</li>
-                        <li>Pulse oximeter will give false readings and should not be utilized.</li>
-                        <li>If not already on scene, consider requesting an apparatus with equipment to test for CO in the atmosphere.</li>
+                        <li>Stop the burning and minimize contamination.</li>
+                        <li>Assess for respiratory distress, stridor, hoarseness, sooty sputum, singed eyebrows, and nares, or burns of the face or airway.</li>
+                        <li>If available, use {CO oximeter}.</li>
+                        <li>For inhalation burns: Administer high flow oxygen via non-rebreather mask.</li>
+                        <li>Keep patient warm.</li>
+                        <li>Superficial, partial thickness and full thickness burns should be covered with clean, dry sheets or dressings.</li>
+                        <li>Do not apply ice or ice packs to burns, if ice was applied prior to arrival, then remove.</li>
+                        <li>Remove clothing and jewelry from injured parts. Do not remove items which have adhered to the skin.</li>
                     </ul>
                 </div>
+
+                <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
+                <div>
+                    <ul>
+                        <li>If available deliver {humidified} oxygen.</li>
+                        <li><span class=""font-bold text-blue-600"">&diams;</span> For inhalation burns: If no humidifier is available, administer Saline 3 ml via nebulizer. Repeat as needed.</li>
+                    </ul>
+                </div>
+
                 <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
                 <div>
                     <ul>
-                        <li>{CO oximeter}</li>
-                        <li>Contact MCP to discuss transport considerations.</li>
+                       <li>Apply cardiac monitor, especially if patient has suffered a lightning strike or electrical burn.</li>
+                       <li>Provide endotracheal intubation if apneic.</li>
+                       <li>Administer fluids to maintain perfusion, do not overhydrate. Fluids should be a balanced electrolyte solution when available.</li>
+                       <li>IV access can be acquired in areas with burnt tissue if necessary and before intraosseous needle access.</li>
+                       <li>Consider 1014 Pain Management Protocol.</li>
+                    </ul>
+                </div>
+                
+                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+                <div>
+                     <ul>
+                        <li>Early intubation as indicated. Do not wait for complete airway obstruction or respiratory arrest.</li>
+                        <li>For known or suspected cyanide poisoning, use 3008 Cyanide Poisoning and Antidotes</li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class=""mt-4 pt-4 border-t space-y-2"">
-             <div><h4 class=""text-base font-bold"">Consult</h4><p class=""text-sm"">Look to Medical Control for guidance on transport destination.</p></div>
-             <div>
+
+        <div class=""mt-4 pt-4 border-t space-y-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Consult</h4>
+                <p class=""text-sm"">EMTs must call for orders to administer nebulized saline in the absence of humidified oxygen when treating inhalation burns.</p>
+            </div>
+            <div>
                 <h4 class=""text-base font-bold"">Clinical Pearls</h4>
-                <p class=""text-sm"">When determining destination, consider possible hyperbaric oxygen treatment for the following patients with suspected CO exposure:</p>
-                <ul class=""list-disc pl-5 text-sm"">
-                    <li>Underlying cardiovascular disease or symptoms such as chest pain or shortness of breath</li>
-                    <li>Greater than 60 years of age</li>
-                    <li>Obvious neurological symptoms, such as any interval of unconsciousness, loss of time, inability to perform simple motor tasks, or loss of memory</li>
-                    <li>Smoke inhalation victims</li>
-                    <li>Pregnancy</li>
+                <ul>
+                    <li>Patients with severe burns should be transported to a Burn Center unless ETA greater than 30 minutes.</li>
+                    <li>BP may be taken over damaged tissue if no other site is accessible.</li>
                 </ul>
             </div>
         </div>
-    </div>
-</div>"
-protocol,3007,Crush Syndrome Trauma ,3000,"<div>
-    <h3>3007.1 Clinical Management</h3>
+    </div>"
+protocol,3006,Carbon Monoxide Poisoning ,3000,"<h3 class=""mt-6"">3006.1 Clinical Management</h3>
     <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
-        <div class=""mt-4 pt-4 border-t"">
+        <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
+        <p class=""text-sm italic"">None</p>
+
+        <div class=""grid md:grid-cols-2 gap-4 my-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Signs & Symptoms</h4>
+                <ul>
+                    <li>Malaise, fatigue, drowsiness</li>
+                    <li>Flu like symptoms</li>
+                    <li>Headache</li>
+                    <li>Dyspnea</li>
+                    <li>Nausea/vomiting</li>
+                    <li>Diarrhea</li>
+                    <li>Abdominal pain</li>
+                    <li>Syncope</li>
+                    <li>Seizures</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class=""text-base font-bold"">Differential Diagnosis</h4>
+                <ul>
+                    <li>Flu/Severe cold</li>
+                    <li>Chronic fatigue</li>
+                    <li>Myocardial infarction</li>
+                    <li>Diabetic crisis</li>
+                    <li>Altitude sickness</li>
+                    <li>Ingested toxins</li>
+                    <li>Hypothyroidism</li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
             <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
             <div class=""skill-level-grid mt-2"">
+                <div class=""skill-level-indicator bg-gray-200 text-gray-800"">EMR</div>
+                <div>
+                    <ul>
+                        <li>Remove patients from the environment.</li>
+                        <li>Provide high flow O2 to all suspected carbon monoxide poisonings.</li>
+                        <li>Pulse oximeter will give false readings and should not be utilized.</li>
+                        <li>If not already on scene, consider requesting an apparatus with equipment to test for CO in the atmosphere</li>
+                        <li>{CO oximeter}</li>
+                    </ul>
+                </div>
+
+                <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
+                <div>
+                    <ul>
+                        <li>Contact MCP to discuss transport considerations.</li>
+                    </ul>
+                </div>
+
                 <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
+                <div>
+                    <ul>
+                       <li>No additional orders at this level.</li>
+                    </ul>
+                </div>
+                
+                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+                <div>
+                     <ul>
+                        <li>No additional orders at this level.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class=""mt-4 pt-4 border-t space-y-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Consult</h4>
+                <p class=""text-sm"">Look to Medical Control for guidance on transport destination.</p>
+            </div>
+            <div>
+                <h4 class=""text-base font-bold"">Clinical Pearls</h4>
+                <ul>
+                    <li>When determining destination, consider possible hyperbaric oxygen treatment for the following patients with suspected CO exposure:
+                        <ul class=""list-disc pl-5"">
+                            <li>Underlying cardiovascular disease or symptoms such as chest pain or shortness of breath</li>
+                            <li>Greater than 60 years of age</li>
+                            <li>Obvious neurological symptoms, such as any interval of unconsciousness, loss of time, inability to perform simple motor tasks, or loss of memory</li>
+                            <li>Smoke inhalation victims</li>
+                            <li>Pregnancy</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>"
+protocol,3007,Crush Syndrome Trauma ,3000,"<h3 class=""mt-6"">3007.1 Clinical Management</h3>
+    <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
+        <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
+        <p class=""text-sm italic"">No pediatric medication doses should exceed total adult doses.</p>
+
+        <div class=""grid md:grid-cols-2 gap-4 my-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Signs & Symptoms</h4>
+                <ul>
+                    <li>Patient entrapped</li>
+                    <li>Patient under a heavy load and crushed</li>
+                    <li>Hypotension</li>
+                    <li>Hypothermia</li>
+                    <li>Abnormal ECG findings</li>
+                    <li>Pain</li>
+                    <li>Anxiety</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class=""text-base font-bold"">Differential Diagnosis</h4>
+                <ul>
+                    <li>None</li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
+            <div class=""skill-level-grid mt-2"">
+                <div class=""skill-level-indicator bg-gray-200 text-gray-800"">EMR</div>
                 <div>
                     <ul>
                         <li>Contact MCP immediately and prior to relieving the load.</li>
                         <li>Prepare for the patient to decompensate when extricated.</li>
-                        <li>Monitor and reassess.</li>
+                        <li>Monitor and reassess</li>
                     </ul>
                 </div>
-                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+
+                <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
                 <div>
                     <ul>
                         <li>{12-lead ECG} as soon as feasible.</li>
-                        <li><span class=""font-bold"">A</span> 1 liter IV fluid bolus IV. Then 500 ml/hour IV, OR
-                            <ul class=""list-disc pl-5 mt-1 text-pink-600"">
-                                <li><span class=""font-bold"">P</span> IV fluid, 20 ml/kg IV.</li>
-                            </ul>
-                        </li>
-                        <li>Follow 1014 Pain Management protocol.</li>
-                        <li>If hypotensive and the patient has been entrapped for more than 1 hour:
-                            <ul class=""list-disc pl-5 mt-1"">
-                                <li><span class=""font-bold"">A</span> Give additional IV fluid, 1 liter IV.</li>
-                                <li class=""text-pink-600""><span class=""font-bold"">P</span> Give additional IV fluid, 20 ml/kg IV.</li>
+                    </ul>
+                </div>
+
+                <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
+                <div>
+                    <ul>
+                       <li>A 1 liter IV fluid bolus IV. Then 500 ml/hour IV</li>
+                       <li>P IV fluid, 20 ml/kg IV</li>
+                       <li>Follow 1014 Pain Management protocol</li>
+                       <li>If hypotensive and the patient has been entrapped for more than 1 hour:
+                            <ul class=""list-disc pl-5"">
+                               <li>A Give additional IV fluid, 1 liter IV.</li>
+                               <li>P Give additional IV fluid, 20 ml/kg IV.</li>
                             </ul>
                         </li>
                         <li>Consider sedation:
-                            <ul class=""list-disc pl-5 mt-1"">
-                                <li><span class=""font-bold"">A</span> Ketamine 250 mg IM, may repeat after 10 minutes.</li>
-                                <li><span class=""font-bold"">G</span> For patients greater than 69 y/o, reduce dosing for sedatives and analgesics to one half (½) of the adult doses.</li>
-                                <li class=""text-pink-600""><span class=""font-bold"">P</span> Ketamine 5 mg/kg IM, max dose of 250 mg.</li>
+                            <ul class=""list-disc pl-5"">
+                               <li>A Ketamine 250 mg IM, may repeat after 10 minutes</li>
+                               <li>G For patients greater than 69 y/o, reduce dosing for sedatives and analgesics to one half (%) of the adult doses</li>
+                               <li>P Ketamine 5 mg/kg IM, max dose of 250 mg</li>
                             </ul>
                         </li>
-                        <li>Monitor for fluid overload.</li>
+                        <li>Monitor for fluid overload</li>
+                    </ul>
+                </div>
+                
+                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+                <div>
+                     <ul>
+                        
                         <li>Normal ECG and hemodynamically stable, immediately prior to extrication:
-                             <ul class=""list-disc pl-5 mt-1"">
-                                <li><span class=""font-bold"">A</span> Sodium Bicarbonate 100 mEq IV.</li>
-                                <li class=""text-pink-600""><span class=""font-bold"">P</span> Sodium Bicarbonate 1mEq/kg IV.</li>
+                            <ul class=""list-disc pl-5"">
+                               <li>A Sodium Bicarbonate 100 mEq IV</li>
+                               <li>P Sodium Bicarbonate 1mEq/kg IV</li>
                             </ul>
                         </li>
                         <li>Abnormal ECG and hemodynamically unstable:
-                            <ul class=""list-disc pl-5 mt-1"">
-                                <li>If after release, hyperkalemia causes wide bizarre EKG complexes with: Peaked T waves with a QRS greater than or equal to 0.12 seconds, QT ≥ 0.46 seconds, Loss of P wave, Bundle Branch Blocks, Premature ventricular contractions, Bradycardia.</li>
-                                <li>Consider Calcium Chloride, 1 gm, flush line well before Sodium Bicarbonate.</li>
-                                <li>Albuterol 10 mg nebulized.</li>
-                                <li><span class=""font-bold"">A</span> Sodium Bicarbonate 100 mEq IV.</li>
-                                <li class=""text-pink-600""><span class=""font-bold"">P</span> Sodium Bicarbonate 1mEq/kg IV.</li>
+                             <ul class=""list-disc pl-5"">
+                               <li>If after release, hyperkalemia causes wide bizarre EKG complexes with:
+                                    <ul class=""list-disc pl-5"">
+                                       <li>Peaked T waves with a QRS greater than or equal to 0.12 seconds</li>
+                                       <li>QT ≥ 0.46 seconds</li>
+                                       <li>Loss of P wave</li>
+                                       <li>Bundle Branch Blocks</li>
+                                       <li>Premature ventricular contractions</li>
+                                       <li>Bradycardia</li>
+                                    </ul>
+                               </li>
+                               <li>Consider Calcium Chloride, 1 gm, flush line well before Sodium Bicarbonate</li>
+                               <li>Albuterol 10 mg nebulized</li>
+                               <li>A Sodium Bicarbonate 100 mEq IV</li>
+                               <li>P Sodium Bicarbonate 1mEq/kg IV</li>
                             </ul>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-    </div>
-</div>"
-protocol,3008,Cyanide Poisoning & Antidotes ,3000,"<div>
-    <h3>3008.1 General Guidelines</h3>
+
+        <div class=""mt-4 pt-4 border-t space-y-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Consult</h4>
+                <ul>
+                    <li>Contact MCP immediately and prior to relieving the load.</li>
+                    <li>MCP orders needed for sedation.</li>
+                    <li>The paramedic must call MCP for orders to give Calcium Chloride to the unstable patient.</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class=""text-base font-bold"">Clinical Pearls</h4>
+                <ul>
+                    <li>Consider the potential for multiple system trauma</li>
+                    <li>Consider the potential for hypo or hyperthermia</li>
+                </ul>
+            </div>
+        </div>
+    </div>"
+protocol,3008,Cyanide Poisoning & Antidotes ,3000,"<h3>3008.1 General Guidelines</h3>
     <ul>
         <li>Cyanide antidotes are located in multiple caches in each of the counties throughout the region, and are available by contacting 937-333-USAR (8727).</li>
         <li>The cache agency closest to your incident will be dispatched, which will respond with both a Cyanokit and 3 doses of Sodium Thiosulfate, to provide for the potential of multiple patients.</li>
     </ul>
 
     <h3 class=""mt-6"">3008.2 Indications to Call for the Cache</h3>
-    <p>It is strongly recommended that agencies immediately call for the nearest available cyanide antidote cache at the time of dispatch whenever any of the following occur:</p>
-    <ul class=""list-roman pl-6"">
-        <li>Report of a person trapped with exposure to fire or smoke in an enclosed area.</li>
-        <li>Report of an incident involving cyanide.</li>
-        <li>Report of a Mayday or firefighter down with exposure to fire or smoke in an enclosed area.</li>
+    <ul>
+        <li>It is strongly recommended that agencies immediately call for the nearest available cyanide antidote cache at the time of dispatch whenever any of the following occur:
+            <ul class=""list-disc pl-5"">
+                <li>Report of a person trapped with exposure to fire or smoke in an enclosed area.</li>
+                <li>Report of an incident involving cyanide.</li>
+                <li>Report of a Mayday or firefighter down with exposure to fire or smoke in an enclosed area.</li>
+            </ul>
+        </li>
+    </ul>
+    
+    <h3 class=""mt-6"">3008.3 General Treatment</h3>
+    <ul>
+        <li>Treatment of cyanide poisoning must include immediate attention to airway patency, adequacy of oxygenation and hydration, cardiovascular support, and management of any seizure activity.</li>
     </ul>
 
-    <h3 class=""mt-6"">3008.3 General Treatment</h3>
-    <p>Treatment of cyanide poisoning must include immediate attention to airway patency, adequacy of oxygenation and hydration, cardiovascular support, and management of any seizure activity.</p>
-    
     <h3 class=""mt-6"">3008.4 Clinical Management</h3>
     <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
-        <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
-        <div class=""skill-level-grid mt-2"">
-            <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
+        <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
+        <ul class=""text-sm italic"">
+           <li>For pediatric administration of Hydroxocobalamin (Cyanokit):
+                <ul class=""list-disc pl-5"">
+                    <li>Mix 200 ml NaCl in 5 g vial (concentration is 25 mg/ml)</li>
+                    <li>70 mg x patient weight in kg = total dose administered over 15 minutes.</li>
+                    <li>Divide doses in half for repeat administration</li>
+                </ul>
+           </li>
+           <li>See dosing chart at end of this tab for calculating pediatric doses</li>
+        </ul>
+
+        <div class=""grid md:grid-cols-2 gap-4 my-4"">
             <div>
+                <h4 class=""text-base font-bold"">Signs & Symptoms</h4>
                 <ul>
-                    <li>Provide 100% O₂ via non-rebreather mask.</li>
-                    <li>If unconscious, provide 100% O₂ by BVM.</li>
+                    <li>Known or strongly suspected cyanide exposure</li>
+                    <li>Altered mental status</li>
+                    <li>Seizures</li>
+                    <li>Shock</li>
+                    <li>Difficulty breathing</li>
                 </ul>
             </div>
-            <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
             <div>
-                 <ul>
-                    <li>Consider CPAP for suspected smoke inhalation.</li>
-                    <li>Intubate if patient is apneic.</li>
-                    <li>Establish one IV in each arm if possible.</li>
-                    <li>It is critical to control any seizure activity, as defined in 4014 Seizures.</li>
+                <h4 class=""text-base font-bold"">Differential Diagnosis</h4>
+                <ul>
+                    <li>None</li>
                 </ul>
             </div>
-            <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+        </div>
+
+        <div>
+            <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
+            <div class=""skill-level-grid mt-2"">
+                <div class=""skill-level-indicator bg-gray-200 text-gray-800"">EMR</div>
+                <div>
+                    <ul>
+                        <li>Provide 100% O2 via non-rebreather mask.</li>
+                        <li>If unconscious, provide 100% O2 by BVM</li>
+                    </ul>
+                </div>
+
+                <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
+                <div>
+                    <ul>
+                        <li>Consider CPAP for suspected smoke inhalation.</li>
+                    </ul>
+                </div>
+
+                <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
+                <div>
+                    <ul>
+                       <li>Intubate if patient is apneic</li>
+                       <li>Establish one IV in each arm if possible.</li>
+                       <li>It is critical to control any seizure activity, as defined in 4014 Seizures</li>
+                    </ul>
+                </div>
+                
+                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+                <div>
+                     <ul>
+                        <li>If available consider {BiPAP} for suspected smoke inhalation.</li>
+                        <li><span class=""font-bold text-blue-600"">&diams;</span> Hydroxocobalamin (Cyanokit):
+                            <ul class=""list-disc pl-5"">
+                               <li>A Administer 5 grams via slow IV infusion over 15 minutes at a rate of 15 ml/min., using supplied 20 ml/min infusion set</li>
+                               <li>A May repeat 5 grams via slow IV infusion over 15 min to 2 hours, depending on clinical response.</li>
+                               <li>P Administer 70 mg/kg slow IV over 15 minutes; max dose of 5000 mg (5 grams), using supplied 20 ml/min infusion set</li>
+                               <li>P May repeat 35 mg/kg slow IV; max dose 2500 mg (2.5 grams), depending on clinical response.</li>
+                            </ul>
+                        </li>
+                        <li class=""text-center font-bold"">or</li>
+                        <li><span class=""font-bold text-blue-600"">&diams;</span> Sodium Thiosulfate:
+                             <ul class=""list-disc pl-5"">
+                               <li>A If greater than 25 kg: Administer 12.5 grams (50 ml) 25% solution slow IV.</li>
+                               <li>P If less than 25 kg: Administer 412.5 mg/kg (1.65 ml/kg) 25% solution, slow IV (max dose 12.5 g (50 ml)).</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class=""mt-4 pt-4 border-t space-y-4"">
             <div>
+                <h4 class=""text-base font-bold"">Consult</h4>
                 <ul>
-                    <li>If available consider {BiPAP} for suspected smoke inhalation.</li>
-                    <li><span class=""font-bold text-blue-600"">&diams;</span> Hydroxocobalamin (Cyanokit):
-                        <ul class=""list-disc pl-5 mt-1"">
-                            <li><span class=""font-bold"">A</span> Administer 5 grams via slow IV infusion over 15 minutes at a rate of 15 ml/min., using supplied 20 ml/min infusion set.</li>
-                            <li><span class=""font-bold"">A</span> May repeat 5 grams via slow IV infusion over 15 min to 2 hours, depending on clinical response.</li>
-                            <li class=""text-pink-600""><span class=""font-bold"">P</span> Administer 70 mg/kg slow IV over 15 minutes; max dose of 5000 mg (5 grams), using supplied 20 ml/min infusion set.</li>
-                            <li class=""text-pink-600""><span class=""font-bold"">P</span> May repeat 35 mg/kg slow IV; max dose 2500 mg (2.5 grams), depending on clinical response.</li>
-                        </ul>
-                    </li>
-                    <li class=""text-center font-bold my-2"">OR</li>
-                    <li><span class=""font-bold text-blue-600"">&diams;</span> Sodium Thiosulfate:
-                        <ul class=""list-disc pl-5 mt-1"">
-                            <li><span class=""font-bold"">A</span> If greater than 25 kg: Administer 12.5 grams (50 ml) 25% solution slow IV.</li>
-                            <li class=""text-pink-600""><span class=""font-bold"">P</span> If less than 25 kg: Administer 412.5 mg/kg (1.65 ml/kg) 25% solution, slow IV (max dose 12.5 g (50 ml)).</li>
-                        </ul>
-                    </li>
+                    <li>Orders for cyanide antidotes are not needed in cardiac arrest.</li>
+                    <li><span class=""font-bold text-blue-600"">&diams;</span> Contact MCP to administer both Hydroxocobalamin (Cyanokit) and Sodium Thiosulfate to the same patient.</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class=""text-base font-bold"">Clinical Pearls</h4>
+                <ul>
+                    <li>If a patient is in arrest, administer Hydroxocobalamin as quickly as possible.</li>
+                    <li>Only CAB, defibrillation, intubation, and epinephrine should precede use of the cyanide antidotes.</li>
+                    <li>Hydroxocobalamin is incompatible with numerous drugs including Diazepam.</li>
+                    <li>Whenever possible establish two IV lines in a different vein or limb, one for standard protocol drugs and one for cyanide antidotes.</li>
+                    <li>While IV infusion is the preferred method of cyanide antidote administration, in extreme cases the medications could be given via IO.</li>
+                    <li>If administering cyanide antidotes via IO, a traditional drip set may not be effective and measures may need to be taken to slowly push the medication in.</li>
                 </ul>
             </div>
         </div>
     </div>
-</div>"
-protocol,3009,Drowning ,3000,"<div>
-    <h3>3009.1 Clinical Management</h3>
+    
+    <h3 class=""mt-6"">3008.5 Pediatric Hydroxocobalamin Dosing Chart</h3>
+    <div class=""overflow-x-auto"">
+        <table class=""min-w-full bg-white border"">
+            <thead>
+                <tr class=""bg-gray-200"">
+                    <th class=""py-2 px-4 border"">Weight (kg)</th>
+                    <th class=""py-2 px-4 border"">5</th>
+                    <th class=""py-2 px-4 border"">10</th>
+                    <th class=""py-2 px-4 border"">15</th>
+                    <th class=""py-2 px-4 border"">20</th>
+                    <th class=""py-2 px-4 border"">25</th>
+                    <th class=""py-2 px-4 border"">30</th>
+                    <th class=""py-2 px-4 border"">35</th>
+                    <th class=""py-2 px-4 border"">40</th>
+                    <th class=""py-2 px-4 border"">50</th>
+                    <th class=""py-2 px-4 border"">60</th>
+                    <th class=""py-2 px-4 border"">>70</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class=""py-2 px-4 border font-semibold"">Dose (mg) Amount needed for 70mg/kg</td>
+                    <td class=""py-2 px-4 border"">350<br>14 ml</td>
+                    <td class=""py-2 px-4 border"">700<br>28 ml</td>
+                    <td class=""py-2 px-4 border"">1050<br>42 ml</td>
+                    <td class=""py-2 px-4 border"">1400<br>56 ml</td>
+                    <td class=""py-2 px-4 border"">1750<br>70 ml</td>
+                    <td class=""py-2 px-4 border"">2100<br>84 ml</td>
+                    <td class=""py-2 px-4 border"">2450<br>98 ml</td>
+                    <td class=""py-2 px-4 border"">2800<br>112 ml</td>
+                    <td class=""py-2 px-4 border"">3500<br>140 ml</td>
+                    <td class=""py-2 px-4 border"">4200<br>168 ml</td>
+                    <td class=""py-2 px-4 border"">5000<br>200 ml</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h3 class=""mt-6"">3008.6 Pediatric Sodium Thiosulfate Dosing Chart</h3>
+    <div class=""overflow-x-auto"">
+        <table class=""min-w-full bg-white border"">
+            <thead>
+                <tr class=""bg-gray-200"">
+                    <th class=""py-2 px-4 border"">Weight (kg)</th>
+                    <th class=""py-2 px-4 border"">5</th>
+                    <th class=""py-2 px-4 border"">10</th>
+                    <th class=""py-2 px-4 border"">15</th>
+                    <th class=""py-2 px-4 border"">20</th>
+                    <th class=""py-2 px-4 border"">25</th>
+                    <th class=""py-2 px-4 border"">30</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class=""py-2 px-4 border font-semibold"">Dose (Gm)</td>
+                    <td class=""py-2 px-4 border"">2.06 g</td>
+                    <td class=""py-2 px-4 border"">4.125 g</td>
+                    <td class=""py-2 px-4 border"">6.18 g</td>
+                    <td class=""py-2 px-4 border"">8.25 g</td>
+                    <td class=""py-2 px-4 border"">10.3 g</td>
+                    <td class=""py-2 px-4 border"">12.5 g</td>
+                </tr>
+                <tr>
+                    <td class=""py-2 px-4 border font-semibold"">Amount needed for 70mg/kg</td>
+                    <td class=""py-2 px-4 border"">8.25 ml</td>
+                    <td class=""py-2 px-4 border"">16.5 ml</td>
+                    <td class=""py-2 px-4 border"">24.75 ml</td>
+                    <td class=""py-2 px-4 border"">33 ml</td>
+                    <td class=""py-2 px-4 border"">41.25 ml</td>
+                    <td class=""py-2 px-4 border"">50 ml</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>"
+protocol,3009,Drowning ,3000,"<h3 class=""mt-6"">3009.1 Clinical Management</h3>
     <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
-        <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
-        <div class=""skill-level-grid mt-2"">
-            <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
+        <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
+        <p class=""text-sm italic"">None</p>
+
+        <div class=""grid md:grid-cols-2 gap-4 my-4"">
             <div>
+                <h4 class=""text-base font-bold"">Signs & Symptoms</h4>
                 <ul>
-                    <li>Consider Spinal Motion Restriction.</li>
-                    <li>Consider possibility of hypothermia. If present follow 3016 Hypothermia.</li>
-                    <li>Evaluate neurological status.</li>
+                    <li>History of submersion</li>
+                    <li>Period of unconsciousness</li>
+                    <li>Decreased or absent vital signs</li>
+                    <li>Vomiting</li>
+                    <li>Coughing</li>
                 </ul>
             </div>
-            <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
             <div>
+                <h4 class=""text-base font-bold"">Differential Diagnosis</h4>
                 <ul>
-                    <li>Drowning patients should be transported to a Trauma Center.</li>
-                    <li>If patients are in cardiac arrest or respiratory failure/arrest, consider transport to the closest appropriate hospital.</li>
+                    <li>Trauma</li>
+                    <li>Pre-existing medical problem</li>
+                    <li>Barotrauma (diving)</li>
+                    <li>Decompression sickness</li>
                 </ul>
             </div>
-            <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
-            <div><p>Establish vascular access.</p></div>
         </div>
-        <div class=""mt-4 pt-4 border-t"">
-            <h4 class=""text-base font-bold"">Clinical Pearls</h4>
-            <p class=""text-sm"">All submersion victims should be transported due to potential for worsening over the subsequent few hours.</p>
+
+        <div>
+            <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
+            <div class=""skill-level-grid mt-2"">
+                <div class=""skill-level-indicator bg-gray-200 text-gray-800"">EMR</div>
+                <div>
+                    <ul>
+                        <li>Consider Spinal Motion Restriction</li>
+                        <li>Consider possibility of hypothermia. If present follow 3016 Hypothermia</li>
+                        <li>Evaluate neurological status.</li>
+                        
+                    </ul>
+                </div>
+
+                <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
+                <div>
+                    <ul>
+                        <li>Drowning patients should be transported to a Trauma Center.</li>
+                        <li>If patients are in cardiac arrest or respiratory failure/arrest, consider transport to the closest appropriate hospital</li>
+                    </ul>
+                </div>
+
+                <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
+                <div>
+                    <ul>
+                       <li>Establish vascular access</li>
+                    </ul>
+                </div>
+                
+                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+                <div>
+                     <ul>
+                        <li>No additional orders at this level</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
-</div>"
-protocol,3010,Extremity Injuries ,3000,"<div>
-    <h3>3010.1 Clinical Management</h3>
+
+        <div class=""mt-4 pt-4 border-t space-y-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Consult</h4>
+                <p class=""text-sm"">None</p>
+            </div>
+            <div>
+                <h4 class=""text-base font-bold"">Clinical Pearls</h4>
+                <ul>
+                    <li>All submersion victims should be transported due to potential for worsening over the subsequent few hours.</li>
+                </ul>
+            </div>
+        </div>
+    </div>"
+protocol,3010,Extremity Injuries ,3000,"<h3 class=""mt-6"">3010.1 Clinical Management</h3>
     <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
-        <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
-        <div class=""skill-level-grid mt-2"">
-            <div class=""skill-level-indicator bg-gray-200 text-gray-800 col-span-full md:col-span-1"">EMR / EMT</div>
-            <div class=""md:col-start-2"">
+        <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
+        <p class=""text-sm italic"">None</p>
+
+        <div class=""grid md:grid-cols-2 gap-4 my-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Signs & Symptoms</h4>
                 <ul>
-                    <li>For open fractures, control bleeding with direct pressure and cover with dry, sterile dressing.</li>
-                    <li>If practical, consider elevating the limb.</li>
-                    <li>Apply appropriate splinting device.</li>
-                    <li>If the extremity is severely angulated and pulses are absent, apply gentle traction in an attempt to bring the limb back into a natural anatomic position. If resistance is encountered, splint the extremity in the angulated position.</li>
-                    <li>Apply cold pack to reduce swelling.</li>
+                    <li>Deformities</li>
+                    <li>Inflammation</li>
+                    <li>Pain upon movement</li>
+                    <li>Immobility</li>
+                    <li>Paresthesia</li>
                 </ul>
             </div>
-            <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
             <div>
-                <p>Consider 1014 Pain Management Protocol.</p>
+                <h4 class=""text-base font-bold"">Differential Diagnosis</h4>
+                <ul>
+                    <li>None</li>
+                </ul>
             </div>
         </div>
-        <div class=""mt-4 pt-4 border-t"">
-            <h4 class=""text-base font-bold"">Clinical Pearls</h4>
-            <ul class=""list-disc pl-5 text-sm"">
-                <li>Document distal motor, sensation and circulation before and after splinting, or spinal motion restriction.</li>
-                <li>Open wounds should be covered with a sterile dressing before splinting.</li>
-                <li>Immobilize above and below the injury.</li>
-                <li>The patient who requires a load and go approach can be adequately immobilized by careful packaging on the long spine board. Do additional splinting enroute to the hospital as time and the patient's condition permit.</li>
-            </ul>
+
+        <div>
+            <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
+            <div class=""skill-level-grid mt-2"">
+                <div class=""skill-level-indicator bg-gray-200 text-gray-800"">EMR</div>
+                <div>
+                    <ul>
+                        <li>For open fractures, control bleeding with direct pressure and cover with dry, sterile dressing.</li>
+                        <li>If practical, consider elevating the limb.</li>
+                        <li>Apply appropriate splinting device.</li>
+                        <li>If the extremity is severely angulated and pulses are absent, apply gentle traction in an attempt to bring the limb back into a natural anatomic position. If resistance is encountered, splint the extremity in the angulated position.</li>
+                        <li>Apply cold pack to reduce swelling.</li>
+                    </ul>
+                </div>
+
+                <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
+                <div>
+                    <ul>
+                        <li>No additional orders at this level</li>
+                    </ul>
+                </div>
+
+                <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
+                <div>
+                    <ul>
+                       <li>Consider 1014 Pain Management Protocol</li>
+                    </ul>
+                </div>
+                
+                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+                <div>
+                     <ul>
+                        <li>No additional orders at this level</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
-</div>"
-protocol,3011,Eye Injuries ,3000,"<div>
-    <h3>3011.1 Clinical Management</h3>
+
+        <div class=""mt-4 pt-4 border-t space-y-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Consult</h4>
+                <p class=""text-sm"">None</p>
+            </div>
+            <div>
+                <h4 class=""text-base font-bold"">Clinical Pearls</h4>
+                <ul>
+                    <li>Document distal motor, sensation and circulation before and after splinting, or spinal motion restriction.</li>
+                    <li>Open wounds should be covered with a sterile dressing before splinting.</li>
+                    <li>Immobilize above and below the injury.</li>
+                    <li>The patient who requires a load and go approach can be adequately immobilized by careful packaging on the long spine board. Do additional splinting enroute to the hospital as time and the patient's condition permit.</li>
+                </ul>
+            </div>
+        </div>
+    </div>"
+protocol,3011,Eye Injuries ,3000,"<h3 class=""mt-6"">3011.1 Clinical Management</h3>
     <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
-        <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
-        <div class=""skill-level-grid mt-2"">
-            <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
+        <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
+        <p class=""text-sm italic"">None</p>
+
+        <div class=""grid md:grid-cols-2 gap-4 my-4"">
             <div>
+                <h4 class=""text-base font-bold"">Signs & Symptoms</h4>
                 <ul>
-                    <li>If possible, contact lenses should be removed. Contacts should be transported with patient.</li>
-                    <li>Use nasal cannula with IV tubing for irrigation.</li>
-                    <li><strong>Chemical Burns:</strong>
-                        <ul class=""list-disc pl-5 mt-1"">
-                            <li>Irrigate immediately with IV fluid or water for a minimum of 30 minutes or until patient transport is completed.</li>
-                            <li>Determine chemical involved. Bring Safety Data Sheets, if available.</li>
-                        </ul>
-                    </li>
-                    <li class=""mt-2""><strong>Major Eye Trauma:</strong>
-                        <ul class=""list-disc pl-5 mt-1"">
-                            <li>Do not irrigate if there is penetrating trauma to the eye.</li>
-                            <li>Cover both eyes to limit movement.</li>
-                            <li>Do not use a pressure or absorbent dressing on or near any eye that may have ruptured or have any penetrating trauma.</li>
-                        </ul>
-                    </li>
-                    <li>The patient should be transported with head elevated at least 30°.</li>
+                    <li>Irritation to eye</li>
+                    <li>Visual disturbances or loss of vision</li>
+                    <li>Obvious penetrating injury</li>
+                    <li>Burns</li>
+                    <li>Nausea</li>
                 </ul>
             </div>
-            <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
             <div>
+                <h4 class=""text-base font-bold"">Differential Diagnosis</h4>
                 <ul>
-                    <li>Prior to irrigation with IV fluid or for significant eye pain, Tetracaine 2 drops in affected eye.</li>
-                    <li>Do not irrigate or use Tetracaine if penetrating trauma to the eye is present.</li>
-                    <li>Use {Morgan Lens} or nasal cannula with IV tubing for irrigation.</li>
+                    <li>Hypertension</li>
+                    <li>Contact lens issue</li>
                 </ul>
             </div>
         </div>
-    </div>
-</div>"
-protocol,3012,Frostbite ,3000,"<div>
-    <h3>3012.1 Clinical Management</h3>
+
+        <div>
+            <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
+            <div class=""skill-level-grid mt-2"">
+                <div class=""skill-level-indicator bg-gray-200 text-gray-800"">EMR</div>
+                <div>
+                    <ul>
+                        <li>If possible, contact lenses should be removed. Contacts should be transported with patient.</li>
+                        <li>Use nasal cannula with IV tubing for irrigation.</li>
+                        <li><strong>Chemical Burns:</strong>
+                            <ul class=""list-disc pl-5"">
+                                <li>Irrigate immediately with IV fluid or water for a minimum of 30 minutes or until patient transport is completed.</li>
+                                <li>Determine chemical involved. Bring Safety Data Sheets, if available.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Major Eye Trauma:</strong>
+                            <ul class=""list-disc pl-5"">
+                                <li>Do not irrigate if there is penetrating trauma to the eye.</li>
+                                <li>Cover both eyes to limit movement.</li>
+                                <li>Do not use a pressure or absorbent dressing on or near any eye that may have ruptured or have any penetrating trauma.</li>
+                                <li>The patient should be transported with head elevated at least 30°.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
+                <div>
+                    <ul>
+                        <li>No additional orders at this level.</li>
+                    </ul>
+                </div>
+
+                <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
+                <div>
+                    <ul>
+                       <li>No additional orders at this level.</li>
+                    </ul>
+                </div>
+                
+                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+                <div>
+                     <ul>
+                        <li>Prior to irrigation with IV fluid or for significant eye pain, Tetracaine 2 drops in affected eye.</li>
+                        <li>Do not irrigate or use Tetracaine if penetrating trauma to the eye is present.</li>
+                        <li>Use {Morgan Lens} or nasal cannula with IV tubing for irrigation.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class=""mt-4 pt-4 border-t space-y-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Consult</h4>
+                <p class=""text-sm"">None</p>
+            </div>
+            <div>
+                <h4 class=""text-base font-bold"">Clinical Pearls</h4>
+                <p class=""text-sm"">None</p>
+            </div>
+        </div>
+    </div>"
+protocol,3012,Frostbite ,3000,"<h3 class=""mt-6"">3012.1 Clinical Management</h3>
     <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
-        <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
-        <div class=""skill-level-grid mt-2"">
-            <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
+        <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
+        <p class=""text-sm italic"">None</p>
+
+        <div class=""grid md:grid-cols-2 gap-4 my-4"">
             <div>
+                <h4 class=""text-base font-bold"">Signs & Symptoms</h4>
                 <ul>
-                    <li>Protect injured areas.</li>
-                    <li>Remove clothing and jewelry from injured parts.</li>
-                    <li>Do not attempt to thaw injured part with local heat.</li>
-                    <li>Maintain core temperature.</li>
+                    <li>Cold, clammy skin</li>
+                    <li>Shivering</li>
+                    <li>Mental status changes</li>
+                    <li>Extremity pain or sensory abnormality</li>
+                    <li>Bradycardia</li>
+                    <li>Hypotension or shock</li>
                 </ul>
             </div>
-            <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
             <div>
-                <p>Severe frostbite injuries should be transported to a Burn Center.</p>
-            </div>
-            <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
-            <div>
+                <h4 class=""text-base font-bold"">Differential Diagnosis</h4>
                 <ul>
-                    <li>Establish vascular access and consider {warmed} fluids.</li>
-                    <li>Consider 1014 Pain Management Protocol.</li>
+                    <li>Head Injury</li>
+                    <li>Spinal cord injury</li>
                 </ul>
             </div>
         </div>
-    </div>
-</div>"
+
+        <div>
+            <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
+            <div class=""skill-level-grid mt-2"">
+                <div class=""skill-level-indicator bg-gray-200 text-gray-800"">EMR</div>
+                <div>
+                    <ul>
+                        <li>Protect injured areas.</li>
+                        <li>Remove clothing and jewelry from injured parts.</li>
+                        <li>Do not attempt to thaw injured part with local heat.</li>
+                        <li>Maintain core temperature.</li>
+                    </ul>
+                </div>
+
+                <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
+                <div>
+                    <ul>
+                        <li>Severe frostbite injuries should be transported to a Burn Center.</li>
+                    </ul>
+                </div>
+
+                <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
+                <div>
+                    <ul>
+                       <li>Establish vascular access and consider {warmed} fluids.</li>
+                       <li>Consider 1014 Pain Management Protocol.</li>
+                    </ul>
+                </div>
+                
+                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+                <div>
+                     <ul>
+                        <li>No additional orders at this level</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class=""mt-4 pt-4 border-t space-y-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Consult</h4>
+                <p class=""text-sm"">None</p>
+            </div>
+            <div>
+                <h4 class=""text-base font-bold"">Clinical Pearls</h4>
+                <p class=""text-sm"">None</p>
+            </div>
+        </div>
+    </div>"
 protocol,3013,Head Injury ,3000,"<div>
     <h3>3013.1 Clinical Management</h3>
     <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
@@ -4003,9 +4946,8 @@ protocol,4013,Respiratory Distress/Pulmonary Edema ,4000,"<h3>General Guidelines
       <li>Pneumonia may look like CHF with pulmonary edema. However, the pneumonia patient is often dehydrated and has an elevated temperature.</li>
     </ul>"
 protocol,4014,Seizures,4000,"<h3>Clinical Management</h3>
-    <div class=""grid md:grid-cols-2 gap-4"">
+    <div class=""grid md:grid-cols-2 gap-4 mb-4"">
       <div>
-        <h4>Assessment</h4>
         <h4>Signs & Symptoms</h4>
         <ul>
           <li>Decreased mental status</li>
@@ -4013,10 +4955,6 @@ protocol,4014,Seizures,4000,"<h3>Clinical Management</h3>
           <li>Incontinence</li>
           <li>Observed seizure activity</li>
           <li>Evidence of trauma</li>
-        </ul>
-        <h4>Pediatric Considerations</h4>
-        <ul>
-            <li>None</li>
         </ul>
       </div>
       <div>
@@ -4038,71 +4976,90 @@ protocol,4014,Seizures,4000,"<h3>Clinical Management</h3>
       </div>
     </div>
 
-    <h3>Treatment Algorithm</h3>
+    <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
+        <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
+        <p class=""text-sm italic"">None</p>
+        
+        <div class=""mt-4"">
+            <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
+            <div class=""skill-level-grid mt-2"">
+                <div class=""skill-level-indicator bg-gray-200 text-gray-800"">EMR</div>
+                <div>
+                    <ul>
+                        <li>BVM and nasopharyngeal airway during seizure as needed.</li>
+                        <li>Maintain normothermia.</li>
+                    </ul>
+                </div>
 
-    <h4>EMR</h4>
-    <ul>
-      <li>BVM and nasopharyngeal airway during seizure as needed.</li>
-      <li>Maintain normothermia.</li>
-    </ul>
+                <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
+                <div>
+                    <ul>
+                        <li>Obtain Pulse Oximeter and Capnography reading.</li>
+                        <li>If glucose less than 60, or there is strong suspicion of hypoglycemia despite glucometer readings, then follow 4008 Hypoglycemia/Hyperglycemia.</li>
+                        <li>Place patient in the recovery position during assessment and transport.</li>
+                    </ul>
+                </div>
 
-    <h4>EMT</h4>
-    <ul>
-      <li>Obtain Pulse Oximeter and Capnography reading.</li>
-      <li>If glucose less than 60, or there is strong suspicion of hypoglycemia despite glucometer readings, then follow 4008 Hypoglycemia/Hyperglycemia.</li>
-      <li>Place patient in the recovery position during assessment and transport.</li>
-    </ul>
+                <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
+                <div>
+                    <ul>
+                        <li>Cardiac monitor</li>
+                        <li><strong>For actively seizing adult patients:</strong>
+                            <ul class=""list-disc pl-5"">
+                                <li><strong>For patients greater than 69 y/o, reduce dosing for sedatives and analgesics to one half ( ) of the adult doses</strong></li>
+                                <li>Midazolam 10 mg IN (5 mg in each nostril), or Midazolam 2.5 mg slow IV, or Midazolam 5 mg IM</li>
+                                <li>If still seizing, repeat Midazolam doses:
+                                    <ul class=""list-decimal pl-5"">
+                                        <li>Repeat Midazolam 5 mg IN (2.5 mg in each nostril) after 10 minutes.</li>
+                                        <li>Or repeat Midazolam 2.5 mg slow IV after 5 minutes.</li>
+                                        <li>Or repeat Midazolam 5 mg IM after 10 minutes.</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class=""mt-2""><strong>For actively seizing pediatric patients:</strong>
+                            <ul class=""list-disc pl-5"">
+                                <li>Midazolam 0.2 mg/kg IN (max IN dose 10 mg) or Midazolam 0.1 mg/kg slow IV (max IV dose 2.5 mg) or Midazolam 0.2 mg/kg IM (max IM dose 5 mg)</li>
+                                <li>If still seizing, repeat Midazolam doses:
+                                    <ul class=""list-decimal pl-5"">
+                                        <li>Repeat Midazolam 0.2 mg/kg IN (max IN dose 5 mg) after 10 minutes</li>
+                                        <li>Or repeat Midazolam 0.1 mg/kg slow IV (max IV dose 2.5 mg) after 5 minutes</li>
+                                        <li>Or repeat Midazolam 0.2 mg/kg IM (max IM dose 5 mg) after 10 minutes</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+                <div>
+                    <ul>
+                        <li>If seizing pregnant patient with gestation greater than 20 weeks or postpartum less than 6 weeks, administer Magnesium Sulfate 4 grams (whole bag) infused with macro-drip tubing over 20 min.</li>
+                        <li>If seizing pregnant or postpartum patient is less than 16 years old but meets criteria above, then administer Magnesium Sulfate 4 grams (whole bag) infused with macro-drip tubing over 20 min</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-    <h4>AEMT</h4>
-    <ul>
-      <li>Cardiac monitor</li>
-      <li>For actively seizing adult patients:
-        <ul>
-          <li><strong>For patients greater than 69 y/o, reduce dosing for sedatives and analgesics to one half ( ) of the adult doses</strong></li>
-          <li>Midazolam 10 mg IN (5 mg in each nostril), or Midazolam 2.5 mg slow IV, or Midazolam 5 mg IM</li>
-          <li>If still seizing, repeat Midazolam doses:
-            <ul>
-              <li>Repeat Midazolam 5 mg IN (2.5 mg in each nostril) after 10 minutes.</li>
-              <li>Or repeat Midazolam 2.5 mg slow IV after 5 minutes.</li>
-              <li>Or repeat Midazolam 5 mg IM after 10 minutes.</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-       <li>For actively seizing pediatric patients:
-        <ul>
-            <li>Midazolam 0.2 mg/kg IN (max IN dose 10 mg) or Midazolam 0.1 mg/kg slow IV (max IV dose 2.5 mg) or Midazolam 0.2 mg/kg IM (max IM dose 5 mg)</li>
-            <li>If still seizing, repeat Midazolam doses:
+        <div class=""mt-4 pt-4 border-t space-y-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Consult</h4>
+                <p class=""text-sm"">None</p>
+            </div>
+            <div>
+                <h4 class=""text-base font-bold"">Clinical Pearls</h4>
                 <ul>
-                    <li>Repeat Midazolam 0.2 mg/kg IN (max IN dose 5 mg) after 10 minutes</li>
-                    <li>Or repeat Midazolam 0.1 mg/kg slow IV (max IV dose 2.5 mg) after 5 minutes</li>
-                    <li>Or repeat Midazolam 0.2 mg/kg IM (max IM dose 5 mg) after 10 minutes</li>
+                    <li>When obtaining history be sure to include the following:
+                        <ul class=""list-disc pl-5"">
+                            <li>Description of seizures, areas of body involved, and duration</li>
+                            <li>Other known medical history (e.g., head injury, diabetes, drugs, alcohol, stroke, heart disease, recent fever or illness, possible toxicological agents)</li>
+                        </ul>
+                    </li>
                 </ul>
-            </li>
-        </ul>
-      </li>
-    </ul>
-
-    <h4>Paramedic</h4>
-     <ul>
-        <li>If seizing pregnant patient with gestation greater than 20 weeks or postpartum less than 6 weeks, administer Magnesium Sulfate 4 grams (whole bag) infused with macro-drip tubing over 20 min.</li>
-        <li>If seizing pregnant or postpartum patient is less than 16 years old but meets criteria above, then administer Magnesium Sulfate 4 grams (whole bag) infused with macro-drip tubing over 20 min</li>
-    </ul>
-
-    <h3>Consult</h3>
-    <ul>
-        <li>None</li>
-    </ul>
-
-    <h3>Clinical Pearls</h3>
-    <ul>
-      <li>When obtaining history be sure to include the following:
-        <ul>
-            <li>Description of seizures, areas of body involved, and duration</li>
-            <li>Other known medical history (e.g., head injury, diabetes, drugs, alcohol, stroke, heart disease, recent fever or illness, possible toxicological agents)</li>
-        </ul>
-      </li>
-    </ul>"
+            </div>
+        </div>
+    </div>"
 protocol,4015,Sepsis,4000,"<div>
     <h3>4015.1 General Guidelines</h3>
     <ul>
