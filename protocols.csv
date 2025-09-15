@@ -3672,186 +3672,418 @@ protocol,3012,Frostbite ,3000,"<h3 class=""mt-6"">3012.1 Clinical Management</h3
             </div>
         </div>
     </div>"
-protocol,3013,Head Injury ,3000,"<div>
-    <h3>3013.1 Clinical Management</h3>
+protocol,3013,Head Injury ,3000,"<h3 class=""mt-6"">3013.1 Clinical Management</h3>
     <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
-        <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
-        <div class=""skill-level-grid mt-2"">
-            <div class=""skill-level-indicator bg-gray-200 text-gray-800"">EMR</div>
+        <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
+        <p class=""text-sm italic"">Assess the fontanelles in younger patients</p>
+
+        <div class=""grid md:grid-cols-2 gap-4 my-4"">
             <div>
+                <h4 class=""text-base font-bold"">Signs & Symptoms</h4>
                 <ul>
-                    <li>Evaluate level of consciousness, pupillary size and reaction.</li>
-                    <li>Establish Glasgow Coma Score and reassess frequently.</li>
-                </ul>
-            </div>
-            <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
-            <div>
-                <ul>
-                    <li>Ventilate at 20 breaths per minute when signs of cerebral herniation are present:
-                        <ul class=""list-disc pl-5 mt-1"">
-                            <li>{Ventilate to maintain EtCO₂ readings of 30 mmHg (30 torr)}.</li>
-                            <li>Never ventilate at less than 8 per minute.</li>
+                    <li>Visible head trauma</li>
+                    <li>Altered LOC</li>
+                    <li>Cushing's Triad or similar V/S
+                        <ul class=""list-disc pl-5"">
+                            <li>Ataxic Respirations</li>
+                            <li>Increased B/P</li>
+                            <li>Bradycardia</li>
                         </ul>
                     </li>
-                    <li class=""text-pink-600""><span class=""font-bold"">P</span> Ventilate at a rate of ten faster than normal respiratory rate when the signs of cerebral herniation are present.</li>
+                    <li>Pupillary changes</li>
+                    <li>Posturing</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class=""text-base font-bold"">Differential Diagnosis</h4>
+                <ul>
+                    <li>Alcohol/Acidosis</li>
+                    <li>Epilepsy/Endocrine</li>
+                    <li>Infection</li>
+                    <li>Overdose/Oxygen Deficiency</li>
+                    <li>Uremia</li>
+                    <li>Tumor</li>
+                    <li>Insulin</li>
+                    <li>Psychogenic/Poison</li>
+                    <li>Stroke/Shock</li>
                 </ul>
             </div>
         </div>
-        <div class=""mt-4 pt-4 border-t"">
-            <h4 class=""text-base font-bold"">Clinical Pearls</h4>
-            <ul class=""list-disc pl-5 text-sm"">
-                <li>Signs of cerebral herniation can include: Decreased mental status, Dilated and/or unresponsive pupils, Bradycardia, Hypertension, Posturing.</li>
-                <li>Hypoventilation increases the level of CO₂ in the brain, causing cerebral vasodilatation and increased swelling.</li>
-                <li>Hyperventilation decreases the level of CO₂ and causes cerebral vasoconstriction, hypoxia, and ischemia.</li>
-                <li>Both hyperventilation and hypoventilation could cause cerebral hypoxia and increased mortality.</li>
-                <li>{Make every effort to maintain an EtCO₂ of 30 mmHg}.</li>
-            </ul>
+
+        <div>
+            <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
+            <div class=""skill-level-grid mt-2"">
+                <div class=""skill-level-indicator bg-gray-200 text-gray-800"">EMR</div>
+                <div>
+                    <ul>
+                        <li>Evaluate level of consciousness, pupillary size and reaction.</li>
+                        <li>Establish Glasgow Coma Score and reassess frequently.</li>
+                        <li>Ventilate at 20 breaths per minute when signs of cerebral herniation are present:
+                            <ul class=""list-disc pl-5"">
+                                <li>{Ventilate to maintain EtCO2 readings of 30 mmHg (30 torr)}.</li>
+                                <li>Never ventilate at less than 8 per minute.</li>
+                            </ul>
+                        </li>
+                        <li>P Ventilate at a rate of ten faster than normal respiratory rate when the signs of cerebral herniation are present.</li>
+                    </ul>
+                </div>
+
+                <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
+                <div>
+                    <ul>
+                        <li>No additional orders at this level</li>
+                    </ul>
+                </div>
+
+                <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
+                <div>
+                    <ul>
+                       <li>No additional orders at this level</li>
+                    </ul>
+                </div>
+                
+                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+                <div>
+                     <ul>
+                        <li>No additional orders at this level</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
-</div>"
-protocol,3014,Heat Exposure ,3000,"<div>
-    <h3>3014.1 Clinical Management</h3>
+
+        <div class=""mt-4 pt-4 border-t space-y-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Consult</h4>
+                 <p class=""text-sm"">None</p>
+                 <p class=""mt-2 text-sm"">Signs of cerebral herniation can include:
+                    <ul class=""list-disc pl-5"">
+                        <li>Decreased mental status</li>
+                        <li>Dilated and/or unresponsive pupils</li>
+                        <li>Bradycardia</li>
+                        <li>Hypertension</li>
+                        <li>Posturing</li>
+                    </ul>
+                 </p>
+            </div>
+            <div>
+                <h4 class=""text-base font-bold"">Clinical Pearls</h4>
+                <ul>
+                    <li>Hypoventilation increases the level of CO2 in the brain, causing cerebral vasodilatation and increased swelling.</li>
+                    <li>Hyperventilation decreases the level of CO2 and causes cerebral vasoconstriction, hypoxia, and ischemia.</li>
+                    <li>Both hyperventilation and hypoventilation could cause cerebral hypoxia and increased mortality.</li>
+                    <li>{Make every effort to maintain an EtCO2 of 30 mmHg}</li>
+                </ul>
+            </div>
+        </div>
+    </div>"
+protocol,3014,Heat Exposure ,3000,"<h3 class=""mt-6"">3014.1 Clinical Management</h3>
     <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
-        <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
-        <div class=""skill-level-grid mt-2"">
-            <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
+        <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
+        <p class=""text-sm italic"">May not exhibit typically. Do not thermoregulate well.</p>
+
+        <div class=""grid md:grid-cols-2 gap-4 my-4"">
             <div>
+                <h4 class=""text-base font-bold"">Signs & Symptoms</h4>
                 <ul>
-                    <li>Move patient to a cool environment.</li>
-                    <li>Remove patient's clothing.</li>
-                    <li>Continuously apply water to the skin to cool the patient, use fan for evaporation if available.</li>
-                    <li>Apply cold packs to underarms and groin area.</li>
-                    <li>Cold water submersion is an acceptable method for cooling heat stroke patients. You may encounter patients in cooling body bags. The goal is to lower temperature to less than 102.5°F.</li>
-                    <li>If conscious and not vomiting or extremely nauseous, provide oral fluids.</li>
-                    <li>Be prepared for seizures.</li>
-                    <li>Consider other medical conditions (e.g., overdose, hypoglycemia, CVA) and treat accordingly.</li>
+                    <li>History of heat exposure</li>
+                    <li>Cramping</li>
+                    <li>Hot or flushed skin</li>
+                    <li>Excessive sweating</li>
+                    <li>Nausea/vomiting</li>
+                    <li>Mental status changes</li>
                 </ul>
             </div>
-            <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
             <div>
-                <p>Hyperthermia patients should be transported to a Trauma Center.</p>
-            </div>
-            <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
-            <div>
+                <h4 class=""text-base font-bold"">Differential Diagnosis</h4>
                 <ul>
-                    <li>If hypotensive or mental status changes:
-                        <ul class=""list-disc pl-5 mt-1"">
-                            <li><span class=""font-bold"">A</span> IV fluid 500 ml IV.</li>
-                            <li class=""text-pink-600""><span class=""font-bold"">P</span> IV fluid 20 ml/kg IV (max 500).</li>
-                            <li>May repeat both adult and pediatric fluid bolus one time.</li>
-                        </ul>
-                    </li>
-                    <li><span class=""font-bold text-blue-600"">&diams;</span> Additional IV fluid, if indicated.</li>
-                    <li>Consider other medical conditions (e.g., overdose, hypoglycemia, CVA) and treat accordingly.</li>
+                    <li>Thyroid storm</li>
+                    <li>Excited delirium</li>
+                    <li>Malignant hyperthermia</li>
+                    <li>Alcohol</li>
+                    <li>Epilepsy</li>
+                    <li>Insulin</li>
+                    <li>Trauma</li>
+                    <li>Infection</li>
+                    <li>Psychosis</li>
+                    <li>Stroke</li>
                 </ul>
             </div>
         </div>
-    </div>
-</div>"
-protocol,3015,Hemorrhage Control ,3000,"<div>
-    <h3>3015.1 Clinical Management</h3>
+
+        <div>
+            <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
+            <div class=""skill-level-grid mt-2"">
+                <div class=""skill-level-indicator bg-gray-200 text-gray-800"">EMR</div>
+                <div>
+                    <ul>
+                        <li>Move patient to a cool environment</li>
+                        <li>Remove patient's clothing</li>
+                        <li>Continuously apply water to the skin to cool the patient, use fan for evaporation if available</li>
+                        <li>Apply cold packs to underarms and groin area</li>
+                        <li>Cold water submersion is an acceptable method for cooling heat stroke patients. You may encounter patients in cooling body bags. The goal is to lower temperature to less than 102.5°F</li>
+                        <li>If conscious and not vomiting or extremely nauseous, provide oral fluids</li>
+                        <li>Be prepared for seizures</li>
+                        <li>Consider other medical conditions (e.g., overdose, hypoglycemia, CVA) and treat accordingly</li>
+                    </ul>
+                </div>
+
+                <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
+                <div>
+                    <ul>
+                        <li>Hyperthermia patients should be transported to a Trauma Center</li>
+                    </ul>
+                </div>
+
+                <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
+                <div>
+                    <ul>
+                       <li>If hypotensive or mental status changes:
+                           <ul class=""list-disc pl-5"">
+                               <li><span style=""color: #000000;""><strong>A</strong></span> IV fluid 500 ml IV</li>
+                               <li><span style=""color: #ff00ff;""><strong>P</strong></span> IV fluid 20 ml/kg IV (max 500)</li>
+                               <li>May repeat both adult and pediatric fluid bolus one time</li>
+                               <li><span class=""font-bold text-blue-600"">&diams;</span> Additional IV fluid, if indicated</li>
+                               <li>Consider other medical conditions (e.g., overdose, hypoglycemia, CVA) and treat accordingly</li>
+                           </ul>
+                       </li>
+                    </ul>
+                </div>
+                
+                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+                <div>
+                     <ul>
+                        <li>No additional orders at this level</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class=""mt-4 pt-4 border-t space-y-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Consult</h4>
+                <p class=""text-sm"">For additional (more than 2) fluid challenges in adults</p>
+            </div>
+            <div>
+                <h4 class=""text-base font-bold"">Clinical Pearls</h4>
+                <ul>
+                    <li>Geriatric patients, pediatric patients, patients with a history of spinal injury, and diabetics are most likely to suffer heat-related illnesses</li>
+                    <li>Other contributory factors may include heart medications, diuretics, cold medications, and psychiatric medications</li>
+                    <li>Heat exposure can occur due to increased environmental temperatures, prolonged exercise or a combination of both</li>
+                    <li>Environments with temperatures above 90°F and humidity over 60% present the most risk</li>
+                </ul>
+            </div>
+        </div>
+    </div>"
+protocol,3015,Hemorrhage Control ,3000,"<h3 class=""mt-6"">3015.1 Clinical Management</h3>
     <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
-        <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
-        <div class=""skill-level-grid mt-2"">
-            <div class=""skill-level-indicator bg-gray-200 text-gray-800 col-span-full md:col-span-1"">EMR / EMT</div>
-            <div class=""md:col-start-2"">
+        <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
+        <p class=""text-sm italic"">None</p>
+
+        <div class=""grid md:grid-cols-2 gap-4 my-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Signs & Symptoms</h4>
                 <ul>
-                    <li>Control of life-threatening external hemorrhage takes priority over any other treatment.</li>
-                    <li>Constant, direct pressure is the primary method of bleeding control.</li>
-                    <li>If direct pressure fails to control bleeding from extremities, use a tourniquet.
-                        <ul class=""list-disc pl-5 mt-1"">
-                            <li>{Commercial tourniquets such as the CAT or SOFTT are recommended}.</li>
-                            <li>Only use wide, flat materials such as cravats or BP cuffs as improvised tourniquets.</li>
-                            <li>Place a tourniquet as proximal as possible to the torso on the femur or humerus.</li>
-                            <li>Tighten the tourniquet until the bleeding stops.</li>
-                            <li>If bleeding persists, place another tourniquet abutted to the first tourniquet.</li>
-                            <li>Document time and location.</li>
-                            <li>Be sure that the ER staff is aware of the tourniquet.</li>
-                        </ul>
-                    </li>
-                    <li class=""mt-2"">{For life-threatening hemorrhage that can't be controlled by tourniquets, consider hemostatic dressings}.
-                        <ul class=""list-disc pl-5 mt-1"">
-                            <li>Combat Gauze, or ChitoFlex PRO are examples.</li>
-                            <li>These can be used on the chest or abdomen.</li>
-                            <li><span class=""font-bold"">G</span> Place in direct contact with the source of bleeding and apply a pressure dressing or use Kerlix.</li>
-                            <li>DO NOT USE GRANULAR AGENTS.</li>
-                        </ul>
-                    </li>
-                     <li class=""mt-2"">Wound Packing may be performed by providers at any level, as long as they have received proper training.
-                        <ul class=""list-disc pl-5 mt-1"">
-                            <li>This procedure is not to be used on open wounds to the head, chest or abdomen.</li>
-                            <li>Use sterile gauze or approved hemostatic products.</li>
-                            <li>Gauze should be placed as deeply in the wound as possible using a gloved digit and continuous pressure.</li>
-                            <li>Excessive force is not necessary and may be harmful.</li>
-                            <li>Apply a pressure dressing and manual direct pressure over the packed wound for at least 3 minutes.</li>
-                            <li>Do not remove wound packing once placed in the cavity.</li>
-                            <li>Notify the ED staff of the use of wound packing on arrival at the destination.</li>
-                        </ul>
-                    </li>
+                    <li>Significant bleeding</li>
+                    <li>Shock-like symptoms</li>
                 </ul>
             </div>
-            <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
             <div>
-                <p>Treat for hypovolemic shock as indicated.</p>
-            </div>
-            <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
-            <div>
+                <h4 class=""text-base font-bold"">Differential Diagnosis</h4>
                 <ul>
-                    <li><span class=""font-bold"">A</span> For known or suspected hemorrhage secondary to trauma, consider Tranexamic Acid (TXA) 2 gram IV/IO over 1-2 minutes.</li>
-                    <li>If unsure if TXA is indicated, contact Medical Control for advice.</li>
-                    <li>In pediatric patients with uncontrolled bleeding from a recent tonsillectomy, consider Tranexamic Acid (TXA) nebulized:
-                        <ul class=""list-disc pl-5 mt-1 text-pink-600"">
-                            <li><span class=""font-bold"">P</span> Less than 25 kg: 250 mg, nebulized with an additional 3 ml normal saline, O₂ flowing at 8-10 LPM.</li>
-                            <li><span class=""font-bold"">P</span> 25 kg or greater: 500 mg, nebulized with an additional 3 ml normal saline, O₂ flowing at 8-10 LPM.</li>
-                        </ul>
-                    </li>
+                    <li>None</li>
                 </ul>
             </div>
         </div>
-    </div>
-</div>"
-protocol,3016,Hypothermia ,3000,"<div>
-    <h3>3016.1 Clinical Management</h3>
+
+        <div>
+            <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
+            <div class=""skill-level-grid mt-2"">
+                <div class=""skill-level-indicator bg-gray-200 text-gray-800"">EMR</div>
+                <div>
+                    <ul>
+                        <li>Control of life-threatening external hemorrhage takes priority over any other treatment.</li>
+                        <li>Constant, direct pressure is the primary method of bleeding control.</li>
+                        <li>If direct pressure fails to control bleeding from extremities, use a tourniquet.
+                            <ul class=""list-disc pl-5"">
+                                <li>{Commercial tourniquets such as the CAT or SOFTT are recommended}</li>
+                                <li>Only use wide, flat materials such as cravats or BP cuffs as improvised tourniquets</li>
+                                <li>Place a tourniquet as proximal as possible to the torso on the femur or humerus</li>
+                                <li>Tighten the tourniquet until the bleeding stops</li>
+                                <li>If bleeding persists, place another tourniquet abutted to the first tourniquet</li>
+                                <li>Document time and location</li>
+                                <li>Be sure that the ER staff is aware of the tourniquet</li>
+                            </ul>
+                        </li>
+                        <li>For life-threatening hemorrhage that can't be controlled by tourniquets, consider {hemostatic dressings}.
+                            <ul class=""list-disc pl-5"">
+                                <li>Combat Gauze, or ChitoFlex PRO are examples</li>
+                                <li>These can be used on the chest or abdomen</li>
+                                <li>Place in direct contact with the source of bleeding and apply a pressure dressing or use Kerlix</li>
+                                <li>DO NOT USE GRANULAR AGENTS</li>
+                            </ul>
+                        </li>
+                        <li>Wound Packing may be performed by providers at any level, as long as they have received proper training
+                            <ul class=""list-disc pl-5"">
+                                <li>This procedure is not to be used on open wounds to the head, chest or abdomen</li>
+                                <li>Use sterile gauze or approved hemostatic products</li>
+                                <li>Gauze should be placed as deeply in the wound as possible using a gloved digit and continuous pressure</li>
+                                <li>Excessive force is not necessary and may be harmful.</li>
+                                <li>Apply a pressure dressing and manual direct pressure over the packed wound for at least 3 minutes</li>
+                                <li>Do not remove wound packing once placed in the cavity</li>
+                                <li>Notify the ED staff of the use of wound packing on arrival at the destination</li>
+                            </ul>
+                        </li>
+                        <li>Treat for hypovolemic shock as indicated.</li>
+                    </ul>
+                </div>
+
+                <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
+                <div>
+                    <ul>
+                        <li>No additional orders at this level.</li>
+                    </ul>
+                </div>
+
+                <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
+                <div>
+                    <ul>
+                       
+                       <li>A For known or suspected hemorrhage secondary to trauma, consider Tranexamic Acid (TXA) 2 gram IV/IO over 1-2 minutes</li>
+                        <li>If unsure if TXA is indicated, contact Medical Control for advice.</li>
+                        <li>In pediatric patients with uncontrolled bleeding from a recent tonsillectomy, consider Tranexamic Acid (TXA) nebulized:
+                            <ul class=""list-disc pl-5"">
+                                <li><span style=""color: #ff00ff;""><strong>P</strong></span> Less than 25 kg: 250 mg, nebulized with an additional 3 ml normal saline, O₂ flowing at 8-10 LPM</li>
+                                <li><span style=""color: #ff00ff;""><strong>P</strong></span> 25 kg or greater: 500 mg, nebulized with an additional 3 ml normal saline, O₂ flowing at 8-10 LPM</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+                <div>
+                     <ul>
+                        <li>No additional orders at this level</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class=""mt-4 pt-4 border-t space-y-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Consult</h4>
+                <ul>
+                    <li>If the AEMT or Paramedic needs assistance with a decision to administer Tranexamic Acid (TXA)</li>
+                    <li>When managing post-partum hemorrhage with Tranexamic Acid (TXA) as mentioned in 4007 Childbirth with Complications</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class=""text-base font-bold"">Clinical Pearls</h4>
+                <ul>
+                    <li>For Tranexamic Acid (TXA), time since injury must be less than three hours.
+                        <ul class=""list-disc pl-5"">
+                            <li>Greatest benefit will be to patients within 1 hour of injury</li>
+                        </ul>
+                    </li>
+                    <li>Note and report the time of injury and the time of TXA administration</li>
+                </ul>
+            </div>
+        </div>
+    </div>"
+protocol,3016,Hypothermia ,3000,"<h3 class=""mt-6"">3016.1 Clinical Management</h3>
     <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
-        <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
-        <div class=""skill-level-grid mt-2"">
-            <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
+        <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
+        <p class=""text-sm italic"">None</p>
+
+        <div class=""grid md:grid-cols-2 gap-4 my-4"">
             <div>
+                <h4 class=""text-base font-bold"">Signs & Symptoms</h4>
                 <ul>
-                    <li>Move patient to warm environment, remove all wet clothing, dry the patient, and cover with blankets.</li>
-                    <li>Avoid any rough movement that may cause cardiac dysrhythmias or cardiac arrest.</li>
-                    <li>It may be beneficial to consider spinal motion restriction measures.</li>
-                    <li>Assess neurological status.</li>
-                    <li>Oxygenate the patient with 100% O₂.</li>
-                    <li>If patient goes into cardiac arrest:
-                        <ul class=""list-disc pl-5 mt-1"">
-                            <li>CPR continuously.</li>
-                            <li>In severe hypothermia (less than 86°F [30°C]), limit defibrillation attempts to one except on orders from MCP.</li>
-                            <li>If body temperature is (more than 86°F [30°C]) follow normal arrest protocols.</li>
-                        </ul>
-                    </li>
-                    <li>If available, provide {warmed and humidified} 100% O₂.</li>
+                    <li>Cold, clammy skin</li>
+                    <li>Shivering</li>
+                    <li>Mental status changes</li>
+                    <li>Extremity pain or sensory abnormality</li>
+                    <li>Bradycardia</li>
+                    <li>Hypotension or shock</li>
                 </ul>
             </div>
-            <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
             <div>
+                <h4 class=""text-base font-bold"">Differential Diagnosis</h4>
                 <ul>
-                    <li>Hypothermic patients should be transported to a Trauma Center.</li>
-                    <li>Resuscitative efforts should be continued while in transit, even if there is no response.</li>
-                </ul>
-            </div>
-            <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
-            <div>
-                <ul>
-                    <li>Use the least invasive means possible to secure airway.</li>
-                    <li>Intubate if necessary, as gently as possible.</li>
-                    <li>Establish vascular access and consider {warmed} fluids.</li>
-                    <li>Treat bradycardia only if patient is hypotensive.</li>
+                    <li>Sepsis</li>
+                    <li>Hypoglycemia</li>
+                    <li>Stroke</li>
+                    <li>Head Injury</li>
+                    <li>Spinal cord injury</li>
                 </ul>
             </div>
         </div>
-    </div>
-</div>"
+
+        <div>
+            <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
+            <div class=""skill-level-grid mt-2"">
+                <div class=""skill-level-indicator bg-gray-200 text-gray-800"">EMR</div>
+                <div>
+                    <ul>
+                        <li>Move patient to warm environment, remove all wet clothing, dry the patient, and cover with blankets.</li>
+                        <li>Avoid any rough movement that may cause cardiac dysrhythmias or cardiac arrest.</li>
+                        <li>It may be beneficial to consider spinal motion restriction measures.</li>
+                        <li>Assess neurological status.</li>
+                        <li>Oxygenate the patient with 100% 02.</li>
+                        <li>If patient goes into cardiac arrest:
+                            <ul class=""list-disc pl-5"">
+                                <li>CPR continuously</li>
+                                <li>In severe hypothermia (less than 86°F [30°C]), limit defibrillation attempts to one except on orders from MCP.</li>
+                                <li>If body temperature is (more than 86°F [30°C]) follow normal arrest protocols.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=""skill-level-indicator bg-blue-200 text-blue-800"">EMT</div>
+                <div>
+                    <ul>
+                        <li>If available, provide {warmed and humidified} 100% O₂</li>
+                        <li>Hypothermic patients should be transported to a Trauma Center.</li>
+                        <li>Resuscitative efforts should be continued while in transit, even if there is no response.</li>
+                    </ul>
+                </div>
+
+                <div class=""skill-level-indicator bg-green-200 text-green-800"">AEMT</div>
+                <div>
+                    <ul>
+                       <li>Use the least invasive means possible to secure airway.</li>
+                       <li>Intubate if necessary, as gently as possible.</li>
+                       <li>Establish vascular access and consider {warmed} fluids.</li>
+                    </ul>
+                </div>
+                
+                <div class=""skill-level-indicator bg-yellow-200 text-yellow-800"">Paramedic</div>
+                <div>
+                     <ul>
+                        <li>Treat bradycardia only if patient is hypotensive.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class=""mt-4 pt-4 border-t space-y-4"">
+            <div>
+                <h4 class=""text-base font-bold"">Consult</h4>
+                <ul>
+                    <li>Consult with MCP for cardiac arrest management of the severely hypothermic patient.</li>
+                    <li>Paramedics must consult with MCP for orders to administer cardiac arrest medications.</li>
+                    <li>All levels should consult with MCP for orders to administer second and subsequent defibrillations.</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class=""text-base font-bold"">Clinical Pearls</h4>
+                <ul>
+                    <li>It may be necessary to assess pulse and respirations for up to 45 seconds to confirm arrest.</li>
+                    <li>Do not initiate CPR if there is any pulse present, no matter how slow.</li>
+                </ul>
+            </div>
+        </div>
+    </div>"
 protocol,3017,Spinal Motion Restriction ,3000,"<div>
     <h3>3017.1 General Guidelines</h3>
     <ul>
@@ -3916,7 +4148,10 @@ protocol,3017,Spinal Motion Restriction ,3000,"<div>
             </ul>
         </li>
     </ul>
-</div>"
+</div>
+<div class=""flex flex-col items-center text-center"">
+        <img src=""./images/3017-1.png"" alt=""img1"" class=""w-full"">
+      </div>"
 protocol,3018,Trauma Transport Guidelines ,3000,"<div>
     <h3>3018.1 Interpretation of Trauma Triage Guidelines</h3>
     <ul>
@@ -3975,8 +4210,8 @@ protocol,3018,Trauma Transport Guidelines ,3000,"<div>
                 <li><span class=""font-bold"">G</span> Injury sustained in two or more body regions.</li>
                 <li>Open skull fracture.</li>
             </ul>
-            <p class=""mt-2 font-semibold"">Meets Above Criteria = Transport to Trauma Center. Call Trauma Alert if patient presentation indicates.</p>
-            <p class=""mt-1"">Does Not Meet Above Criteria = Continue Assessment for Physiologic Criteria.</p>
+<p class=""mt-2 font-semibold""><span style=""color: #ff0000;"">Meets Above Criteria = Transport to Trauma Center. Call Trauma Alert if patient presentation indicates.</span></p>
+<p class=""mt-1""><span style=""color: #339966;"">Does Not Meet Above Criteria = Continue Assessment for Physiologic Criteria.</span></p>
         </div>
         <div>
             <h4 class=""font-bold"">b. Physiological Criteria:</h4>
@@ -3985,8 +4220,8 @@ protocol,3018,Trauma Transport Guidelines ,3000,"<div>
                 <li class=""mt-2 text-pink-600""><strong>Pediatric Physiological Criteria:</strong> <span class=""font-bold"">P</span> GCS &le; 13, Loss of consciousness > 5 mins, Deterioration in LOC, Failure to localize pain, Evidence of poor perfusion, Evidence of respiratory distress or failure, Respiratory rate < 20/min in infants < 1 year old.</li>
                 <li class=""mt-2""><strong>Geriatric Physiological Criteria:</strong> <span class=""font-bold"">G</span> GCS &le; 13 (or &le; 14 with TBI), Loss of consciousness > 5 mins, Deterioration in LOC, Failure to localize pain, Respirations < 10 or > 29, Needs ventilatory support, Requires relief of tension pneumothorax, Pulse > 120 with evidence of hemorrhagic shock, SBP < 100 or absent radial pulse with carotid pulse present.</li>
              </ul>
-            <p class=""mt-2 font-semibold"">Meets Physiological Criteria = Transport to Trauma Center. Call Trauma Alert if patient presentation indicates.</p>
-            <p class=""mt-1"">Does Not Meet Above Criteria = Continue Assessment for Special Considerations.</p>
+<p class=""mt-2 font-semibold""><span style=""color: #ff0000;"">Meets Physiological Criteria = Transport to Trauma Center. Call Trauma Alert if patient presentation indicates.</span></p>
+<p class=""mt-1""><span style=""color: #339966;"">Does Not Meet Above Criteria = Continue Assessment for Special Considerations.</span></p>
         </div>
         <div>
              <h4 class=""font-bold"">c. Special Considerations:</h4>
@@ -3996,8 +4231,8 @@ protocol,3018,Trauma Transport Guidelines ,3000,"<div>
                 <li><span class=""font-bold"">G</span> Pedestrian struck by a motor vehicle.</li>
                 <li><span class=""font-bold"">G</span> Falls from any height, including standing falls, with evidence of traumatic brain injury.</li>
              </ul>
-            <p class=""mt-2 font-semibold"">Special Considerations = Transport to Trauma Center. Call Trauma Alert if patient presentation indicates.</p>
-            <p class=""mt-1"">Does Not Meet Above Criteria = Consider MOI or Transport to most appropriate hospital.</p>
+<p class=""mt-2 font-semibold""><span style=""color: #ff0000;"">Special Considerations = Transport to Trauma Center. Call Trauma Alert if patient presentation indicates.</span></p>
+<p class=""mt-1""><span style=""color: #339966;"">Does Not Meet Above Criteria = Consider MOI or Transport to most appropriate hospital.</span></p>
         </div>
          <div>
              <h4 class=""font-bold"">d. Mechanism of Injury:</h4>
@@ -4020,78 +4255,233 @@ protocol,3018,Trauma Transport Guidelines ,3000,"<div>
                 <li>Immuno-suppressed patients (renal dialysis, transplant, cancer, HIV).</li>
                 <li>Congenital disorder.</li>
              </ul>
-             <p class=""mt-2 font-semibold"">MOI or Special Considerations = Consider Trauma Center. No need to call Trauma Alert if no significant symptoms.</p>
-             <p class=""mt-1"">No Significant MOI or Special Considerations = Transport to most appropriate hospital.</p>
+<p><span style=""color: #ff0000;"">MOI or Special Considerations = Consider Trauma Center. No need to call Trauma Alert if no significant symptoms.</span></p>
+<p><span style=""color: #339966;"">No Significant MOI or Special Considerations = Transport to most appropriate hospital.</span></p>
         </div>
     </div>
-</div>"
-protocol,3019,SALT Triage Systems ,3000,"<div>
-    <h3>3019.1 General Guidelines</h3>
+</div>
+"
+protocol,3019,SALT Triage Systems ,3000,"<h3>3019.1 General Guidelines</h3>
     <ul>
         <li>SALT stands for Sort, Assess, Life-Saving Intervention, and Treatment/Transport.</li>
         <li>Developed by the Centers for Disease Control and Prevention to address limitations in other systems.</li>
         <li>The CDC has proposed SALT as the national standard for Mass Casualty Incident (MCI) triage.</li>
         <li>SALT has the advantage of being the fastest mass casualty triage system.</li>
-        <li>Notify hospitals of any MCI, especially a MCI involving contaminated patients. Consider use of the 3020 Regional Hospital Notification System (RHNS).</li>
+        <li>Notify hospitals of any MCI, especially a MCI involving contaminated patients.
+            <ul class=""list-disc pl-5"">
+                <li>Consider use of the 3020 Regional Hospital Notification System (RHNS)</li>
+            </ul>
+        </li>
     </ul>
 
     <h3 class=""mt-6"">3019.2 Primary and Secondary Triage Prior to Transport</h3>
-    <div class=""space-y-4"">
-        <div>
-            <h4 class=""font-bold"">a. Initial Triage:</h4>
-            <ul class=""list-roman pl-6"">
-                <li>Use triage ribbons (color-coded strips), not treatment tags, during initial triage. Treatment tags slow the process and should be used later, in the treatment areas. Treatment tags do need to be used at some point as they are sometimes the only documentation of EMS assessments and treatments.</li>
+    <ul>
+        <li><strong>Initial Triage:</strong>
+            <ul class=""list-disc pl-5"">
+                <li>Use triage ribbons (color-coded strips), not treatment tags, during initial triage.
+                    <ul class=""list-roman pl-6"">
+                        <li>Treatment tags slow the process and should be used later, in the treatment areas.</li>
+                        <li>Treatment tags do need to be used at some point as they are sometimes the only documentation of EMS assessments and treatments.</li>
+                    </ul>
+                </li>
                 <li>Tie the triage ribbon to an upper extremity in a VISIBLE location (on the right wrist, if possible).</li>
-                <li>SALT Triage Levels: RED-Immediate, YELLOW-Delayed, GREEN-Minimal, GRAY-Expectant, BLACK-Dead, ORANGE/Polka Dot - Contaminated.</li>
+                <li>SALT Triage Levels:
+                    <ul class=""list-disc pl-5"">
+<li><span style=""color: #ff0000;"">RED &ndash; Immediate</span></li>
+<li><span style=""color: #ffff00;"">YELLOW &ndash; Delayed</span></li>
+<li><span style=""color: #339966;"">GREEN &ndash; Minimal</span></li>
+<li><span style=""color: #999999;"">GRAY &ndash; Expectant</span> (The patient is unlikely to survive given the current resources)</li>
+<li>BLACK &ndash; Dead (black &amp; white zebra stripe for easier visibility in low light)</li>
+<li><span style=""color: #ff6600;"">ORANGE and Polka Dot</span> - used in addition to one of the above ribbons to indicate victim has been contaminated with a hazardous material.</li>
+                    </ul>
+                </li>
                 <li>Move as quickly and safely as possible; making quick decisions.</li>
                 <li>Victims will be re-triaged, probably multiple times. Revise the triage category as often as indicated.</li>
                 <li>Over-triage can be as harmful as under-triage. If everyone is tagged red, those who are truly red will receive delayed treatment, delayed transport, and delayed definitive care.</li>
                 <li>Treatment and transport should NOT be delayed especially for critical patients. Get the reds out.</li>
                 <li>If there are extensive delays in the field, consider requesting orders for palliative care, e.g., pain medications if time and resources allow.</li>
             </ul>
-        </div>
-        <div>
-            <h4 class=""font-bold"">b. Secondary Triage:</h4>
-            <ul class=""list-roman pl-6"">
-                <li>Reassess as often as practical, including when the patient is moved to the Casualty Collection Point (CCP) or Treatment Area, and on all victims prior to transport. Also reassess patients when their condition or resources available change.</li>
-                <li>Apply Treatment Tags after patients enter the CCP, or in the Transport Area.</li>
+        </li>
+        <li><strong>Secondary Triage:</strong>
+            <ul class=""list-disc pl-5"">
+                <li>Reassess (i.e. secondary triage) as often as practical, including when the patient is moved to the Casualty Collection Point (CCP) or Treatment Area, and on all victims prior to transport.
+                     <ul class=""list-roman pl-6"">
+                        <li>Also reassess patients when their condition or resources available change.</li>
+                    </ul>
+                </li>
+                <li>Apply Treatment Tags after patients enter the CCP, or in the Transport Area (by the Transport Officer/Group) if the patient is being directly removed without going to the Treatment Area.</li>
                 <li>Crews can also fill in pertinent and available information on the Tag during transport.</li>
-                <li>Use the patient's ribbon to tie on the treatment tag. Use treatment tags with individual barcodes consistent with this Standing Order and Juvare EMTrack, the patient tracking system used throughout Ohio.</li>
-                <li>Orange & Polka-dot ribbons (indicating contaminated patients) are removed after decontamination. Mark treatment tags for contaminated patients with two check marks on the orange strip, marking both ""dirty"" and ""decontaminated"" boxes.</li>
+                <li>Use the patient’s ribbon to tie on the treatment tag.
+                    <ul class=""list-roman pl-6"">
+                        <li>Use treatment tags with individual barcodes consistent with this Standing Order and Juvare EMTrack, the patient tracking system used throughout Ohio.</li>
+                    </ul>
+                </li>
+                <li>Orange & Polka-dot ribbons (indicating contaminated patients) are removed after decontamination.
+                    <ul class=""list-roman pl-6"">
+                        <li>Each contaminated patient initially receives two ribbons: one with the triage category (Red, Yellow, Green, Gray, or Black), and the second, the Orange & Polka-dot ribbon indicating contamination.</li>
+                        <li>EMS is responsible for performing primary decontamination prior to transport. However, the hospital must be made aware of both contamination and the decontamination procedures taken.</li>
+                        <li>Make sure to decontaminate under the ribbons.</li>
+                        <li>After decontamination, remove the Orange & Polka-dot ribbon.</li>
+                        <li>Mark treatment tags for contaminated patients with two check marks on the orange strip:
+                            <ul class=""list-disc pl-5"">
+                               <li>Mark both the “dirty” and “decontaminated” boxes.</li>
+                               <li>This indicates to the hospital personnel that the patient has had field decontamination, but may still be somewhat “dirty”.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
             </ul>
-        </div>
-        <div>
-            <h4 class=""font-bold"">c. Transport:</h4>
-             <ul class=""list-roman pl-6"">
+        </li>
+        <li><strong>Transport:</strong>
+            <ul class=""list-disc pl-5"">
                 <li>Treatment Area or Transport Group personnel determine priority for transport.</li>
-                <li>Distribution of patients among various hospitals is one of EMS' most crucial tasks. Do not overload any hospital.</li>
-                <li>In an MCI, transport trauma patients to non-Trauma Centers as necessary. Consider transporting minor (GREEN) patients to satellite EDs.</li>
+                <li>Distribution of patients among various hospitals is one of EMS’ most crucial tasks.</li>
+                <li>Do not overload any hospital, regardless of transport distance to other hospitals.
+                    <ul class=""list-roman pl-6"">
+                        <li>Consider use of Juvare EMResource from the scene to monitor hospital triage capabilities according to RED, YELLOW and GREEN patient categories.</li>
+                    </ul>
+                </li>
+                <li>In an MCI, transport trauma patients to non-Trauma Centers as necessary.
+                    <ul class=""list-roman pl-6"">
+                        <li>All hospitals will accept and stabilize trauma patients during MCIs.</li>
+                        <li>Consider transporting minor (GREEN) patients to satellite EDs to relieve pressure on Trauma Centers and other hospitals.</li>
+                    </ul>
+                </li>
                 <li>When assigning patient allocation, consider the likelihood that the closest hospitals may be overwhelmed by patients who were not transported by EMS.</li>
                 <li>In large scenarios, consider activation of the Forward Movement of Patients Plan as defined in 3021 Crisis Standards of Care in Massive Events.</li>
-             </ul>
-        </div>
-    </div>
-    
+            </ul>
+        </li>
+    </ul>
+
     <h3 class=""mt-6"">3019.3 Sort, Assess, Life-Saving Intervention, Treatment/Transport Process</h3>
-    <div class=""space-y-4"">
-        <div>
-            <h4 class=""font-bold"">a. Sort (Global Sorting)</h4>
+    <ul>
+        <li><strong>Sort</strong>
             <ul class=""list-disc pl-5"">
-                <li><strong>Action 1:</strong> ""Everyone who can hear me please move to [designated area] and we will help you."" Those who follow are last priority (Green). Assign someone to keep them together.</li>
-                <li><strong>Action 2:</strong> ""If you need help, wave."" Those who follow are second priority.</li>
-                <li><strong>Result:</strong> Casualties are now prioritized: 1st - Still/obvious life threat, 2nd - Waving, 3rd - Walking.</li>
+                <li>Global Sorting: Action 1
+                    <ul class=""list-roman pl-6"">
+                        <li>Action: “Everyone who can hear me please move to [designated area] and we will help you” (use loudspeaker if available)</li>
+                        <li>Goal: Group ambulatory patients using voice commands</li>
+                        <li>Result: Those who follow commands are last priority for individual assessment (Green)</li>
+                        <li>Assign someone to keep them together and notify Incident Command or EMS Group/Branch of number of patients and their location.</li>
+                        <li>Do not forget these victims.</li>
+                        <li>Someone must re-triage them as soon as possible.</li>
+                        <li>In smaller incidents, such as a motor vehicle crash with few victims that you do not want to move on their own, skip Action 1, and go to Global Sorting Action 2</li>
+                    </ul>
+                </li>
+                 <li>Global Sorting: Action 2
+                    <ul class=""list-roman pl-6"">
+                        <li>Action: “If you need help, wave. We will be there to help as soon as possible”</li>
+                        <li>Goal: Identify non-ambulatory patients who can follow commands or make purposeful movements</li>
+                        <li>Result: Those who follow this command are second priority for individual assessment</li>
+                    </ul>
+                </li>
+                <li>Global Sorting: Result
+                    <ul class=""list-roman pl-6"">
+                        <li>Casualties are now prioritized for individual assessment
+                            <ul class=""list-decimal pl-6"">
+                                <li>Priority 1: Still, and those with obvious life threat</li>
+                                <li>Priority 2: Waving or purposeful movements</li>
+                                <li>Priority 3: Walking</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>Begin assessing all non-ambulatory victims where they lie, performing Life Saving Interventions (LSIs) as needed, within your scope of practice, using the equipment is readily available.</li>
             </ul>
-        </div>
-         <div>
-            <h4 class=""font-bold"">b. Assess</h4>
+        </li>
+        <li><strong>Assess</strong>
             <ul class=""list-disc pl-5"">
-                <li><strong>Is the patient breathing?</strong> If not, open airway (in children, give 2 rescue breaths). If still not breathing, tag BLACK (dead).</li>
-                <li><strong>Assess for the following:</strong> Can the patient follow commands or make purposeful movements? Does the patient have a peripheral pulse? Is the patient not in respiratory distress? Is hemorrhaging under control?</li>
-                <li><strong>Grading:</strong> If ANY answer is NO and likely to survive, tag RED (Immediate). If ANY answer is NO and UNLIKELY to survive, tag GRAY (Expectant). If ALL are YES with more than minor injuries, tag YELLOW (Delayed). If ALL are YES with only minor injuries, tag GREEN (Minimal).</li>
+                <li>Is the patient breathing?
+                    <ul class=""list-roman pl-6"">
+                        <li>If not, open the airway. In children, consider giving two rescue breaths.</li>
+                        <li>If the patient is still not breathing, triage them to BLACK (dead).</li>
+                        <li>Do not move patients triaged BLACK except to gain access to a living patient.</li>
+                        <li>If patient is breathing, conduct next assessment.</li>
+                    </ul>
+                </li>
+                <li>Assess for the following:
+                    <ul class=""list-roman pl-6"">
+                        <li>Can the patient follow commands or make purposeful movements?</li>
+                        <li>Does the patient have a peripheral pulse?</li>
+                        <li>Is the patient not in respiratory distress?</li>
+                        <li>Is hemorrhaging under control?</li>
+                    </ul>
+                </li>
+                <li>Grading the Assessment
+                    <ul class=""list-roman pl-6"">
+                        <li>If the answer to any of those questions is no (bad) and the patient IS likely to survive given current resources, tag them as RED (Immediate).</li>
+                        <li>If the answer to any of those questions is no (bad) and the patient is NOT likely to survive given current resources, tag them as GRAY (Expectant).</li>
+                        <li>If the answer to all of those questions is yes but injuries are not minor and require care, tag patient as YELLOW (Delayed).
+                            <ul class=""list-decimal pl-6"">
+                                <li>YELLOWs have serious injuries and need care, though not as urgently as REDs.</li>
+                                <li>On secondary triage, some YELLOWs will need higher priority transport than others.</li>
+                            </ul>
+                        </li>
+                        <li>If the answers to all of those questions is yes and the injuries are minor, tag patient as GREEN (Minimal).</li>
+                    </ul>
+                </li>
             </ul>
-        </div>
-    </div>
-    </div>"
+        </li>
+        <li><strong>Life Saving Interventions</strong>
+            <ul class=""list-disc pl-5"">
+                <li>Only correct life-threatening problems during triage.
+                    <ul class=""list-roman pl-6"">
+                        <li>Control major hemorrhage</li>
+                        <li>Open airway (if child, consider giving two rescue breaths)</li>
+                        <li>Needle chest decompression</li>
+                        <li>Auto injector antidotes</li>
+                        <li>See 3019.5 Special Situations</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><strong>Treatment/Transport</strong>
+             <ul class=""list-disc pl-5"">
+                <li>Transport/treatment priority is typically given (in order) to
+                    <ol class=""list-decimal pl-6"">
+                        <li>RED (Immediate)</li>
+                        <li>YELLOW (Delayed)</li>
+                        <li>GREEN (Minimal)</li>
+                        <li>GRAY (Expectant) patients should be treated and transported as resources allow.</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    
+    <h3 class=""mt-6"">3019.4 General Considerations</h3>
+    <ul>
+        <li>Patients must be reassessed periodically, including when moved to the CCP, or when their condition or resources change.</li>
+        <li>Even after applying treatment tags, the main indicator of patient condition is the triage ribbon.</li>
+        <li>Continue to use the same tag, even if the condition changes repeatedly, changing the ribbon to indicate the patient’s current condition.</li>
+        <li>If the patient’s condition or the triage priority changes, indicate that on the tag.</li>
+    </ul>
+
+    <h3 class=""mt-6"">3019.5 Special Considerations</h3>
+    <ul>
+        <li>SALT is a clinical guideline, not an absolute.</li>
+        <li>Every MCI is extraordinary - use your clinical judgement</li>
+        <li>A patient who is GRAY (Expectant) initially can become RED (Immediate) as soon as resources are available.</li>
+        <li>MCIs with patients suffering traumatic (aka, compression) asphyxia who are not breathing initially, may start breathing after just a few ventilations.
+            <ul class=""list-disc pl-5"">
+                <li>Common to crowding situations and crowd surges, it is worth attempting a few ventilations during the LSI step, even in adults.</li>
+            </ul>
+        </li>
+        <li>In MCIs due to lightning strikes, the pathology can be very complex.</li>
+        <li>Consider attempting ventilation or defibrillation, depending on resources and the conditions of other victims.</li>
+    </ul>
+
+    <h3 class=""mt-6"">3019.6 SALT Triage Flow Chart</h3>
+    
+<p>Two mnemonics to remember the four assessment questions:</p>
+<p><strong>C</strong> &ndash; follows Commands</p>
+<p><strong> R</strong> &ndash; No Respiratory distress</p>
+<p><strong> A</strong> &ndash; No (uncontrolled) Arterial bleeding</p>
+<p><strong> P</strong> &ndash; Peripheral Pulse Present.</p>
+<p>Think of the questions in terms of &ldquo;bad&rdquo; or &ldquo;good&rdquo;. If the answer to any of the questions is &ldquo;bad&rdquo; then the patient is tagged either RED (Immediate) or GRAY (Expectant).</p>
+<div class=""flex flex-col items-center text-center"">
+        <img src=""./images/3017-1.png"" alt=""img1"" class=""w-full"">
+      </div>"
 protocol,3020,Regional Hospital Notification System ,3000,"<div>
     <h3>3020.1 General Guidelines</h3>
     <ul>
