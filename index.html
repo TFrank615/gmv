@@ -119,16 +119,14 @@
                 <!-- VVV REPLACE 'src' WITH YOUR LEFT LOGO FILE VVV -->
                 <img src="./images/favicon-32x32.png" alt="Left Logo" class="h-8 w-auto mr-3">
                 <h1 id="app-title" class="text-xl font-bold text-center px-2 truncate">GMVEMSC</h1>
-                <!-- VVV REPLACE 'src' WITH YOUR RIGHT LOGO FILE VVV -->
-                <img src="./images/sol.png" alt="Right Logo" class="h-8 w-auto ml-3">
             </div>
 
             <div class="w-16"></div> <!-- Spacer -->
         </header>
 
         <!-- Search Bar (hidden initially) -->
-        <div id="search-container" class="p-4 bg-gray-50 border-b border-gray-200 hidden z-10 flex-shrink-0">
-             <input type="text" id="search-input" placeholder="Search by title, ID, or content..." class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none transition max-w-4xl mx-auto">
+        <div id="search-container" class="p-4 bg-gray-50 border-b border-gray-200 hidden z-10 flex-shrink-0 flex justify-center">
+             <input type="text" id="search-input" placeholder="Search" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none transition max-w-4xl">
         </div>
 
         <!-- Main Content Area -->
@@ -258,7 +256,7 @@
                 let html = '';
                 if (currentView === 'protocols') {
                     appTitle.textContent = MAIN_APP_TITLE;
-                    searchContainer.style.display = 'block';
+                    searchContainer.style.display = 'flex';
                     html += '<div class="grid grid-cols-1 md:grid-cols-2 gap-4">';
                     db.categories.forEach(cat => {
                         const colors = categoryColors[cat.color] || categoryColors.gray;
@@ -275,7 +273,7 @@
                     html += '</div>';
                 } else {
                     appTitle.textContent = 'Medication Reference';
-                    searchContainer.style.display = 'block';
+                    searchContainer.style.display = 'flex';
                     html += renderMedList();
                 }
                 contentArea.innerHTML = html;
@@ -393,7 +391,7 @@
             const updateUIState = (state) => {
                 if (state === 'home') {
                     backButton.classList.add('invisible');
-                    if (currentView === 'protocols') searchContainer.style.display = 'block';
+                    if (currentView === 'protocols') searchContainer.style.display = 'flex';
                 } else {
                     backButton.classList.remove('invisible');
                     searchContainer.style.display = 'none';
@@ -511,4 +509,3 @@
 
 </body>
 </html>
-
