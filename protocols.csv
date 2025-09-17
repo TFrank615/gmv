@@ -210,7 +210,7 @@ protocol,1002,Communication with Hospital or Medical Control ,1000,"<h3>1002.1 R
         <li>When contacting a hospital, make sure a clear picture is painted.</li>
         <li>When calling about a trauma patient, include:
             <ul class=""list-roman pl-6 mt-2"">
-                <li>MIVT-Mechanism, Injuries, Vital Signs and Time</li>
+                <li>MIVT-<span style="text-decoration: underline;"><strong>M</strong></span>echanism, <span style="text-decoration: underline;"><strong>I</strong></span>njuries, <span style="text-decoration: underline;"><strong>V</strong></span>ital Signs and <span style="text-decoration: underline;"><strong>T</strong></span>ime</li>
                 <li>Estimated time of arrival (ETA)</li>
                 <li>The components of the Glasgow Coma Score (GCS)</li>
                 <li>Patient assessment findings which are relevant to the decision to transport to a Trauma Center.</li>
@@ -12129,4 +12129,5 @@ medication,8047,Vasopressin ,,"<h3>Packaging</h3>
     <h3>Protocols</h3>
     <ul>
       <li>Cardiac Protocol 2005 - Cardiac Arrest: V-Fib or Pulseless V-Tach</li>
+
     </ul>"
