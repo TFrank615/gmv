@@ -83,11 +83,11 @@ protocol,1001,Introduction to Treatment Protocols,1000,"<h3>1001.1 Introduction 
                 <li>All attempts will be made to keep the protocol focused and specific.</li>
                 <li>Extracurricular and enhancing information will be provided in an official study guide.</li>
                 <li>All levels of providers will be addressed within a single protocol.</li>
-                <li>Procedures and treatments marked with a diamond (&diams;) always require a physician's order.</li>
+                <li>Procedures and treatments marked with a diamond (<span style="color: #000000;">&diams;</span>) always require a physician's order.</li>
                 <li>Items enclosed in brackets ({}) are at the option of the agency and their Medical Director.</li>
-                <li>Sections that apply only to adults are bulleted with an ""A""</li>
-                <li>All pediatric treatments will be in pink and bulleted with a ""P"".</li>
-                <li>There are also sections which apply to only Geriatric patients and are bulleted with a ""G.""</li>
+                <li>Sections that apply only to adults are bulleted with an "<em><strong>A</strong></em>"</li>
+                <li><span style="color: #ff00ff;">All pediatric treatments will be in pink and bulleted with a "&nbsp;<em><strong>P&nbsp;</strong></em>"</span></li>
+                <li>There are also sections which apply to only Geriatric patients and are bulleted with a "<em><strong>G</strong></em>"</li>
             </ul>
         </li>
     </ul>
@@ -12131,3 +12131,4 @@ medication,8047,Vasopressin ,,"<h3>Packaging</h3>
       <li>Cardiac Protocol 2005 - Cardiac Arrest: V-Fib or Pulseless V-Tach</li>
 
     </ul>"
+
