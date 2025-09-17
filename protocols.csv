@@ -1,4 +1,4 @@
-type,id,title,category,Column 1
+type,id,title,category,content
 category,1000,GENERAL PATIENT MANAGEMENT,blue,
 category,2000,CARDIAC PROTOCOL,red,
 category,3000,TRAUMA PROTOCOL,gray,
@@ -85,9 +85,9 @@ protocol,1001,Introduction to Treatment Protocols,1000,"<h3>1001.1 Introduction 
                 <li>All levels of providers will be addressed within a single protocol.</li>
                 <li>Procedures and treatments marked with a diamond (&diams;) always require a physician's order.</li>
                 <li>Items enclosed in brackets ({}) are at the option of the agency and their Medical Director.</li>
-                <li>Sections that apply only to adults are bulleted with an ""<span style=""color: #000000;""><strong>A</strong></span>""</li>
-                <li>All pediatric treatments will be in pink and bulleted with a ""<span style=""color: #ff00ff;""><strong>P</strong></span>"".</li>
-                <li>There are also sections which apply to only Geriatric patients and are bulleted with a ""<span style=""color: #000000;""><strong>G</strong></span>.""</li>
+                <li>Sections that apply only to adults are bulleted with an ""A""</li>
+                <li>All pediatric treatments will be in pink and bulleted with a ""P"".</li>
+                <li>There are also sections which apply to only Geriatric patients and are bulleted with a ""G.""</li>
             </ul>
         </li>
     </ul>
@@ -210,9 +210,7 @@ protocol,1002,Communication with Hospital or Medical Control ,1000,"<h3>1002.1 R
         <li>When contacting a hospital, make sure a clear picture is painted.</li>
         <li>When calling about a trauma patient, include:
             <ul class=""list-roman pl-6 mt-2"">
-                   <ul>
-<li>MIVT- <span style=""text-decoration: underline;""><strong>M</strong></span>echanism, <span style=""text-decoration: underline;""><strong>I</strong></span>njuries, <span style=""text-decoration: underline;""><strong>V</strong></span>ital Signs and <span style=""text-decoration: underline;""><strong>T</strong></span>ime</li>
-</ul>
+                <li>MIVT-Mechanism, Injuries, Vital Signs and Time</li>
                 <li>Estimated time of arrival (ETA)</li>
                 <li>The components of the Glasgow Coma Score (GCS)</li>
                 <li>Patient assessment findings which are relevant to the decision to transport to a Trauma Center.</li>
@@ -228,53 +226,53 @@ protocol,1002,Communication with Hospital or Medical Control ,1000,"<h3>1002.1 R
         </li>
     </ul>"
 protocol,1003,Non-initiation of Care ,1000,"<p>&nbsp;</p>
- <h3>1003.1 General Guidelines</h3>
- <ul class="""">
- <li>This protocol may be applied by EMT, AEMT and Paramedic providers only. The EMR cannot determine that a patient is deceased.</li>
- <li>All patients (Adult, Pediatric, and Geriatric) may meet criteria for non-initiation of care.</li>
- <li>If care had begun and is readily apparent to the provider that the patient meets non-initiation of care criteria, RESUSCITATION EFFORTS MAY CEASE.</li>
- </ul>
- <h3 class="""">1003.2 Criteria for Non-Initiation of Care</h3>
- <ul class="""">
- <li>Resuscitation will not be initiated in the following circumstances:
- <ul class="""">
- <li>Deep, penetrating, cranial injuries</li>
- <li>Massive truncal wounds</li>
- <ul>
- <li>DNR Order-present and valid (see <span style=""text-decoration: underline; color: #0000ff;"">1004 Do Not Resuscitate</span>)</li>
- </ul>
- <li>Frozen body</li>
- <li>Rigor mortis, tissue decomposition, or severe dependent lividity</li>
- <li>Triage demands</li>
- <li>For patients in arrest resulting from <strong>BLUNT OR PENETRATING TRAUMA</strong> consider not initiating care for injuries obviously incompatible with life.
- <ol class="""">
- <li>Prolonged arrest (greater than 10 minutes)</li>
- <li>Consider possibility of MIXED MECHANISMS</li>
- </ol>
- </li>
- </ul>
- </li>
- </ul>
- <h3 class="""">1003.3 Exclusionary Conditions</h3>
- <ul class="""">
- <li>The following conditions will not meet non-initiation of care criteria:
- <ul class="""">
- <li>Traumatic arrest in female patient with either:
- <ol class="""">
- <li>Known pregnancy greater than 24 weeks or</li>
- <li>Uterine fundus palpable at or above the umbilicus</li>
- </ol>
- </li>
- <li>Possible medical etiology for traumatic cardiac arrest</li>
- <li>Arrest witnessed by EMS providers</li>
- <li>Lightning strike</li>
- <li>Signs or symptoms of a hypothermic patient</li>
- <li>Focused blunt trauma to the chest, (commotio cordis)</li>
- </ul>
- </li>
- </ul>
- <h3 class="""">1003.4 Organ Donation</h3>
- <p class=""""><strong>For an inquiry about organ donation, direct the call to Life Connection of Ohio at 1-800-535-9206.</strong></p>"
+<h3>1003.1 General Guidelines</h3>
+<ul class="""">
+<li>This protocol may be applied by EMT, AEMT and Paramedic providers only. The EMR cannot determine that a patient is deceased.</li>
+<li>All patients (Adult, Pediatric, and Geriatric) may meet criteria for non-initiation of care.</li>
+<li>If care had begun and is readily apparent to the provider that the patient meets non-initiation of care criteria, RESUSCITATION EFFORTS MAY CEASE.</li>
+</ul>
+<h3 class="""">1003.2 Criteria for Non-Initiation of Care</h3>
+<ul class="""">
+<li>Resuscitation will not be initiated in the following circumstances:
+<ul class="""">
+<li>Deep, penetrating, cranial injuries</li>
+<li>Massive truncal wounds</li>
+<ul>
+<li>DNR Order-present and valid (see <span style=""text-decoration: underline; color: #0000ff;"">1004 Do Not Resuscitate</span>)</li>
+</ul>
+<li>Frozen body</li>
+<li>Rigor mortis, tissue decomposition, or severe dependent lividity</li>
+<li>Triage demands</li>
+<li>For patients in arrest resulting from <strong>BLUNT OR PENETRATING TRAUMA</strong> consider not initiating care for injuries obviously incompatible with life.
+<ol class="""">
+<li>Prolonged arrest (greater than 10 minutes)</li>
+<li>Consider possibility of MIXED MECHANISMS</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+<h3 class="""">1003.3 Exclusionary Conditions</h3>
+<ul class="""">
+<li>The following conditions will not meet non-initiation of care criteria:
+<ul class="""">
+<li>Traumatic arrest in female patient with either:
+<ol class="""">
+<li>Known pregnancy greater than 24 weeks or</li>
+<li>Uterine fundus palpable at or above the umbilicus</li>
+</ol>
+</li>
+<li>Possible medical etiology for traumatic cardiac arrest</li>
+<li>Arrest witnessed by EMS providers</li>
+<li>Lightning strike</li>
+<li>Signs or symptoms of a hypothermic patient</li>
+<li>Focused blunt trauma to the chest, (commotio cordis)</li>
+</ul>
+</li>
+</ul>
+<h3 class="""">1003.4 Organ Donation</h3>
+<p class=""""><strong>For an inquiry about organ donation, direct the call to Life Connection of Ohio at 1-800-535-9206.</strong></p>"
 protocol,1004,Do Not Resuscitate ,1000,"<h3>1004.1 General Guidelines</h3>
     <ul class=""list-alpha pl-5 space-y-2"">
         <li>Per ORC 2133.01-2133.26, providers will consider and honor all valid Ohio Do Not Resuscitate orders.</li>
@@ -497,47 +495,119 @@ protocol,1005,General Patient Management ,1000,"<h3>1005.1 Guideline</h3>
             </div>
         </div>
     </div>"
-protocol,1006,Patient Abuse and Neglect ,1000,"<h3 class=""mt-6"">1007.1 Clinical Management</h3>
-    <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
-        <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
-        <p class=""text-sm italic"">Repeated and prolonged suctioning could cause hypoxia and bradycardia</p>
-        <div class=""overflow-x-auto mt-2"">
-            <table class=""w-full text-sm text-left border-collapse border border-gray-400"">
-                <caption class=""font-bold p-2"">Respirations by Age</caption>
-                <thead class=""bg-gray-200"">
+protocol,1006,Patient Abuse and Neglect ,1000,"<h3>1006.1 Guideline</h3>
+    <ul class=""list-alpha pl-5 space-y-2"">
+        <li>EMS providers MUST, by law, report all alleged or suspected pediatric and adult abuse/neglect.</li>
+        <li>Ohio Revised Code requires providers to report incidents of pediatric and adult abuse/neglect to:
+            <ul class=""list-disc pl-5"">
+                <li><span style=""color: #000000;""><strong>A</strong></span> Their county's adult protective services agency (for patients over 60 years old)</li>
+                <li><span style=""color: #ff00ff;""><strong>P</strong></span> Their county's public children services agency</li>
+                <li>Or for both adults and pediatrics; Law enforcement</li>
+                <li>For adult patients see ORC 5101.63 and for pediatric patients see ORC 2151.421</li>
+            </ul>
+        </li>
+        <li>Simply notifying hospital personnel does not meet mandated EMS reporting responsibilities.</li>
+        <li>Hospitals have copies of the EMS Social Services Referral Form, supplied by GDAHA, for documenting cases of abuse/neglect.</li>
+        <li>Use of this form can help providers in providing information needed to their reporting agency, as well as provide for a continuum of care with hospital social services departments.</li>
+        <li>Document on the Patient Care Report, all efforts that EMS made to report the suspected abuse; include name of agency notified, method used, and name of person contacted.</li>
+    </ul>
+
+    <h3 class=""mt-6"">1006.2 Pediatric Abuse and Neglect</h3>
+    <p><span style=""color: #ff00ff;""><strong>P</strong></span> Report all alleged or suspected child abuse or neglect to the appropriate agency.</p>
+    <div class=""overflow-x-auto mt-2"">
+        <table class=""w-full text-sm text-left border-collapse border border-gray-400"">
+            <caption class=""font-bold p-2 bg-gray-200"">Pediatric Public Social Services Agencies</caption>
+            <thead class=""bg-gray-100"">
+                <tr>
+                    <th class=""border border-gray-300 p-2"">County</th>
+                    <th class=""border border-gray-300 p-2"">Phone</th>
+                    <th class=""border border-gray-300 p-2"">After Hours Phone</th>
+                    <th class=""border border-gray-300 p-2"">Fax</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td class=""border border-gray-300 p-2"">Butler</td><td class=""border border-gray-300 p-2"">513-887-4055</td><td class=""border border-gray-300 p-2"">513-868-0888</td><td class=""border border-gray-300 p-2"">513-887-4260</td></tr>
+                <tr><td class=""border border-gray-300 p-2"">Champaign</td><td class=""border border-gray-300 p-2"">937-484-1500</td><td class=""border border-gray-300 p-2"">Contact County SO: 937-484-6092</td><td class=""border border-gray-300 p-2"">937-484-1506</td></tr>
+                <tr><td class=""border border-gray-300 p-2"">Clark</td><td class=""border border-gray-300 p-2"">937-327-1700</td><td class=""border border-gray-300 p-2"">937-324-8687</td><td class=""border border-gray-300 p-2"">937-327-1910</td></tr>
+                <tr><td class=""border border-gray-300 p-2"">Darke</td><td class=""border border-gray-300 p-2"">937-548-7129</td><td class=""border border-gray-300 p-2"">937-548-2020</td><td class=""border border-gray-300 p-2"">937-548-8723</td></tr>
+                <tr><td class=""border border-gray-300 p-2"">Greene</td><td class=""border border-gray-300 p-2"">937-562-6600</td><td class=""border border-gray-300 p-2"">937-372-4357</td><td class=""border border-gray-300 p-2"">937-562-6650</td></tr>
+                <tr><td class=""border border-gray-300 p-2"">Miami</td><td class=""border border-gray-300 p-2"">937-335-4103</td><td class=""border border-gray-300 p-2"">Contact County SO: 937-440-3965</td><td class=""border border-gray-300 p-2"">937-339-7533</td></tr>
+                <tr><td class=""border border-gray-300 p-2"">Montgomery</td><td class=""border border-gray-300 p-2"">937-224-5437</td><td class=""border border-gray-300 p-2"">937-224-5437 (same as daytime)</td><td class=""border border-gray-300 p-2"">937-276-6597</td></tr>
+                <tr><td class=""border border-gray-300 p-2"">Preble</td><td class=""border border-gray-300 p-2"">937-456-1135</td><td class=""border border-gray-300 p-2"">937-456-1135 (same as daytime)</td><td class=""border border-gray-300 p-2"">937-456-6086</td></tr>
+                <tr><td class=""border border-gray-300 p-2"">Shelby</td><td class=""border border-gray-300 p-2"">937-498-4981</td><td class=""border border-gray-300 p-2"">Contact County SO: 937-498-1111</td><td class=""border border-gray-300 p-2"">937-498-1492</td></tr>
+                <tr><td class=""border border-gray-300 p-2"">Warren</td><td class=""border border-gray-300 p-2"">513-695-1558</td><td class=""border border-gray-300 p-2"">513-695-1600</td><td class=""border border-gray-300 p-2"">513-695-1800</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h3 class=""mt-6"">1006.3 Adult Abuse or Neglect</h3>
+    <p><span style=""color: #000000;""><strong>A</strong></span> Report all alleged or suspected abuse or neglect to the appropriate agency.</p>
+    <div class=""overflow-x-auto mt-2"">
+        <table class=""w-full text-sm text-left border-collapse border border-gray-400"">
+            <caption class=""font-bold p-2 bg-gray-200"">Adult Public Social Services Agencies</caption>
+            <thead class=""bg-gray-100"">
+                <tr>
+                    <th class=""border border-gray-300 p-2"">County</th>
+                    <th class=""border border-gray-300 p-2"">Phone</th>
+                    <th class=""border border-gray-300 p-2"">After Hours Phone</th>
+                    <th class=""border border-gray-300 p-2"">Fax</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td class=""border border-gray-300 p-2"">Butler</td><td class=""border border-gray-300 p-2"">513-887-4081</td><td class=""border border-gray-300 p-2"">Contact County SO: 513-785-1000</td><td class=""border border-gray-300 p-2"">513-785-5969</td></tr>
+                <tr><td class=""border border-gray-300 p-2"">Champaign</td><td class=""border border-gray-300 p-2"">937-484-1500</td><td class=""border border-gray-300 p-2"">Contact County SO: 937-484-6092</td><td class=""border border-gray-300 p-2"">937-484-1506</td></tr>
+                <tr><td class=""border border-gray-300 p-2"">Clark</td><td class=""border border-gray-300 p-2"">937-327-1700</td><td class=""border border-gray-300 p-2"">937-324-8687</td><td class=""border border-gray-300 p-2"">937-327-1910</td></tr>
+                <tr><td class=""border border-gray-300 p-2"">Darke</td><td class=""border border-gray-300 p-2"">937-548-7129</td><td class=""border border-gray-300 p-2"">937-548-2020</td><td class=""border border-gray-300 p-2"">937-548-4928.</td></tr>
+                <tr><td class=""border border-gray-300 p-2"">Greene</td><td class=""border border-gray-300 p-2"">937-562-6315</td><td class=""border border-gray-300 p-2"">Contact County SO: 937-562-4800</td><td class=""border border-gray-300 p-2"">937-562-6177</td></tr>
+                <tr><td class=""border border-gray-300 p-2"">Miami</td><td class=""border border-gray-300 p-2"">937-440-3471</td><td class=""border border-gray-300 p-2"">Contact County SO: 937-440-3965</td><td class=""border border-gray-300 p-2"">937-335-2225</td></tr>
+                <tr><td class=""border border-gray-300 p-2"">Montgomery</td><td class=""border border-gray-300 p-2"">937-225-4906</td><td class=""border border-gray-300 p-2"">Contact County SO: 937-225-4357</td><td class=""border border-gray-300 p-2"">937-496-7464</td></tr>
+                <tr><td class=""border border-gray-300 p-2"">Preble</td><td class=""border border-gray-300 p-2"">937-456-1135</td><td class=""border border-gray-300 p-2"">937-456-1135 (same as daytime)</td><td class=""border border-gray-300 p-2"">937-456-6086</td></tr>
+                <tr><td class=""border border-gray-300 p-2"">Shelby</td><td class=""border border-gray-300 p-2"">937-498-4981</td><td class=""border border-gray-300 p-2"">Contact County SO: 937-498-1111</td><td class=""border border-gray-300 p-2"">937-498-1492</td></tr>
+                <tr><td class=""border border-gray-300 p-2"">Warren</td><td class=""border border-gray-300 p-2"">513-695-1420</td><td class=""border border-gray-300 p-2"">513-425-1423</td><td class=""border border-gray-300 p-2"">513-695-2940</td></tr>
+            </tbody>
+        </table>
+    </div>"
+protocol,1007,Basic Airway Maintenance ,1000,"""<h3 class=""""mt-6"""">1007.1 Clinical Management</h3>
+    <div class=""""mt-4 border rounded-lg p-4 bg-gray-50"""">
+        <h4 class=""""text-base font-bold"""">Pediatric Considerations</h4>
+        <p class=""""text-sm italic"""">Repeated and prolonged suctioning could cause hypoxia and bradycardia</p>
+        <div class=""""overflow-x-auto mt-2"""">
+            <table class=""""w-full text-sm text-left border-collapse border border-gray-400"""">
+                <caption class=""""font-bold p-2"""">Respirations by Age</caption>
+                <thead class=""""bg-gray-200"""">
                     <tr>
-                        <th class=""border border-gray-300 p-2"">Age</th>
-                        <th class=""border border-gray-300 p-2"">Rate</th>
-                        <th class=""border border-gray-300 p-2"">Age</th>
-                        <th class=""border border-gray-300 p-2"">Rate</th>
+                        <th class=""""border border-gray-300 p-2"""">Age</th>
+                        <th class=""""border border-gray-300 p-2"""">Rate</th>
+                        <th class=""""border border-gray-300 p-2"""">Age</th>
+                        <th class=""""border border-gray-300 p-2"""">Rate</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr class=""border-b"">
-                        <td class=""border border-gray-300 p-2"">Up to 1 year</td>
-                        <td class=""border border-gray-300 p-2"">30-60</td>
-                        <td class=""border border-gray-300 p-2"">7-9 years</td>
-                        <td class=""border border-gray-300 p-2"">16-24</td>
+                    <tr class=""""border-b"""">
+                        <td class=""""border border-gray-300 p-2"""">Up to 1 year</td>
+                        <td class=""""border border-gray-300 p-2"""">30-60</td>
+                        <td class=""""border border-gray-300 p-2"""">7-9 years</td>
+                        <td class=""""border border-gray-300 p-2"""">16-24</td>
                     </tr>
-                    <tr class=""border-b"">
-                        <td class=""border border-gray-300 p-2"">2-3 years</td>
-                        <td class=""border border-gray-300 p-2"">20-40</td>
-                        <td class=""border border-gray-300 p-2"">10-14 years</td>
-                        <td class=""border border-gray-300 p-2"">16-20</td>
+                    <tr class=""""border-b"""">
+                        <td class=""""border border-gray-300 p-2"""">2-3 years</td>
+                        <td class=""""border border-gray-300 p-2"""">20-40</td>
+                        <td class=""""border border-gray-300 p-2"""">10-14 years</td>
+                        <td class=""""border border-gray-300 p-2"""">16-20</td>
                     </tr>
                     <tr>
-                        <td class=""border border-gray-300 p-2"">4-6 years</td>
-                        <td class=""border border-gray-300 p-2"">20-30</td>
-                        <td class=""border border-gray-300 p-2"">15+ years</td>
-                        <td class=""border border-gray-300 p-2"">12-20</td>
+                        <td class=""""border border-gray-300 p-2"""">4-6 years</td>
+                        <td class=""""border border-gray-300 p-2"""">20-30</td>
+                        <td class=""""border border-gray-300 p-2"""">15+ years</td>
+                        <td class=""""border border-gray-300 p-2"""">12-20</td>
                     </tr>
                 </tbody>
             </table>
         </div>
 
-        <div class=""grid md:grid-cols-2 gap-4 my-4"">
+        <div class=""""grid md:grid-cols-2 gap-4 my-4"""">
             <div>
-                <h4 class=""text-base font-bold"">Signs & Symptoms</h4>
+                <h4 class=""""text-base font-bold"""">Signs & Symptoms</h4>
                 <ul>
                     <li>Respiratory difficulty or distress</li>
                     <li>Poor SpO₂ or EtCO₂</li>
@@ -547,7 +617,7 @@ protocol,1006,Patient Abuse and Neglect ,1000,"<h3 class=""mt-6"">1007.1 Clinica
                 </ul>
             </div>
             <div>
-                <h4 class=""text-base font-bold"">Differential Diagnosis</h4>
+                <h4 class=""""text-base font-bold"""">Differential Diagnosis</h4>
                 <ul>
                     <li>None</li>
                 </ul>
@@ -555,34 +625,34 @@ protocol,1006,Patient Abuse and Neglect ,1000,"<h3 class=""mt-6"">1007.1 Clinica
         </div>
 
         <div>
-            <h4 class=""text-base font-bold"">Treatment Algorithm</h4>
-            <div class=""mt-2 space-y-4"">
+            <h4 class=""""text-base font-bold"""">Treatment Algorithm</h4>
+            <div class=""""mt-2 space-y-4"""">
                 <!-- EMR Section -->
                 <div>
-                    <div class=""font-bold p-2 rounded-t-lg bg-gray-200 text-gray-800"">EMR</div>
-                    <div class=""p-4 border border-gray-200 border-t-0 rounded-b-lg"">
+                    <div class=""""font-bold p-2 rounded-t-lg bg-gray-200 text-gray-800"""">EMR</div>
+                    <div class=""""p-4 border border-gray-200 border-t-0 rounded-b-lg"""">
                         <ul>
                             <li>EtCO₂ monitors can be used on all patients with or without adequate perfusion, and with or without artificial airways.</li>
                             <li>Administer Oxygen as needed. Use the following rates as guidelines:
-                                <ul class=""list-disc pl-5"">
-                                    <li><span style=""color: #000000;""><strong>G</strong></span> 2 LPM by nasal cannula (NC) for patient with COPD, or as prescribed.</li>
+                                <ul class=""""list-disc pl-5"""">
+                                    <li><span style=""""color: #000000;""""><strong>G</strong></span> 2 LPM by nasal cannula (NC) for patient with COPD, or as prescribed.</li>
                                     <li>4-6 LPM by nasal cannula (NC) for other patients.</li>
                                     <li>12-15 LPM by non-rebreather mask (NRM) for any patients with increased respiratory rates or effort (including COPD).</li>
                                 </ul>
                             </li>
                             <li>Ventilate patients who are symptomatic with an insufficient respiratory rate, depth or effort.</li>
-                            <li><span style=""color: #ff00ff;""><strong>P</strong></span> Patient less than 2 years old showing respiratory distress with nasal congestion, cough, rales, rhonchi or wheezing-without previous history of wheezing, reactive airway disease, breathing treatments:
-                                <ul class=""list-disc pl-5"">
-                                    <li><span style=""color: #ff00ff;""><strong>P</strong></span> Nasopharyngeal suctioning in both nares (3-5 seconds) with an appropriate device</li>
-                                    <li><span style=""color: #ff00ff;""><strong>P</strong></span> If distress continues, repeat nasopharyngeal suctioning for 3-5 seconds</li>
+                            <li><span style=""""color: #ff00ff;""""><strong>P</strong></span> Patient less than 2 years old showing respiratory distress with nasal congestion, cough, rales, rhonchi or wheezing-without previous history of wheezing, reactive airway disease, breathing treatments:
+                                <ul class=""""list-disc pl-5"""">
+                                    <li><span style=""""color: #ff00ff;""""><strong>P</strong></span> Nasopharyngeal suctioning in both nares (3-5 seconds) with an appropriate device</li>
+                                    <li><span style=""""color: #ff00ff;""""><strong>P</strong></span> If distress continues, repeat nasopharyngeal suctioning for 3-5 seconds</li>
                                 </ul>
                             </li>
-                            <li><span style=""color: #ff00ff;""><strong>P</strong></span> For patients less than 6 years old showing respiratory distress with agitation, upper airway noise, stridor, and/or ""barky cough,"":
-                                <ul class=""list-disc pl-5"">
-                                    <li><span style=""color: #ff00ff;""><strong>P</strong></span> Lower temperature of ambulance as much as possible.</li>
-                                    <li><span style=""color: #ff00ff;""><strong>P</strong></span> Deliver oxygen as the patient tolerates.</li>
-                                    <li><span style=""color: #ff00ff;""><strong>P</strong></span> Often these symptoms resolve with less intervention.</li>
-                                    <li><span style=""color: #ff00ff;""><strong>P</strong></span> Consider keeping distance from the patient.</li>
+                            <li><span style=""""color: #ff00ff;""""><strong>P</strong></span> For patients less than 6 years old showing respiratory distress with agitation, upper airway noise, stridor, and/or """"barky cough,"""":
+                                <ul class=""""list-disc pl-5"""">
+                                    <li><span style=""""color: #ff00ff;""""><strong>P</strong></span> Lower temperature of ambulance as much as possible.</li>
+                                    <li><span style=""""color: #ff00ff;""""><strong>P</strong></span> Deliver oxygen as the patient tolerates.</li>
+                                    <li><span style=""""color: #ff00ff;""""><strong>P</strong></span> Often these symptoms resolve with less intervention.</li>
+                                    <li><span style=""""color: #ff00ff;""""><strong>P</strong></span> Consider keeping distance from the patient.</li>
                                 </ul>
                             </li>
                         </ul>
@@ -591,19 +661,19 @@ protocol,1006,Patient Abuse and Neglect ,1000,"<h3 class=""mt-6"">1007.1 Clinica
 
                 <!-- EMT Section -->
                 <div>
-                    <div class=""font-bold p-2 rounded-t-lg bg-orange-200 text-orange-800"">EMT</div>
-                    <div class=""p-4 border border-orange-200 border-t-0 rounded-b-lg"">
+                    <div class=""""font-bold p-2 rounded-t-lg bg-orange-200 text-orange-800"""">EMT</div>
+                    <div class=""""p-4 border border-orange-200 border-t-0 rounded-b-lg"""">
                         <ul>
                             <li>Consider patient airway anatomy for the appropriate selection of the airway adjunct.</li>
                             <li>If indicated, suction the tracheostomy.</li>
                             <li>If patient has history of reactive airway disease with prescribed breathing treatments then treat with 4003 Asthma protocol.</li>
                             <li>Consider the need for a supraglottic or dual lumen rescue airway.
-                                <ul class=""list-disc pl-5"">
+                                <ul class=""""list-disc pl-5"""">
                                     <li>The EMT may only place a rescue airway in a pulseless, apneic patient.</li>
                                 </ul>
                             </li>
                             <li>For guidelines to placement of rescue airways, see 1008 Advanced Airway Management</li>
-                            <li><span class=""font-bold text-blue-600"">&diams;</span> Oxygen flow rate for nebulized medications should be 8-10 LPM.</li>
+                            <li><span class=""""font-bold text-blue-600"""">&diams;</span> Oxygen flow rate for nebulized medications should be 8-10 LPM.</li>
                             <li>Nebulized medication may be administered while ventilating with a BVM. Preferably use two oxygen sources.</li>
                         </ul>
                     </div>
@@ -611,8 +681,8 @@ protocol,1006,Patient Abuse and Neglect ,1000,"<h3 class=""mt-6"">1007.1 Clinica
 
                 <!-- AEMT Section -->
                 <div>
-                    <div class=""font-bold p-2 rounded-t-lg bg-green-200 text-green-800"">AEMT</div>
-                    <div class=""p-4 border border-green-200 border-t-0 rounded-b-lg"">
+                    <div class=""""font-bold p-2 rounded-t-lg bg-green-200 text-green-800"""">AEMT</div>
+                    <div class=""""p-4 border border-green-200 border-t-0 rounded-b-lg"""">
                          <ul>
                            <li>Consider the need for intubation.</li>
                             <li>The AEMT may only intubate if patient is apneic.</li>
@@ -624,11 +694,11 @@ protocol,1006,Patient Abuse and Neglect ,1000,"<h3 class=""mt-6"">1007.1 Clinica
                 
                 <!-- Paramedic Section -->
                 <div>
-                    <div class=""font-bold p-2 rounded-t-lg bg-blue-200 text-blue-800"">Paramedic</div>
-                    <div class=""p-4 border border-blue-200 border-t-0 rounded-b-lg"">
+                    <div class=""""font-bold p-2 rounded-t-lg bg-blue-200 text-blue-800"""">Paramedic</div>
+                    <div class=""""p-4 border border-blue-200 border-t-0 rounded-b-lg"""">
                          <ul>
                             <li>When deciding whether to intubate, consider the following:
-                                <ul class=""list-disc pl-5"">
+                                <ul class=""""list-disc pl-5"""">
                                     <li>Insufficient respiratory rates, less than 10 or greater than 29, that are not rapidly controlled by other measures</li>
                                     <li>Irregular respiratory rhythm</li>
                                     <li>Abnormal breath sounds</li>
@@ -646,18 +716,17 @@ protocol,1006,Patient Abuse and Neglect ,1000,"<h3 class=""mt-6"">1007.1 Clinica
             </div>
         </div>
 
-        <div class=""mt-4 pt-4 border-t space-y-4"">
+        <div class=""""mt-4 pt-4 border-t space-y-4"""">
             <div>
-                <h4 class=""text-base font-bold"">Consult</h4>
-                <p class=""text-sm"">The EMT needs MCP ordered to administer nebulized medications.</p>
+                <h4 class=""""text-base font-bold"""">Consult</h4>
+                <p class=""""text-sm"""">The EMT needs MCP ordered to administer nebulized medications.</p>
             </div>
             <div>
-                <h4 class=""text-base font-bold"">Clinical Pearls</h4>
-                <p class=""text-sm"">COPD patients in severe respiratory distress or with chest pain need the same O₂ devices and flow rates as any other patient in such condition.</p>
+                <h4 class=""""text-base font-bold"""">Clinical Pearls</h4>
+                <p class=""""text-sm"""">COPD patients in severe respiratory distress or with chest pain need the same O₂ devices and flow rates as any other patient in such condition.</p>
             </div>
         </div>
-    </div>"
-protocol,1007,Basic Airway Maintenance ,1000,
+    </div>"""
 protocol,1008,Advanced Airway Management ,1000,"<h3 class=""mt-6"">1008.1 Clinical Management</h3>
     <div class=""mt-4 border rounded-lg p-4 bg-gray-50"">
         <h4 class=""text-base font-bold"">Pediatric Considerations</h4>
